@@ -1,0 +1,5256 @@
+H01-1001.1,Oral communication
+H01-1001.2,storage media and networks 
+H01-1001.3,conversation
+H01-1001.4,large database 
+H01-1001.5,information retrieval techniques
+H01-1001.6,histogram 
+H01-1001.7,keywords
+H01-1001.8,document representation 
+H01-1001.9,oral communication
+H01-1001.10, indices 
+H01-1001.11,index 
+H01-1001.12,automatic detection
+H01-1001.13,database
+H01-1001.14,database
+H01-1001.15,TV shows 
+H01-1001.16,Emotions
+H01-1001.17,indices
+H01-1001.18,dominance distribution of speakers
+H01-1001.19,surface 
+H01-1001.20,databases
+H01-1001.21,indices
+H01-1017.1,mixed-initiative speech dialogue interactions 
+H01-1017.2,dialogue systems
+H01-1017.3,DARPA Communicator program 
+H01-1017.4,distributed message-passing infrastructure 
+H01-1017.5,dialogue systems
+H01-1017.6,Communicator 
+H01-1017.7, requirements 
+H01-1017.8,software infrastructure
+H01-1041.1,Korean-to-English machine translation system 
+H01-1041.2,CCLINC (Common Coalition Language System at Lincoln Laboratory)
+H01-1041.3,CCLINC Korean-to-English translation system 
+H01-1041.4,core modules
+H01-1041.5,language understanding and generation modules 
+H01-1041.6,language neutral meaning representation
+H01-1041.7,semantic frame 
+H01-1041.8,parsing 
+H01-1041.9,Korean
+H01-1041.10,verb final language 
+H01-1041.11,overt case markers
+H01-1041.12, free word order 
+H01-1041.13,arguments
+H01-1041.14,translation 
+H01-1041.15,word sense disambiguation
+H01-1041.16,word order generation 
+H01-1041.17,target language
+H01-1041.18,Rapid system development 
+H01-1041.19,domains
+H01-1041.20, knowledge-based automated acquisition of grammars 
+H01-1041.21,Korean newspaper articles
+H01-1041.22,translation output 
+H01-1041.23,original document
+H01-1042.1,automated evaluation techniques 
+H01-1042.2,human language learners
+H01-1042.3,output
+H01-1042.4,machine translation (MT) systems 
+H01-1042.5,evaluation techniques
+H01-1042.6,human language learning process
+H01-1042.7,translation process 
+H01-1042.8,development
+H01-1042.9,machine translation systems 
+H01-1042.10, intelligibility 
+H01-1042.11,MT output
+H01-1042.12,language learning experiment 
+H01-1042.13,assessors
+H01-1042.14,native from non-native language essays 
+H01-1042.15,words
+H01-1042.16,assessors
+H01-1042.17,machine translation output 
+H01-1042.18,translated newswire text 
+H01-1042.19,expert human translations
+H01-1042.20,machine translation outputs
+H01-1042.21,expert human translation 
+H01-1042.22,machine translation
+H01-1042.23,word
+H01-1049.1,Listen-Communicate-Show (LCS)
+H01-1049.2,human interaction with data sources 
+H01-1049.3,spoken language understanding system
+H01-1049.4,intelligent mobile agents 
+H01-1049.5,users
+H01-1049.6,information sources 
+H01-1049.7, LCS-Marine 
+H01-1049.8,LCS-Marine
+H01-1049.9,mobile, intelligent agent 
+H01-1049.10,database
+H01-1049.11,Requestors 
+H01-1049.12,request 
+H01-1049.13,request
+H01-1049.14,new domains
+H01-1058.1,language models (LMs) 
+H01-1058.2,interpolation methods
+H01-1058.3,log-linear and linear interpolation 
+H01-1058.4,performance
+H01-1058.5,performance 
+H01-1058.6,oracle
+H01-1058.7,oracle
+H01-1058.8,reference word string 
+H01-1058.9,word string
+H01-1058.10, performance 
+H01-1058.11,word or semantic error rate
+H01-1058.12,word strings 
+H01-1058.13,word string
+H01-1058.14,LM 
+H01-1058.15,oracle
+H01-1058.16,dynamic combiner 
+H01-1058.17,hard decisions
+H01-1058.18,reference 
+H01-1058.19,dynamic language model combination 
+H01-1058.20,performance
+H01-1058.21,oracle
+H01-1058.22,neural network 
+H01-1058.23,decision tree
+H01-1058.24,LMs 
+H01-1058.25,confidence measures
+H01-1058.26,hypothesis 
+H01-1058.27,LM
+H01-1058.28, confidence 
+H01-1070.1,n-gram models
+H01-1070.2,error-correction rules 
+H01-1070.3,Thai key prediction
+H01-1070.4,Thai-English language identification 
+H01-1070.5,rule-reduction algorithm
+H01-1070.6,mutual information 
+H01-1070.7,error-correction rules
+H01-1070.8,accuracy
+H01-1070.9,language identification 
+H01-1070.10,key prediction
+N01-1003.1,Sentence planning
+N01-1003.2,sentence scoping
+N01-1003.3, syntactic structure 
+N01-1003.4,speech acts
+N01-1003.5,sentences
+N01-1003.6,SPoT 
+N01-1003.7,sentence planner
+N01-1003.8,SPoT
+N01-1003.9,feedback
+N01-1003.10,human judges
+N01-1003.11,randomized sentence-plan-generator (SPG)
+N01-1003.12,sentence plans
+N01-1003.13,text-plan input 
+N01-1003.14,sentence-plan-ranker (SPR)
+N01-1003.15,sentence plans 
+N01-1003.16,plan
+N01-1003.17,SPR 
+N01-1003.18,ranking rules
+N01-1003.19,training data 
+N01-1003.20,SPR
+N01-1003.21,sentence plan 
+N01-1003.22,top human-ranked sentence plan 
+P01-1004.1,segment order
+P01-1004.2,segmentation 
+P01-1004.3,segment contiguity
+P01-1004.4,retrieval performance 
+P01-1004.5,translation memory system
+P01-1004.6,bag-of-words and segment order-sensitive string comparison methods 
+P01-1004.7,character- and word-segmented data
+P01-1004.8,local segment contiguity models
+P01-1004.9,N-grams 
+P01-1004.10,datasets
+P01-1004.11,indexing 
+P01-1004.12,character bigrams
+P01-1004.13,retrieval accuracy 
+P01-1004.14,word N-gram models
+P01-1004.15,configuration
+P01-1004.16,bag-of-words methods 
+P01-1004.17,segment order-sensitive methods
+P01-1004.18,retrieval accuracy
+P01-1007.1,range concatenation grammar [RCG] formalism 
+P01-1007.2,NLP
+P01-1007.3,range concatenation languages [RCL]
+P01-1007.4,polynomial time 
+P01-1007.5,grammatical formalisms
+P01-1007.6,RCGs
+P01-1007.7,worst-case parsing time complexity 
+P01-1007.8,translation
+P01-1007.9,RCG 
+P01-1007.10,tree adjoining grammar
+P01-1007.11,O(n6) time 
+P01-1007.12,parsing technique
+P01-1007.13,RCL parsers
+P01-1007.14,non-deterministic parsing choices 
+P01-1007.15,main parser
+P01-1007.16,language L 
+P01-1007.17,guide
+P01-1007.18, shared derivation forest 
+P01-1007.19,RCL parser
+P01-1007.20,superset of L 
+P01-1007.21,wide coverage English grammar 
+P01-1008.1,paraphrasing
+P01-1008.2, interpretation and generation of natural language 
+P01-1008.3, paraphrases 
+P01-1008.4,unsupervised learning algorithm
+P01-1008.5,identification of paraphrases 
+P01-1008.6,corpus of multiple English translations
+P01-1008.7,source text 
+P01-1008.8,phrasal and single word lexical paraphrases
+P01-1008.9,syntactic paraphrases
+P01-1009.1,formal analysis
+P01-1009.2,words 
+P01-1009.3,alternative markers
+P01-1009.4, other (than) 
+P01-1009.5,such (as)
+P01-1009.6,besides
+P01-1009.7,words 
+P01-1009.8,dialog
+P01-1009.9,attention 
+P01-1009.10,natural language search engines
+P01-1009.11,queries 
+P01-1009.12,performance
+P01-1009.13,search engine 
+P01-1009.14,formal analysis 
+P01-1009.15,search engine
+P01-1009.16,operational semantics 
+P01-1009.17,operational semantics
+P01-1009.18,natural language applications 
+P01-1047.1,logical definition
+P01-1047.2,Minimalist grammars 
+P01-1047.3,Stabler's formalization
+P01-1047.4, Chomsky's minimalist program 
+P01-1047.5,logical definition
+P01-1047.6,categorial grammar 
+P01-1047.7,Montague semantics
+P01-1047.8,parsing-as-deduction 
+P01-1047.9,resource sensitive logic
+P01-1047.10, learning algorithm 
+P01-1047.11,structured data
+P01-1047.12, typing-algorithm 
+P01-1047.13,type-unification
+P01-1047.14,Montague semantics 
+P01-1047.15,formal computation
+P01-1047.16,logical form 
+P01-1056.1,Techniques for automatically training
+P01-1056.2, natural language generator 
+P01-1056.3, quality 
+P01-1056.4,utterances
+P01-1056.5,trainable components 
+P01-1056.6,hand-crafted template-based or rule-based approaches
+P01-1056.7,trainable sentence planner
+P01-1056.8,spoken dialogue system 
+P01-1056.9,subjective human judgments
+P01-1056.10,hand-crafted template-based generation component 
+P01-1056.11,rule-based sentence planners
+P01-1056.12,baseline sentence planners 
+P01-1056.13,trainable sentence planner
+P01-1056.14,rule-based systems
+P01-1056.15,baselines
+P01-1056.16,hand-crafted system
+P01-1070.1,supervised machine learning
+P01-1070.2,statistical models
+P01-1070.3,WH-questions 
+P01-1070.4,models
+P01-1070.5, shallow linguistic features 
+P01-1070.6,questions
+P01-1070.7,user's informational goals
+P01-1070.8,predictive performance
+P01-1070.9,models
+P01-1070.10,training and testing factors
+P01-1070.11,predictive performance 
+N03-1001.1,utterance classification
+N03-1001.2,manual transcription
+N03-1001.3,training data 
+N03-1001.4,domain independent acoustic models
+N03-1001.5,classifiers
+N03-1001.6,utterance classification performance 
+N03-1001.7, word-trigram recognition 
+N03-1001.8,manual transcription
+N03-1001.9,unsupervised training 
+N03-1001.10,phone n-gram model
+N03-1001.11,domain 
+N03-1001.12,output
+N03-1001.13,recognition
+N03-1001.14,model
+N03-1001.15,phone-string classifier 
+N03-1001.16,classification accuracy
+N03-1001.17,spoken language system domains
+N03-1004.1,ensemble methods
+N03-1004.2,machine learning 
+N03-1004.3,natural language processing
+N03-1004.4,multi-strategy and multi-source approach to question answering 
+N03-1004.5,answering agents 
+N03-1004.6,answers
+N03-1004.7,corpora 
+N03-1004.8,answering agents
+N03-1004.9,knowledge-based mechanisms
+N03-1004.10,statistical techniques 
+N03-1004.11,multi-level answer resolution algorithm
+N03-1004.12,answering agents
+N03-1004.13,question, passage, and/or answer levels 
+N03-1004.14,answer resolution algorithm 
+N03-1004.15,baseline system
+N03-1004.16,questions correctly answered
+N03-1004.17,average precision metric
+N03-1012.1,ONTOSCORE
+N03-1012.2,concepts 
+N03-1012.3,ontology
+N03-1012.4,scoring 
+N03-1012.5,speech recognition hypotheses (SRH)
+N03-1012.6,semantic coherence 
+N03-1012.7,annotation experiment
+N03-1012.8,human annotators 
+N03-1012.9,speech recognition hypotheses 
+N03-1012.10,annotated data
+N03-1012.11,German corpus
+N03-1012.12,SRHs 
+N03-1012.13,baseline
+N03-1017.1,phrase-based translation model
+N03-1017.2,decoding algorithm 
+N03-1017.3, phrase-based translation models 
+N03-1017.4,phrase-based models
+N03-1017.5,word-based models 
+N03-1017.6,language pairs 
+N03-1017.7,heuristic learning 
+N03-1017.8,phrase translations
+N03-1017.9,word-based alignments 
+N03-1017.10,lexical weighting
+N03-1017.11,phrase translations 
+N03-1017.12,phrases
+N03-1017.13,words 
+N03-1017.14,phrases
+N03-1017.15,high-accuracy word-level alignment models 
+N03-1017.16,syntactically motivated phrases 
+N03-1018.1,generative probabilistic optical character recognition (OCR) model 
+N03-1018.2,noisy channel framework
+N03-1018.3,true text
+N03-1018.4,noisy output
+N03-1018.5,OCR system
+N03-1018.6,model 
+N03-1018.7,error correction
+N03-1018.8,post-processing 
+N03-1018.9,output
+N03-1018.10,OCR systems 
+N03-1018.11,NLP tasks
+N03-1018.12,model
+N03-1018.13,finite-state models 
+N03-1018.14,model
+N03-1018.15,character and word error rate 
+N03-1018.16,automatic extraction
+N03-1018.17,translation lexicons 
+N03-1018.18,printed text
+N03-1026.1,ambiguity packing and stochastic disambiguation techniques 
+N03-1026.2,Lexical-Functional Grammars (LFG)
+N03-1026.3,sentence condensation 
+N03-1026.4,linguistic parser/generator
+N03-1026.5,LFG 
+N03-1026.6,transfer component
+N03-1026.7,parse reduction 
+N03-1026.8,packed parse forests
+N03-1026.9, maximum-entropy model 
+N03-1026.10,stochastic output selection
+N03-1026.11,parser evaluation methods
+N03-1026.12,summarization 
+N03-1026.13,sentence condensation systems
+N03-1026.14,experimental evaluation 
+N03-1026.15,summarization
+N03-1026.16,automatic parse-based evaluation 
+N03-1026.17,manual evaluation
+N03-1026.18, strings 
+N03-1026.19,summarization
+N03-1026.20,grammaticality
+N03-1026.21,system output 
+N03-1026.22,constraint-based parser/generator
+N03-1033.1,part-of-speech tagger
+N03-1033.2,tag contexts 
+N03-1033.3,dependency network representation
+N03-1033.4,lexical features 
+N03-1033.5,jointly conditioning on multiple consecutive words
+N03-1033.6,priors
+N03-1033.7,conditional loglinear models 
+N03-1033.8,unknown word features
+N03-1033.9,tagger
+N03-1033.10,accuracy 
+N03-1033.11,Penn Treebank WSJ
+N03-1033.12,error reduction 
+N03-1033.13,tagging 
+N03-2003.1,training data
+N03-2003.2, language modeling 
+N03-2003.3,conversational speech
+N03-2003.4,training data 
+N03-2003.5,text
+N03-2003.6,web 
+N03-2003.7,style
+N03-2003.8,topic 
+N03-2003.9,recognition task
+N03-2003.10,data
+N03-2003.11, class-dependent interpolation 
+N03-2003.12,N-grams
+N03-2006.1,translation quality
+N03-2006.2, EBMT 
+N03-2006.3,bilingual corpus
+N03-2006.4,bilingual corpus 
+N03-2006.5,language model
+N03-2006.6,monolingual corpus 
+N03-2006.7,EBMT system
+N03-2006.8,evaluation measures 
+N03-2006.9,BLEU score
+N03-2006.10,NIST score 
+N03-2006.11,bilingual corpus
+N03-2006.12,language model
+N03-2015.1,unsupervised technique
+N03-2015.2,morphology 
+N03-2015.3,hubs
+N03-2015.4,automaton
+N03-2015.5,hub
+N03-2015.6,node
+N03-2015.7,graph 
+N03-2015.8,in-degree
+N03-2015.9, out-degree 
+N03-2015.10,word-trie
+N03-2015.11,minimal DFA 
+N03-2015.12,hubs
+N03-2015.13,hubs 
+N03-2015.14,root
+N03-2015.15, suffix 
+N03-2015.16,performance
+N03-2017.1,syntax-based constraint
+N03-2017.2,word alignment 
+N03-2017.3,cohesion constraint
+N03-2017.4,English phrases 
+N03-2017.5,French sentence
+N03-2017.6,constraint
+N03-2017.7,alignment quality 
+N03-2025.1,bootstrapping approach
+N03-2025.2,Named Entity (NE) tagging 
+N03-2025.3,concept-based seeds
+N03-2025.4,successive learners 
+N03-2025.5,common noun
+N03-2025.6,pronoun 
+N03-2025.7,seeds
+N03-2025.8,concept
+N03-2025.9,NE
+N03-2025.10,PERSON NE 
+N03-2025.11,bootstrapping procedure
+N03-2025.12,successive learners 
+N03-2025.13,decision list
+N03-2025.14,parsing-based NE rules 
+N03-2025.15,Hidden Markov Model
+N03-2025.16,corpus 
+N03-2025.17,learner
+N03-2025.18,NE system 
+N03-2025.19,supervised NE
+N03-2025.20,NE types 
+N03-2036.1,phrase-based unigram model
+N03-2036.2,statistical machine translation 
+N03-2036.3,model parameters
+N03-2036.4,phrase-based models 
+N03-2036.5,units of translation
+N03-2036.6,blocks 
+N03-2036.7,phrases
+N03-2036.8,decoding
+N03-2036.9,block unigram model
+N03-2036.10,word-based trigram language model 
+N03-2036.11,training
+N03-2036.12,blocks
+N03-2036.13,source interval projections
+N03-2036.14,word alignment 
+N03-2036.15,block selection criteria
+N03-2036.16,unigram
+N03-2036.17,phrase
+N03-3010.1,Cooperative Model
+N03-3010.2,natural language understanding 
+N03-3010.3,dialogue system
+N03-3010.4,Finite State Model (FSM) 
+N03-3010.5,Statistical Learning Model (SLM)
+N03-3010.6,FSM 
+N03-3010.7,language understanding
+N03-3010.8,Statistical approach
+N03-3010.9,Cooperative Model
+N03-4010.1,JAVELIN system
+N03-4010.2, planning-based architecture 
+N03-4010.3,language processing modules
+N03-4010.4,open-domain question answering capability 
+N03-4010.5,free text
+N03-4010.6,JAVELIN 
+N03-4010.7,questions
+N03-4010.8,answer candidates 
+N03-4010.9,text corpus
+N03-4010.10,repository
+N03-4010.11,data objects 
+N03-4010.12,question answering session
+P03-1002.1,IE paradigm
+P03-1002.2,predicate-argument structures
+P03-1002.3,predicate argument structures
+P03-1002.4,IE paradigm
+P03-1002.5,features 
+P03-1002.6,inductive decision tree learning
+P03-1002.7,predicate-argument structures
+P03-1002.8,IE
+P03-1005.1,Hierarchical Directed Acyclic Graph (HDAG) Kernel 
+P03-1005.2,structured natural language data
+P03-1005.3, HDAG Kernel 
+P03-1005.4,chunks
+P03-1005.5,relations 
+P03-1005.6,weighed sum
+P03-1005.7,attribute sequences
+P03-1005.8,HDAGs
+P03-1005.9,question classification
+P03-1005.10,sentence alignment tasks 
+P03-1005.11,similarity measure
+P03-1005.12,kernel function 
+P03-1005.13,HDAG Kernel 
+P03-1005.14,kernel functions
+P03-1005.15,baseline methods 
+P03-1009.1,clustering
+P03-1009.2,semantic verb classes
+P03-1009.3,corpus data 
+P03-1009.4,subcategorization frame (SCF) 
+P03-1009.5,Information Bottleneck
+P03-1009.6,nearest neighbour 
+P03-1009.7,polysemic verbs 
+P03-1009.8,evaluation scheme
+P03-1009.9,polysemy
+P03-1009.10,clusters
+P03-1009.11,semantically classifying 
+P03-1009.12,undisambiguated SCF data
+P03-1022.1,decision tree based approach
+P03-1022.2, pronoun resolution 
+P03-1022.3,spoken dialogue
+P03-1022.4, pronouns 
+P03-1022.5,NP- and non-NP-antecedents
+P03-1022.6,features 
+P03-1022.7,pronoun resolution
+P03-1022.8,spoken dialogue 
+P03-1022.9,features
+P03-1022.10,Switchboard dialogues
+P03-1022.11,Byron's (2002) manually tuned system 
+P03-1030.1,Link detection
+P03-1030.2,Topic Detection and Tracking tasks 
+P03-1030.3,new event detection
+P03-1030.4,story link detection 
+P03-1030.5,new event detection
+P03-1030.6,information retrieval task 
+P03-1030.7,precision
+P03-1030.8,recall 
+P03-1030.9,part of speech tagging
+P03-1030.10, similarity measures 
+P03-1030.11,stop lists
+P03-1031.1,discourse understanding process
+P03-1031.2,spoken dialogue systems 
+P03-1031.3,user utterances
+P03-1031.4,context
+P03-1031.5,dialogue
+P03-1031.6,candidates
+P03-1031.7,understanding
+P03-1031.8,user utterance
+P03-1031.9, ambiguity 
+P03-1031.10,speech understanding
+P03-1031.11,understanding
+P03-1031.12,user utterance 
+P03-1031.13,candidates
+P03-1031.14, understanding 
+P03-1031.15,ambiguity
+P03-1031.16,dialogue 
+P03-1031.17,discourse understanding accuracy
+P03-1031.18,ambiguity
+P03-1031.19,statistical information
+P03-1031.20,dialogue corpora 
+P03-1031.21,hand-crafted rules
+P03-1031.22,discourse understanding process
+P03-1031.23,candidates
+P03-1031.24,understanding 
+P03-1033.1,user modeling
+P03-1033.2,cooperative responses 
+P03-1033.3,user
+P03-1033.4,spoken dialogue systems 
+P03-1033.5,user
+P03-1033.6,knowledge 
+P03-1033.7,users
+P03-1033.8,user model 
+P03-1033.9, user models 
+P03-1033.10,skill level
+P03-1033.11,knowledge level 
+P03-1033.12,target domain
+P03-1033.13, hastiness 
+P03-1033.14,models
+P03-1033.15,decision tree learning 
+P03-1033.16,dialogue data
+P03-1033.17,classification accuracy
+P03-1033.18,Dialogue strategies 
+P03-1033.19,user modeling
+P03-1033.20,Kyoto city bus information system 
+P03-1033.21,cooperative responses 
+P03-1033.22,individual users
+P03-1033.23,novice users 
+P03-1033.24,dialogue duration
+P03-1033.25,skilled users 
+P03-1050.1,unsupervised learning approach
+P03-1050.2,non-English (Arabic) stemmer 
+P03-1050.3,stemming model
+P03-1050.4,statistical machine translation 
+P03-1050.5,English stemmer
+P03-1050.6,parallel corpus 
+P03-1050.7,training resources
+P03-1050.8,parallel text 
+P03-1050.9,training phase
+P03-1050.10, Monolingual, unannotated text 
+P03-1050.11,stemmer
+P03-1050.12,domain
+P03-1050.13,genre
+P03-1050.14,Arabic
+P03-1050.15,language
+P03-1050.16,affix removal
+P03-1050.17,resource-frugal approach
+P03-1050.18, agreement 
+P03-1050.19,Arabic stemmer
+P03-1050.20,rules 
+P03-1050.21,affix lists
+P03-1050.22,human annotated text 
+P03-1050.23,unsupervised component
+P03-1050.24,Task-based evaluation 
+P03-1050.25,Arabic information retrieval
+P03-1050.26,average precision
+P03-1050.27,unstemmed text 
+P03-1050.28,stemmer
+P03-1051.1,Arabic's rich morphology
+P03-1051.2, model 
+P03-1051.3,word
+P03-1051.4, morphemes 
+P03-1051.5,pattern
+P03-1051.6,prefix*-stem-suffix*
+P03-1051.7,morpheme 
+P03-1051.8,manually segmented Arabic corpus 
+P03-1051.9,unsupervised algorithm
+P03-1051.10,Arabic word segmenter 
+P03-1051.11,unsegmented Arabic corpus
+P03-1051.12,trigram language model 
+P03-1051.13,morpheme sequence
+P03-1051.14,input 
+P03-1051.15,language model
+P03-1051.16,manually segmented corpus 
+P03-1051.17,words
+P03-1051.18,segmentation 
+P03-1051.19,accuracy
+P03-1051.20,unsupervised algorithm 
+P03-1051.21,stems
+P03-1051.22,word 
+P03-1051.23,unsegmented corpus
+P03-1051.24,model parameters 
+P03-1051.25,vocabulary
+P03-1051.26, training corpus 
+P03-1051.27,Arabic word segmentation system
+P03-1051.28,exact match accuracy
+P03-1051.29,test corpus 
+P03-1051.30,word tokens
+P03-1051.31,highly inflected languages 
+P03-1051.32,manually segmented corpus
+P03-1051.33,language
+P03-1058.1,word sense disambiguation (WSD)
+P03-1058.2,manually sense-tagged data 
+P03-1058.3,supervised learning
+P03-1058.4,sense-tagged training data
+P03-1058.5,English-Chinese parallel corpora 
+P03-1058.6,nouns
+P03-1058.7,SENSEVAL-2 English lexical sample task 
+P03-1058.8,method of acquiring sense-tagged data 
+P03-1058.9,SENSEVAL-2 nouns
+P03-1058.10,accuracy
+P03-1058.11,manually sense-tagged data 
+P03-1058.12,sense coverage
+P03-1058.13,domain dependence
+P03-1058.14,WSD programs 
+P03-1068.1,semantically annotated corpus 
+P03-1068.2,acquisition of word-semantic information 
+P03-1068.3,domain-independent lexica
+P03-1068.4,annotation
+P03-1068.5,semantic roles
+P03-1068.6,frame semantics paradigm
+P03-1068.7,annotated data 
+P03-1068.8, vagueness 
+P03-1068.9,ambiguity
+P03-1068.10,semantic annotation 
+P03-1070.1,verbal and nonverbal means
+P03-1070.2,grounding 
+P03-1070.3,embodied conversational agents
+P03-1070.4,signals
+P03-1070.5,common ground 
+P03-1070.6,human-computer interaction
+P03-1070.7,eye gaze 
+P03-1070.8,head nods
+P03-1070.9,attentional focus 
+P03-1070.10,direction-giving task
+P03-1070.11,nonverbal behaviors 
+P03-1070.12,dialogue move
+P03-1070.13,negative feedback 
+P03-1070.14,ECA
+P03-1070.15,verbal and nonverbal grounding acts 
+P03-1070.16,dialogue state
+P03-2036.1,CFG filtering techniques
+P03-2036.2,LTAG 
+P03-2036.3,HPSG
+P03-2036.4,HPSG 
+P03-2036.5,CFG filter
+P03-2036.6,LTAG 
+C04-1106.1,analogies between words
+C04-1106.2,computational linguists 
+C04-1106.3,analogies between sentences
+C04-1106.4, multilingual corpus 
+C04-1106.5,analogies
+C04-1106.6,sentences 
+C04-1106.7,analogy 
+C04-1106.8,form
+C04-1106.9,meaning 
+C04-1106.10,translation
+C04-1106.11,meaning 
+C04-1106.12,meanings
+N04-1024.1,CriterionSM Online Essay Evaluation Service
+N04-1024.2,sentences
+N04-1024.3,writing
+N04-1024.4,essay-based discourse elements 
+N04-1024.5,thesis statements
+N04-1024.6,Criterion 
+N04-1024.7,coherence
+N04-1024.8,essays 
+N04-1024.9,features
+N04-1024.10, sentences 
+N04-1024.11,semantic similarity measures
+N04-1024.12, discourse structure 
+N04-1024.13,support vector machine
+N04-1024.14, features 
+N04-1024.15,breakdowns in coherence
+N04-1024.16,essay question 
+N04-1024.17,discourse elements
+N04-1024.18,Intra-sentential quality 
+N04-1024.19,rule-based heuristics
+N04-1024.20,baseline
+H05-1005.1,information redundancy
+H05-1005.2,multilingual input 
+H05-1005.3,machine translation
+H05-1005.4,multilingual summaries
+H05-1005.5,multi-document summarization 
+H05-1005.6,documents
+H05-1005.7, Arabic 
+H05-1005.8,summary
+H05-1005.9,English 
+H05-1005.10,summary
+H05-1005.11,lexical-syntactic forms
+H05-1005.12,documents 
+H05-1005.13,machine translation systems
+H05-1005.14,redundancy
+H05-1005.15,information 
+H05-1005.16,English
+H05-1005.17,machine translations 
+H05-1005.18,Arabic documents
+H05-1005.19,redundancy
+H05-1005.20,noun phrases 
+H05-1012.1,maximum entropy word alignment algorithm
+H05-1012.2,Arabic-English 
+H05-1012.3,supervised training data
+H05-1012.4,training material
+H05-1012.5,machine translation 
+H05-1012.6,supervised and unsupervised methods
+H05-1012.7,performance
+H05-1012.8,probabilistic model 
+H05-1012.9,alignment
+H05-1012.10,link decisions 
+H05-1012.11,word alignment techniques 
+H05-1012.12,machine translation tests 
+H05-1012.13,human annotation performance 
+H05-1095.1,phrase-based statistical machine translation method 
+H05-1095.2,non-contiguous phrases
+H05-1095.3, phrases 
+H05-1095.4,phrases
+H05-1095.5,word-aligned corpora 
+H05-1095.6,statistical translation model
+H05-1095.7,phrases
+H05-1095.8,training method 
+H05-1095.9,translation accuracy
+H05-1095.10,NIST evaluation metric
+H05-1095.11,Translations 
+H05-1095.12,beam-search decoder
+H05-1095.13,training data 
+H05-1117.1,automatic evaluation
+H05-1117.2,machine translation 
+H05-1117.3,document summarization
+H05-1117.4,POURPRE
+H05-1117.5, automatically evaluating answers to definition questions 
+H05-1117.6,scoring system output
+H05-1117.7,TREC 2003 and TREC 2004 QA tracks 
+H05-1117.8,rankings
+H05-1117.9,official rankings
+H05-1117.10,POURPRE
+H05-2007.1,patterns
+H05-2007.2,translation data 
+H05-2007.3,part-of-speech tag sequences
+H05-2007.4,diagnostic tool
+H05-2007.5,developers 
+H05-2007.6,machine translation systems
+H05-2007.7,developers
+H05-2007.8, patterns 
+H05-2007.9,machine translation output
+I05-2021.1,empirical test
+I05-2021.2,Chinese-to-English SMT model 
+I05-2021.3,word sense disambiguation performance
+I05-2021.4,WSD evaluation methodology
+I05-2021.5,datasets 
+I05-2021.6,Senseval-3 Chinese lexical sample task
+I05-2021.7,word sense disambiguation (WSD) models 
+I05-2021.8,Senseval
+I05-2021.9,BLEU scores
+I05-2021.10,statistical machine translation (SMT) 
+I05-2021.11,SMT models
+I05-2021.12,translation 
+I05-2021.13,words
+I05-2021.14,source language sentences 
+I05-2021.15,WSD
+I05-2021.16,accuracy
+I05-2021.17,SMT models
+I05-2021.18,WSD models
+I05-2021.19,WSD
+I05-2021.20,accuracy
+I05-2021.21,SMT models
+I05-2021.22,WSD models
+I05-2021.23,SMT models 
+I05-2021.24,WSD models
+I05-2021.25,SMT
+I05-2021.26,WSD models 
+I05-2048.1,Statistical machine translation (SMT)
+I05-2048.2,natural language processing 
+I05-2048.3,SMT
+I05-2048.4,rule-based translation systems 
+I05-2048.5,translation systems 
+I05-2048.6,language pairs
+I05-2048.7,domains 
+I05-2048.8,statistical machine translation 
+I05-2048.9,SMT system
+I05-2048.10,baseline results 
+I05-2048.11,SMT
+I05-2048.12,STTK
+I05-2048.13,statistical machine translation tool kit 
+I05-2048.14,translation system
+I05-2048.15,STTK 
+I05-2048.16,CMU's SMT system
+I05-2048.17,rule-based and example based machine translation modules 
+I05-2048.18,multi engine machine translation system
+I05-2048.19,source code 
+I05-2048.20,tool kit
+I05-4010.1,English-Chinese bitexts 
+I05-4010.2,Web
+I05-4010.3,subparagraph 
+I05-4010.4,numbering system
+I05-4010.5,legal text hierarchy 
+I05-4010.6,bilingual corpus 
+I05-4010.7,English words
+I05-4010.8,Chinese characters 
+I05-4010.9,text collection
+I05-4010.10,empirical MT research 
+I05-4010.11,English-Chinese bitexts 
+I05-4010.12,Web
+I05-5003.1,machine translation (MT) evaluation
+I05-5003.2,sentence-level semantic equivalence classification
+I05-5003.3,MT evaluation methods (BLEU, NIST, WER and PER) 
+I05-5003.4,classifiers
+I05-5003.5, semantic equivalence 
+I05-5003.6,entailment
+I05-5003.7,classification method 
+I05-5003.8,PER
+I05-5003.9,part of speech information 
+I05-5003.10,words
+I05-5003.11,word matches and non-matches 
+I05-5003.12,sentence
+I05-5003.13,MT evaluation techniques 
+I05-5003.14,features
+I05-5003.15,paraphrase classification 
+I05-5003.16,entailment
+I05-5003.17,technique 
+I05-5003.18,paraphrase classification accuracy 
+I05-5003.19,models
+I05-5008.1,paraphrase
+I05-5008.2,seed sentences 
+I05-5008.3,reference sets
+I05-5008.4, machine translation evaluation measures 
+I05-5008.5,BLEU
+I05-5008.6,NIST
+I05-5008.7,paraphrases
+I05-5008.8,grammaticality 
+I05-5008.9,sentences
+I05-5008.10,equivalence in meaning 
+I05-5008.11,paraphrases
+I05-5008.12,meaning equivalence 
+I05-5008.13,entailment
+I05-5008.14,lexical and syntactical variation 
+I05-5008.15,paraphrases
+I05-5008.16,hand-produced sets 
+I05-5008.17,paraphrase
+I05-5008.18,reference sets
+I05-5008.19,MT evaluation 
+I05-6011.1,annotating scheme
+I05-6011.2,honorifics 
+I05-6011.3,Honorifics
+I05-6011.4,Japanese 
+I05-6011.5, referents 
+I05-6011.6,referential information
+I05-6011.7,zero pronouns 
+I05-6011.8,machine translation outputs
+I05-6011.9,honorifics 
+I05-6011.10,predicate
+I05-6011.11,honorifics 
+I05-6011.12,ranks
+I05-6011.13,referents
+I05-6011.14,predicate
+I05-6011.15,ranks
+I05-6011.16,referents
+I05-6011.17,predicates 
+J05-1003.1, probabilistic parser 
+J05-1003.2,parser
+J05-1003.3,candidate parses 
+J05-1003.4,sentence
+J05-1003.5, probabilities 
+J05-1003.6,ranking
+J05-1003.7, parses 
+J05-1003.8,model
+J05-1003.9,ranking 
+J05-1003.10,features
+J05-1003.11,tree 
+J05-1003.12,tree
+J05-1003.13,features
+J05-1003.14,features
+J05-1003.15,derivation 
+J05-1003.16,generative model
+J05-1003.17,features 
+J05-1003.18,reranking task
+J05-1003.19,boosting approach
+J05-1003.20,ranking problems 
+J05-1003.21,boosting method
+J05-1003.22,parsing 
+J05-1003.23,Wall Street Journal treebank
+J05-1003.24,log-likelihood 
+J05-1003.25,baseline model
+J05-1003.26,features
+J05-1003.27,parse trees 
+J05-1003.28,model
+J05-1003.29,model 
+J05-1003.30,F-measure
+J05-1003.31,F-measure 
+J05-1003.32,baseline model's score
+J05-1003.33,boosting approach
+J05-1003.34,sparsity of the feature space
+J05-1003.35, parsing data 
+J05-1003.36,implementation 
+J05-1003.37,boosting approach
+J05-1003.38, feature selection methods 
+J05-1003.39,log-linear (maximum-entropy) models
+J05-1003.40,natural language parsing (NLP)
+J05-1003.41,NLP problems
+J05-1003.42,ranking tasks
+J05-1003.43, speech recognition 
+J05-1003.44,machine translation
+J05-1003.45,natural language generation 
+J05-4003.1,discovering parallel sentences
+J05-4003.2,comparable, non-parallel corpora 
+J05-4003.3,maximum entropy classifier
+J05-4003.4,sentences 
+J05-4003.5,translations
+J05-4003.6,parallel data
+J05-4003.7,Chinese, Arabic, and English non-parallel newspaper corpora 
+J05-4003.8,quality of the extracted data
+J05-4003.9,statistical machine translation system 
+J05-4003.10,MT system
+J05-4003.11,parallel corpus
+J05-4003.12,words 
+J05-4003.13,non-parallel corpus
+J05-4003.14,language pairs
+J05-4003.15,resources 
+P05-1032.1,data structure
+P05-1032.2,phrase-based statistical machine translation 
+P05-1032.3,retrieval
+P05-1032.4,phrases 
+P05-1032.5,memory
+P05-1032.6,decoder 
+P05-1032.7,computational complexity
+P05-1032.8,average retrieval times 
+P05-1032.9,phrase translations
+P05-1032.10, suffix array-based data structure 
+P05-1032.11,sampling
+P05-1032.12,retrieval time 
+P05-1032.13,translation quality
+P05-1034.1,statistical machine translation
+P05-1034.2,syntactic information
+P05-1034.3,source language 
+P05-1034.4,phrasal translation
+P05-1034.5,source-language
+P05-1034.6,dependency parser
+P05-1034.7,target language
+P05-1034.8,word segmentation
+P05-1034.9,unsupervised word alignment component 
+P05-1034.10,parallel corpus
+P05-1034.11,source dependency parse 
+P05-1034.12,sentence
+P05-1034.13, dependency treelet translation pairs 
+P05-1034.14,tree-based ordering model
+P05-1034.15,decoder
+P05-1034.16, tree-based models 
+P05-1034.17,SMT models
+P05-1034.18,phrasal SMT
+P05-1034.19,parser
+P05-1048.1,word sense disambigation models 
+P05-1048.2,statistical machine translation
+P05-1048.3,quality
+P05-1048.4,Chinese word sense disambiguation model 
+P05-1048.5,translation candidates
+P05-1048.6,IBM statistical MT system 
+P05-1048.7,word sense disambiguation
+P05-1048.8,translation quality
+P05-1048.9, statistical machine translation system 
+P05-1048.10,Error analysis
+P05-1048.11,statistical MT architectures 
+P05-1067.1,Syntax-based statistical machine translation (MT)
+P05-1067.2,statistical models 
+P05-1067.3,structured data
+P05-1067.4,syntax-based statistical machine translation system 
+P05-1067.5,probabilistic synchronous dependency insertion grammar
+P05-1067.6,Synchronous dependency insertion grammars 
+P05-1067.7,synchronous grammars
+P05-1067.8,dependency trees 
+P05-1067.9,grammar
+P05-1067.10,parallel corpora 
+P05-1067.11,graphical model
+P05-1067.12,machine translation task 
+P05-1067.13,stochastic tree-to-tree transducer
+P05-1067.14,polynomial time decoding algorithm
+P05-1067.15,model 
+P05-1067.16,MT system
+P05-1067.17,NIST and Bleu automatic MT evaluation software 
+P05-1067.18,baseline system
+P05-1067.19,IBM models
+P05-1067.20,translation speed and quality 
+P05-1069.1,training method
+P05-1069.2,localized phrase-based prediction model 
+P05-1069.3,statistical machine translation (SMT)
+P05-1069.4,model 
+P05-1069.5,blocks
+P05-1069.6, local phrase re-ordering 
+P05-1069.7,maximum likelihood criterion
+P05-1069.8,log-linear block bigram model 
+P05-1069.9,real-valued features
+P05-1069.10, language model score 
+P05-1069.11,binary features
+P05-1069.12, block 
+P05-1069.13,training algorithm 
+P05-1069.14,features
+P05-1069.15,baseline
+P05-1069.16,Arabic-English translation task 
+P05-1074.1,monolingual parallel corpora
+P05-1074.2,paraphrases
+P05-1074.3,bilingual parallel corpora 
+P05-1074.4,resource
+P05-1074.5,alignment techniques 
+P05-1074.6,phrase-based statistical machine translation
+P05-1074.7,paraphrases 
+P05-1074.8,language
+P05-1074.9,phrase 
+P05-1074.10,paraphrase probability 
+P05-1074.11,paraphrases
+P05-1074.12,bilingual parallel corpus 
+P05-1074.13,translation probabilities
+P05-1074.14,contextual information
+P05-1074.15,paraphrase extraction and ranking methods
+P05-1074.16,manual word alignments 
+P05-1074.17,quality
+P05-1074.18, paraphrases 
+P05-1074.19,automatic alignments
+P05-2016.1,Czech-English statistical machine translation system
+P05-2016.2,tree-to-tree translation
+P05-2016.3,dependency structures 
+P05-2016.4,bilingual resource
+P05-2016.5,sentence-aligned parallel corpus 
+P05-2016.6,resources
+P05-2016.7,monolingual 
+P05-2016.8,evaluation method
+P05-2016.9,system's output 
+P05-2016.10,benchmark system
+E06-1018.1,unsupervised word sense induction (WSI) 
+E06-1018.2,one sense per collocation observation 
+E06-1018.3,clustering of word co-occurrences 
+E06-1018.4,WSI
+E06-1018.5,one sense per collocation observation
+E06-1018.6,words
+E06-1018.7,two-step clustering process 
+E06-1018.8,sentence co-occurrences
+E06-1018.9, features 
+E06-1018.10,unsupervised evaluation method 
+E06-1018.11,word sense disambiguation algorithms 
+E06-1018.12,gold standard 
+E06-1018.13,automatic parameter optimization
+E06-1018.14,WSI algorithm 
+E06-1022.1,addressee identification
+E06-1022.2,four-participants face-to-face meetings 
+E06-1022.3,Bayesian Network
+E06-1022.4,Naive Bayes classifiers 
+E06-1022.5,addressee
+E06-1022.6,dialogue act 
+E06-1022.7,gaze
+E06-1022.8,utterance 
+E06-1022.9,conversational context features
+E06-1022.10,meeting context
+E06-1022.11, classifiers 
+E06-1022.12,performances
+E06-1022.13,classifiers 
+E06-1022.14,conversational context
+E06-1022.15,utterance features 
+E06-1022.16,speaker's gaze information
+E06-1022.17,classifiers 
+E06-1022.18,gain
+E06-1022.19,meeting context 
+E06-1031.1,evaluation measures
+E06-1031.2,machine translation 
+E06-1031.3,costs
+E06-1031.4,word 
+E06-1031.5,sentences 
+E06-1031.6,evaluation measure
+E06-1031.7,block reordering
+E06-1031.8,edit operation 
+E06-1031.9,measure
+E06-1031.10,quadratic time 
+E06-1031.11,evaluation measures
+E06-1031.12,word-dependent substitution costs
+E06-1031.13,measure
+E06-1031.14,human judgment 
+E06-1031.15,language pairs 
+E06-1031.16,sentence-level correlation
+E06-1031.17,word dependent substitution costs 
+E06-1031.18,automatic evaluation measures 
+E06-1031.19,human judgment
+E06-1035.1,segment boundaries 
+E06-1035.2,spoken multiparty dialogue
+E06-1035.3,predicting top-level topic shifts 
+E06-1035.4,identifying subtopic boundaries
+E06-1035.5,performance
+E06-1035.6,ASR output 
+E06-1035.7,human transcription
+E06-1035.8,features 
+E06-1035.9,predicting top-level and predicting subtopic boundaries 
+E06-1035.10,subtopic boundaries
+E06-1035.11,lexical cohesion-based approach
+E06-1035.12,predicting top-level boundaries
+E06-1035.13, machine learning approach 
+E06-1035.14,lexical-cohesion and conversational features
+E06-1035.15,conversational cues
+E06-1035.16,cue phrases 
+E06-1035.17,overlapping speech
+E06-1035.18,transcription errors
+E06-1035.19,ASR output 
+E06-1035.20,lexical-cohesion and conversational features 
+P06-1013.1,Combination methods
+P06-1013.2,system performance 
+P06-1013.3,system combination
+P06-1013.4,unsupervised WSD 
+P06-1013.5,voting- and arbiter-based combination strategies 
+P06-1013.6,unsupervised WSD systems
+P06-1013.7,combination methods 
+P06-1013.8,predominant senses
+P06-1013.9,raw text 
+P06-1013.10,SemCor
+P06-1013.11, Senseval-3 data sets 
+P06-1052.1,redundancy elimination problem 
+P06-1052.2,underspecified semantic representation (USR)
+P06-1052.3,scope ambiguity 
+P06-1052.4,USR
+P06-1052.5, equivalent readings 
+P06-1052.6,underspecified chart representations
+P06-1052.7,dominance graphs
+P06-1052.8,USRs 
+P06-1052.9,large-scale grammars
+P06-1052.10,corpus 
+P06-1052.11,ambiguity
+P06-2001.1,machine learning techniques 
+P06-2001.2,comma checker
+P06-2001.3,grammar checker 
+P06-2001.4,Basque
+P06-2001.5,corpus 
+P06-2001.6,words
+P06-2001.7,commas 
+P06-2001.8,precision
+P06-2001.9,recall
+P06-2001.10,precision
+P06-2001.11, recall 
+P06-2001.12,commas
+P06-2001.13,corpus 
+P06-2001.14,corpus
+P06-2001.15,author 
+P06-2012.1,unsupervised learning approach
+P06-2012.2,named entities
+P06-2012.3,lexical and syntactic features 
+P06-2012.4,contexts
+P06-2012.5,eigenvectors 
+P06-2012.6,adjacency graph
+P06-2012.7,Laplacian 
+P06-2012.8,submanifold
+P06-2012.9, high dimensionality space 
+P06-2012.10,cluster number estimation
+P06-2012.11,eigenvectors 
+P06-2012.12,ACE corpora
+P06-2012.13,spectral clustering based approach 
+P06-2012.14,clustering methods
+P06-2059.1,polarity-tagged corpus
+P06-2059.2,HTML documents 
+P06-2059.3,HTML documents 
+P06-2059.4,layout structures
+P06-2059.5,linguistic pattern 
+P06-2059.6,sentences
+P06-2059.7,corpus
+P06-2059.8,sentences
+H01-1040.1,information extraction (IE) systems 
+H01-1040.2,named entity annotations
+H01-1040.3,scenario templates 
+H01-1040.4,text collections
+H01-1040.5,text browser 
+H01-1040.6,prototype system
+H01-1040.7,information workers
+H01-1040.8, pharmaceutical news archive 
+H01-1040.9,industry watch
+H01-1040.10,qualitative user evaluation
+H01-1040.11,interface
+H01-1040.12,users
+H01-1040.13, IE-enhanced text browsers 
+H01-1055.1,Automatic Speech Recognition technology
+H01-1055.2,dialog systems
+H01-1055.3,speech recognition
+H01-1055.4,dialog systems 
+H01-1055.5,user
+H01-1055.6,user
+H01-1055.7,system response 
+H01-1055.8,users
+H01-1055.9, natural language generation community 
+H01-1055.10,dialog systems
+H01-1055.11,generation
+H01-1055.12,dialog systems 
+H01-1055.13,knowledge-based generation systems 
+H01-1055.14,machine learning techniques
+H01-1068.1,spoken dialogue systems 
+H01-1068.2,user satisfaction
+H01-1068.3,system support of mission success 
+H01-1068.4,component performance
+H01-1068.5,user studies
+N03-4004.1,TAP-XL Automated Analyst's Assistant
+N03-4004.2,English
+N03-4004.3,topical report 
+N03-4004.4,multilingual, multimedia data 
+N03-4004.5,languages
+N03-4004.6,human language technology 
+H05-1101.1,computational problems
+H05-1101.2,probabilistic translation models 
+H05-1101.3,machine translation 
+H05-1101.4,models
+H05-1101.5, probabilistic context-free grammars 
+H05-1101.6,hardness
+H05-1101.7,NP 
+H05-1101.8,exponential time lower-bound
+I05-2014.1,evaluation metrics
+I05-2014.2,Machine Translation (MT) systems 
+I05-2014.3,BLEU
+I05-2014.4,NIST
+I05-2014.5,language pairs 
+I05-2014.6,English-Chinese
+I05-2014.7,English-Japanese 
+I05-2014.8,word segmentation problem
+I05-2014.9,BLEU
+I05-2014.10,word n-grams 
+I05-2014.11,character
+I05-2014.12,BLEU 
+I05-2014.13,character
+I05-2014.14,word segmentation problem 
+I05-2014.15, unsegmented texts 
+I05-2014.16,statistical MT systems
+I05-2014.17,outputs
+P05-3025.1,interactively visualizing and directing the process 
+P05-3025.2,translating a sentence
+P05-3025.3,user 
+P05-3025.4,model
+P05-3025.5,syntax-based statistical machine translation (MT) 
+P05-3025.6,model
+P05-3025.7,MT systems
+P05-3025.8,visualization method 
+P05-3025.9,MT system 
+P05-3025.10,ACL
+P05-3025.11,users 
+P05-3025.12,syntax-based decoder
+E06-1004.1, Statistical Machine Translation (SMT) 
+E06-1004.2,SMT research community 
+E06-1004.3,SMT algorithms
+E06-1004.4,computational complexity 
+E06-1004.5,SMT
+E06-1004.6,computational complexity
+E06-1004.7,IBM Models 1-2
+E06-1004.8,models 
+E06-1004.9,hard
+E06-1004.10,polynomial time solution 
+E06-1004.11,hard problems
+E06-1004.12,P = NP 
+E06-1004.13,P#P = P
+E06-1004.14,polynomial time approximations
+E06-1004.15,complexity
+E06-1041.1,Generation
+E06-1041.2,Referring Expressions 
+E06-1041.3,numeric-valued attributes
+E06-1041.4,perspective-taking 
+E06-1041.5,reference
+E06-1041.6,content determination 
+E06-1041.7,clustering algorithm
+N06-2009.1,Question Answering (QA) systems
+N06-2009.2,information need
+N06-2009.3,language 
+N06-2009.4,need
+N06-2009.5,MT-based paraphrasing technique
+N06-2009.6,QA system 
+N06-2009.7,paraphrased questions
+N06-2009.8,MRR
+N06-2009.9, question 
+N06-2038.1,information extraction
+N06-2038.2,token classification task 
+N06-2038.3,tagging strategies
+N06-2038.4,tokens 
+N06-2038.5,tagging strategies
+N06-2038.6,Begin/After tagging 
+N06-2038.7,BIA
+N06-4001.1,interactive corpus exploration tool
+N06-4001.2,InfoMagnets 
+N06-4001.3,InfoMagnets
+N06-4001.4,exploratory corpus analysis 
+N06-4001.5,text mining
+N06-4001.6,language
+N06-4001.7,behavioral patterns 
+N06-4001.8,tutorial dialogue
+N06-4001.9,on-line communities
+N06-4001.10,educational tool 
+N06-4001.11,protocol analysis
+N06-4001.12,Educational Research Methods course 
+P06-1018.1,mathematical formalism
+P06-1018.2,structures
+P06-1018.3,strings
+P06-1018.4,trees 
+P06-1018.5,dags
+P06-1018.6,graphs
+P06-1018.7,polarization
+P06-1018.8, elementary structures 
+P06-1018.9,saturation
+P06-1018.10, structure 
+P06-1018.11,grammar formalisms 
+P06-1018.12,rewriting systems
+P06-1018.13,dependency grammars 
+P06-1018.14,TAG
+P06-1018.15,HPSG
+P06-1018.16,LFG 
+P06-2110.1,similarity
+P06-2110.2,words 
+P06-2110.3,word vectors
+P06-2110.4,vector space model 
+P06-2110.5,methods for constructing word vectors 
+P06-2110.6,LSA-based, cooccurrence-based and dictionary-based methods
+P06-2110.7,similarity
+P06-2110.8,taxonomic similarity
+P06-2110.9,associative similarity 
+P06-2110.10,dictionary-based word vectors 
+P06-2110.11,taxonomic similarity
+P06-2110.12,LSA-based and the cooccurrence-based word vectors 
+P06-2110.13,associative similarity
+P06-3007.1,mutli-document summarization approaches 
+P06-3007.2,events
+P06-3007.3,event terms 
+P06-3007.4,associated event elements
+P06-3007.5,contents
+P06-3007.6, events 
+P06-3007.7,PageRank algorithm 
+P06-3007.8,event map
+P06-3007.9,documents 
+P06-4007.1,FERRET
+P06-4007.2,interactive question-answering (Q/A) system 
+P06-4007.3,automatic Q/A
+P06-4007.4,FERRET
+P06-4007.5,Q/A 
+P06-4007.6,predictive questioning
+P06-4007.7,questions 
+P06-4007.8,answers
+P06-4007.9,users
+P06-4007.10,user
+P06-4011.1,computational analysis of move structures 
+P06-4011.2,abstracts
+P06-4011.3,research articles
+P06-4011.4,sentences
+P06-4011.5,abstract 
+P06-4011.6,move
+P06-4011.7,rhetorical functions 
+P06-4011.8,abstracts 
+P06-4011.9,Web
+P06-4011.10,language model 
+P06-4011.11,abstract moves
+P06-4011.12,concordancer 
+P06-4011.13,CARE
+P06-4011.14,move-tagged abstracts 
+P06-4011.15,digital learning
+P06-4011.16,Web-based computer-assisted academic writing 
+P06-4014.1,LOGON MT demonstrator
+P06-4014.2,general-purpose NLP components 
+P06-4014.3,machine translation pipeline
+P06-4014.4,output quality 
+P06-4014.5,hand-built, symbolic resources 
+P06-4014.6,stochastic processes
+T78-1001.1,representational format for meaning 
+T78-1001.2,verbs
+T78-1001.3,subpredicates
+T78-1001.4, subpredicates 
+T78-1001.5,inferences
+T78-1001.6,listener 
+T78-1001.7,verb
+T78-1001.8,sentence 
+T78-1001.9,meaning structure
+T78-1001.10, sentence 
+T78-1001.11,verb
+T78-1028.1,computational theory
+T78-1028.2,human plausible reasoning 
+T78-1028.3, logic 
+T78-1028.4,theory
+T78-1028.5, content-independent formalism 
+T78-1028.6,logic
+T78-1028.7,theory
+T78-1028.8,memory
+T78-1028.9,theory
+T78-1028.10, dimensionalized space 
+T78-1028.11,inference types
+T78-1028.12, certainty conditions 
+T78-1028.13,meta-inference types
+T78-1028.14,inference 
+T78-1028.15,inference types
+T78-1028.16,memory
+T78-1028.17,inference types
+T78-1028.18,memory 
+T78-1028.19,inference types
+T78-1031.1,inference
+T78-1031.2,semantic networks 
+T78-1031.3,Path-based inference
+T78-1031.4,arc 
+T78-1031.5,path of arcs
+T78-1031.6,nodes 
+T78-1031.7,path
+T78-1031.8,nodes
+T78-1031.9,Path-based inference rules 
+T78-1031.10,binary relational calculus notation
+T78-1031.11,Node-based inference 
+T78-1031.12,structure
+T78-1031.13,nodes
+T78-1031.14,node structures
+T78-1031.15,Node-based inference rules 
+T78-1031.16,semantic network
+T78-1031.17,predicate calculus notation 
+T78-1031.18,Path-based inference
+T78-1031.19,node-based inference 
+T78-1031.20,path-based inference rules 
+T78-1031.21,extensional equivalence
+T78-1031.22,intensional concepts 
+T78-1031.23,explication
+T78-1031.24,inheritance 
+T78-1031.25,hierarchies
+C80-1039.1,FROFF
+C80-1039.2,fonts 
+C80-1039.3,character
+C80-1039.4,typing location 
+C80-1039.5,character 
+C80-1039.6,character 
+C80-1039.7,rules
+C80-1039.8,mathematical expressions
+C80-1073.1,Augmented Transition Network
+C80-1073.2,dialog model
+C80-1073.3,model 
+C80-1073.4,dialog schemata 
+C80-1073.5,conversation analysis
+C80-1073.6,models of verbal interaction
+C80-1073.7,dialog schemata
+C80-1073.8,verbal interaction 
+C80-1073.9,task-oriented and goal-directed dialogs
+C80-1073.10,ATN
+C80-1073.11,verbal interactions 
+C80-1073.12,task-oriented dialogs
+P80-1004.1,metaphors
+P80-1004.2,human understanding of natural language 
+P80-1004.3,method of analyzing metaphors
+P80-1004.4,generalized metaphor mappings
+P80-1004.5,generalized metaphor 
+P80-1004.6,recognition network
+P80-1004.7,basic mapping 
+P80-1004.8,transfer mappings
+P80-1004.9, implicit intention component 
+P80-1004.10,metaphor interpretation
+P80-1004.11,reconstruction
+P80-1004.12,recognition task
+P80-1004.13,language learning
+P80-1019.1,natural language interfaces
+P80-1019.2,meaning
+P80-1019.3,input
+P80-1019.4,users
+P80-1019.5,decoding
+P80-1019.6,natural language interfaces 
+P80-1019.7,non-literal aspects of communication 
+P80-1019.8,communication procedures
+P80-1019.9,non-literal aspects of communication 
+P80-1019.10,personal computers
+P80-1019.11,graphics displays
+P80-1019.12,human communication needs
+P80-1019.13,interfaces
+P80-1019.14,natural language interfaces
+P80-1026.1,natural language
+P80-1026.2,human listeners
+P80-1026.3,computer system
+P80-1026.4,natural language input 
+P80-1026.5,users
+P80-1026.6,parsing flexibilities
+P80-1026.7,FlexP
+P80-1026.8,bottom-up pattern-matching parser 
+P80-1026.9, restricted natural language 
+C82-1054.1,left corner parsing algorithm 
+C82-1054.2,context-free grammars
+C82-1054.3,parser 
+C82-1054.4,natural language interface
+J82-3002.1,natural language question answering system 
+J82-3002.2,Chat-80
+J82-3002.3,Chat-80
+J82-3002.4,Prolog
+J82-3002.5,programming language 
+J82-3002.6,logic
+J82-3002.7, logic-based grammar formalism 
+J82-3002.8,extraposition grammars
+J82-3002.9,Chat-80 
+J82-3002.10,English questions
+J82-3002.11, Prolog 
+J82-3002.12,subset of logic
+J82-3002.13,logical expression 
+J82-3002.14,planning algorithm
+J82-3002.15,Prolog 
+J82-3002.16,query optimisation
+J82-3002.17,relational database 
+J82-3002.18,Prolog form
+P82-1035.1,text-understanding systems
+P82-1035.2,text
+P82-1035.3,newspaper stories 
+P82-1035.4,edited texts
+P82-1035.5,natural language texts 
+P82-1035.6,memos
+P82-1035.7,drafts
+P82-1035.8,conversation transcripts 
+P82-1035.9,neat texts
+P82-1035.10,misspelled words
+P82-1035.11,missing words 
+P82-1035.12,poor syntactic construction
+P82-1035.13,missing periods 
+P82-1035.14,expectations
+P82-1035.15,surface English
+P82-1035.16,world knowledge 
+P82-1035.17,syntactic and semantic expectations 
+P82-1035.18,unknown words
+P82-1035.19,context 
+P82-1035.20,word-senses
+P82-1035.21, words with multiple meanings 
+P82-1035.22,ambiguity
+P82-1035.23,missing words 
+P82-1035.24,ellipsis
+P82-1035.25,referents 
+P82-1035.26,anaphora
+P82-1035.27, expectations 
+P82-1035.28,scruffy texts
+P82-1035.29,computer program
+P82-1035.30,NOMAD
+P82-1035.31,scruffy texts
+P84-1020.1,natural language system
+P84-1020.2,ungrammatical input 
+P84-1020.3,computer aided second language learning 
+P84-1034.1,syntax
+P84-1034.2,semantics
+P84-1034.3,machine translation 
+P84-1034.4,English-Japanese machine translation 
+P84-1034.5,syntax directed approach
+P84-1034.6,Heuristic Parsing Model (HPM) 
+P84-1034.7,Syntactic Role System
+P84-1034.8,Japanese-English translation 
+P84-1034.9,semantics directed approach
+P84-1034.10,Conceptual Dependency Diagram (CDD) 
+P84-1034.11,Augmented Case Marker System
+P84-1034.12,Semantic Role System 
+P84-1034.13,Japanese sentence structure 
+P84-1034.14,English sentence structure
+P84-1034.15,machine translation 
+P84-1034.16,ambiguities
+P84-1047.1,entity-oriented approach to restricted-domain parsing
+P84-1047.2,structure
+P84-1047.3,surface representation 
+P84-1047.4,domain entities
+P84-1047.5,semantic grammar 
+P84-1047.6,limited domain semantics
+P84-1047.7,fragmentary recognition
+P84-1047.8,multiple parsing strategies 
+P84-1047.9,recognition of extra-grammatical input 
+P84-1047.10,language definition
+P84-1047.11,entity-oriented language definition 
+P84-1047.12,control structure
+P84-1047.13,entity-oriented parser 
+P84-1047.14,parsing strategies
+P84-1047.15, control structure 
+P84-1047.16,parses
+P84-1047.17, parser 
+P84-1047.18,control structure
+P84-1047.19,parsing strategies 
+P84-1047.20,implementation
+P84-1064.1,disposition
+P84-1064.2,proposition
+P84-1064.3,disposition 
+P84-1064.4,propositions
+P84-1064.5,disposition 
+P84-1064.6,proposition
+P84-1064.7, fuzzy quantifiers 
+P84-1064.8,fuzzy quantifier 
+P84-1064.9,proposition
+P84-1064.10,disposition 
+P84-1064.11,proposition
+P84-1064.12, explicitation 
+P84-1064.13,restoration
+P84-1064.14,Explicitation
+P84-1064.15,meaning
+P84-1064.16, proposition 
+P84-1064.17,test-score semantics
+P84-1064.18,semantics
+P84-1064.19,meaning
+P84-1064.20,proposition 
+P84-1064.21,reasoning with dispositions 
+P84-1064.22,fuzzy syllogism
+P84-1064.23,Syllogistic reasoning with dispositions 
+P84-1064.24,commonsense reasoning
+P84-1064.25,management of uncertainty 
+P84-1064.26,expert systems
+P84-1064.27,typicality
+P84-1064.28,human cognition
+P84-1064.29,default reasoning
+P84-1078.1,Paul
+P84-1078.2,computer text generation system 
+P84-1078.3,cohesive text
+P84-1078.4,lexical substitutions 
+P84-1078.5, pronominalization 
+P84-1078.6,superordinate substitution
+P84-1078.7, noun phrase reiteration 
+P84-1078.8,antecedence recovery
+P84-1078.9,lexical substitutions
+P84-1078.10,strength of potential antecedence 
+P84-1078.11,text
+P84-1078.12,substitutions 
+C86-1081.1,Determiners
+C86-1081.2,meaning
+C86-1081.3,utterance 
+C86-1081.4,global meaning
+C86-1081.5,sentence
+C86-1081.6,determiners
+C86-1081.7,ambiguity
+C86-1081.8, logical formalism 
+C86-1081.9,determiners
+C86-1081.10,interpretation
+C86-1081.11, meaning 
+C86-1132.1,RAREAS
+C86-1132.2,formatted weather data
+C86-1132.3,synthesis 
+C86-1132.4,natural sublanguages
+C86-1132.5,stereotyped text structure 
+C86-1132.6,RAREAS
+C86-1132.7,linguistic and non-linguistic knowledge 
+C86-1132.8,temporal adverbs 
+C86-1132.9,bilingual or multi-lingual texts 
+J86-1002.1,error correction
+J86-1002.2,ill-formed input 
+J86-1002.3,dialogue patterns
+J86-1002.4,patterns
+J86-1002.5,Error correction 
+J86-1002.6,parsing
+J86-1002.7,meanings 
+J86-1002.8,sentence
+J86-1002.9,dialogue acquisition and tracking algorithm
+J86-1002.10,implementation
+J86-1002.11,voice interactive system 
+J86-1002.12,error correction methodology 
+J86-1002.13,stereotypic dialogue
+J86-3001.1,theory of discourse structure
+J86-3001.2,purpose
+J86-3001.3,processing
+J86-3001.4,discourse 
+J86-3001.5,discourse structure
+J86-3001.6,utterances
+J86-3001.7,linguistic structure
+J86-3001.8, purposes 
+J86-3001.9,intentional structure
+J86-3001.10,focus of attention 
+J86-3001.11,attentional state
+J86-3001.12, linguistic structure 
+J86-3001.13,discourse
+J86-3001.14,utterances 
+J86-3001.15,intentional structure
+J86-3001.16,discourse-relevant purposes 
+J86-3001.17,linguistic segments
+J86-3001.18,attentional state
+J86-3001.19,focus of attention 
+J86-3001.20,participants
+J86-3001.21,discourse 
+J86-3001.22,attentional state
+J86-3001.23,discourse
+J86-3001.24,discourse phenomena 
+J86-3001.25,cue phrases
+J86-3001.26,referring expressions 
+J86-3001.27,interruptions
+J86-3001.28,theory of attention, intention, and aggregation of utterances 
+J86-3001.29,discourses
+J86-3001.30,discourse
+J86-3001.31,cue phrases
+J86-3001.32,referring expressions 
+J86-3001.33,interruptions
+J86-3001.34, theory 
+J86-3001.35,utterances
+J86-3001.36,discourse
+J86-3001.37,Discourse processing
+J86-3001.38,utterances
+J86-3001.39,discourse 
+J86-3001.40,segments
+J86-3001.41, intentions 
+J86-3001.42,discourse
+J86-3001.43,intentions 
+J86-3001.44,discourse
+J86-3001.45,attentional state
+J86-3001.46,recognition tasks
+J86-3001.47,discourse 
+J86-3001.48,participants
+J86-4002.1,human-machine interactions
+J86-4002.2,natural language environment 
+J86-4002.3,speaker
+J86-4002.4,listener
+J86-4002.5,beliefs
+J86-4002.6,contexts 
+J86-4002.7,perceptions
+J86-4002.8,backgrounds
+J86-4002.9,goals 
+J86-4002.10,conversation
+J86-4002.11,listener
+J86-4002.12,speaker's utterance 
+J86-4002.13, speaker 
+J86-4002.14,listener
+J86-4002.15,reference failures 
+J86-4002.16,speaker's intention
+J86-4002.17,miscommunication
+J86-4002.18,communication
+J86-4002.19,miscommunications 
+J86-4002.20, miscommunication 
+J86-4002.21,reference problems
+J86-4002.22,failures of reference
+J86-4002.23,speaker
+J86-4002.24,utterance
+J86-4002.25,extensional reference
+P86-1011.1,grammatical formalisms
+P86-1011.2,Tree Adjoining Grammars 
+P86-1011.3,Head Grammars
+P86-1011.4,equivalence 
+P86-1011.5,formalisms
+P86-1011.6,linguistic expressiveness 
+P86-1011.7,formalisms
+P86-1038.1,Unification-based grammar formalisms
+P86-1038.2,features
+P86-1038.3,linguistic objects 
+P86-1038.4,computational algorithms for unification of feature structures 
+P86-1038.5,feature structures
+P86-1038.6,model 
+P86-1038.7,feature structures
+P86-1038.8,logical formulas 
+P86-1038.9,directed graphs
+P86-1038.10,graphs
+P86-1038.11,transition graphs 
+P86-1038.12,deterministic finite automaton
+P86-1038.13,semantics 
+P86-1038.14,feature structures
+P86-1038.15, disjunctions 
+P86-1038.16,path values
+P86-1038.17, disjunctions 
+P86-1038.18, logical model 
+P86-1038.19,denotational semantics
+P86-1038.20,logical model 
+P86-1038.21,equivalences
+P86-1038.22,formulas 
+P86-1038.23,Unification
+P86-1038.24,model
+P86-1038.25,computational complexity
+P86-1038.26,unification 
+P86-1038.27,consistency problem
+P86-1038.28,formulas 
+P86-1038.29,disjunctive values
+P86-1038.30,NP-complete 
+P86-1038.31,complexity
+P86-1038.32,disjunctive 
+P86-1038.33,expansion
+P86-1038.34,disjunctive normal form 
+A88-1001.1,multimedia articulation of answers 
+A88-1001.2,natural language interface
+A88-1001.3, database query applications 
+A88-1001.4,Multimedia answers
+A88-1001.5,videodisc images 
+A88-1001.6,sentences
+A88-1001.7,text 
+A88-1001.8,text-to-speech form
+A88-1001.9,Deictic reference 
+A88-1001.10,feedback
+A88-1001.11,discourse
+A88-1001.12,interface
+A88-1003.1,pronominal anaphora resolution module
+A88-1003.2,Lucy 
+A88-1003.3,English understanding system
+A88-1003.4, anaphora resolution 
+A88-1003.5, blackboard-like architecture 
+A88-1003.6,partial theories
+A88-1003.7,antecedents
+C88-1007.1,Unification Categorial Grammar (UCG) 
+C88-1007.2,Isomorphic Grammars
+C88-1007.3, Machine Translation 
+C88-1007.4,Isomorphic Grammars approach to MT
+C88-1007.5,grammars
+C88-1007.6,Source and Target languages 
+C88-1007.7,SL
+C88-1007.8, TL 
+C88-1007.9,translation relation
+C88-1007.10,isomorphic derivations 
+C88-1007.11,semantic questions 
+C88-1007.12,Semantic
+C88-1007.13,translation relation
+C88-1007.14,textual representation
+C88-1007.15,MT system 
+C88-1007.16,monolingual UCG
+C88-1007.17,bi-directional English-Spanish fragment 
+C88-1044.1,demonstrative expressions 
+C88-1044.2,English
+C88-1044.3,discourse processing algorithms 
+C88-1044.4,texts
+C88-1044.5,demonstrative forms and functions 
+C88-1044.6,genre dependent
+C88-1044.7,anaphoric expressions 
+C88-1044.8,natural language generation system 
+C88-1066.1,Category Cooccurrence Restrictions (CCRs) 
+C88-1066.2,parsing algorithms
+C88-1066.3,CCRs 
+C88-1066.4,Boolean conditions
+C88-1066.5,categories 
+C88-1066.6,local trees
+C88-1066.7,statement of generalizations 
+C88-1066.8,syntax formalisms
+C88-1066.9,CCRs
+C88-1066.10,syntactic descriptions
+C88-1066.11,restrictive statements
+C88-1066.12,context free languages
+C88-1066.13,CCR formalism
+C88-1066.14,parser 
+C88-1066.15,logical well-formedness conditions
+C88-1066.16,trees 
+C88-2086.1,theory of natural language presuppositions 
+C88-2086.2,inferential theory for natural language presuppositions 
+C88-2086.3,presuppositional nature 
+C88-2086.4,sentences
+C88-2130.1,computational model
+C88-2130.2,discourse task
+C88-2130.3,model
+C88-2130.4,APT
+C88-2130.5,organizational and discourse strategies
+C88-2130.6,corpus
+C88-2132.1,Chart parsing
+C88-2132.2,directional
+C88-2132.3,chart
+C88-2132.4, islands 
+C88-2132.5,sentence
+C88-2132.6,fragments
+C88-2132.7,fragments
+C88-2132.8,sentence 
+C88-2132.9,islands 
+C88-2132.10,fragments
+C88-2132.11, heuristics 
+C88-2132.12,fragments
+C88-2160.1,Interactive Machine Translation
+C88-2160.2,author 
+C88-2160.3,document
+C88-2160.4,ambiguity
+C88-2160.5,linguistic theory
+C88-2160.6,sentence
+C88-2160.7,translation process
+C88-2160.8,interactive disambiguation scheme
+C88-2160.9,paraphrasing 
+C88-2160.10,parser
+C88-2160.11,paraphrasing 
+C88-2160.12,sentences
+C88-2162.1,modeling language acquisition 
+C88-2162.2,learning methodology
+C88-2162.3,general domains 
+C88-2162.4,linguistic domain
+C88-2162.5,linguistic representation 
+C88-2162.6,language processing systems
+C88-2162.7,learning 
+C88-2162.8,linguistic representation
+C88-2162.9,Dynamic Hierarchical Phrasal Lexicon (DHPL) 
+C88-2162.10,language acquisition
+C88-2162.11,language learning model 
+C88-2162.12,RINA
+C88-2162.13,lexical hierarchy 
+C88-2162.14, linguistic concepts 
+C88-2162.15,training examples
+C88-2162.16,hierarchy 
+C88-2162.17,lexical hierarchy 
+C88-2162.18,linguistic concepts
+C88-2162.19,program 
+C88-2162.20,lexical unknown
+C88-2162.21,hypothesis 
+C88-2162.22,lexical gap
+C88-2166.1,natural language system
+C88-2166.2, computational lexicon 
+C88-2166.3, lexicon 
+C88-2166.4, COMPLEX 
+C88-2166.5,computational lexicon
+C88-2166.6,shared lexical information 
+C88-2166.7,Natural Language Processing (NLP) systems
+C88-2166.8,machine-readable dictionaries (MRD's) 
+C88-2166.9,broad coverage lexicon
+J88-3002.1,intelligent interactive systems
+J88-3002.2,humans 
+J88-3002.3,system users
+J88-3002.4,user modeling
+J88-3002.5,systems 
+J88-3002.6,user model
+J88-3002.7,user model
+J88-3002.8,user
+J88-3002.9,User models 
+J88-3002.10,user model 
+J88-3002.11,user modeling
+J88-3002.12,user modeling component 
+J88-3002.13,interaction requirements 
+J88-3002.14, user modeling 
+J88-3002.15,user modeling systems 
+C90-1013.1,bidirectional grammar generation system
+C90-1013.2,feature structure-directed generation 
+C90-1013.3,dialogue translation system
+C90-1013.4,typed feature structures 
+C90-1013.5,top-down derivation
+C90-1013.6,generation system 
+C90-1013.7,disjunctive feature structures
+C90-1013.8,derivation tree
+C90-1013.9,grammar 
+C90-1013.10,generator
+C90-1013.11,speaker's intention 
+C90-1013.12,telephone dialogue
+C90-2032.1,document oriented preference sets(DoPS)
+C90-2032.2,dependency structure
+C90-2032.3, sentences 
+C90-2032.4,DoPS system
+C90-2032.5,target document 
+C90-2032.6,documents
+C90-2032.7,Sentence ambiguities 
+C90-2032.8,knowledgebases 
+C90-2032.9,Implementation
+C90-2032.10,empirical results 
+C90-2032.11,dependency structures
+C90-2032.12,Japanese patent claim sentences 
+C90-3014.1,Korean phonological knowledge base system 
+C90-3014.2,unification-based grammar formalism
+C90-3014.3,Korean Phonology Structure Grammar (KPSG) 
+C90-3014.4,KPSG
+C90-3014.5,phonological system
+C90-3014.6, speech recognition 
+C90-3014.7,synthesis system
+C90-3014.8,generative phonological approach 
+C90-3045.1,tree-adjoining grammars (TAG)
+C90-3045.2,TAGs
+C90-3045.3,syntax 
+C90-3045.4,semantic interpretation
+C90-3045.5,automatic translation of natural language 
+C90-3045.6,TAGs
+C90-3045.7, synchronous TAGs 
+C90-3045.8,languages
+C90-3045.9,expressions of natural languages
+C90-3045.10,semantics
+C90-3045.11, logical form language 
+C90-3045.12,translates
+C90-3045.13,natural language 
+C90-3045.14,TAGs
+C90-3045.15,syntax proper
+C90-3045.16,synchronous TAGs 
+C90-3046.1,sentence analysis
+C90-3046.2,defeasible reasoning 
+C90-3046.3,Japanese sentence analyses
+C90-3046.4,argumentation system
+C90-3046.5, formalization 
+C90-3046.6,defeasible reasoning
+C90-3046.7, arguments 
+C90-3046.8,defeat rules
+C90-3046.9,defeasibility 
+C90-3072.1,Spelling-checkers
+C90-3072.2,text processing software
+C90-3072.3,dictionaries of word forms 
+C90-3072.4,words
+C90-3072.5,inflection
+C90-3072.6,English
+C90-3072.7,highly inflective languages
+C90-3072.8, Czech 
+C90-3072.9,Russian
+C90-3072.10,Slovak
+C90-3072.11,Slavonic languages 
+C90-3072.12,inflection
+C90-3072.13,spelling-checkers
+C90-3072.14, spelling-checkers 
+C90-3072.15,English
+C90-3072.16,dictionary 
+C90-3072.17,360K floppy
+C90-3072.18,word forms
+C90-3072.19, Czech 
+C90-3072.20,word classification 
+H90-1016.1,integrated Spoken Language System 
+H90-1016.2,N-Best sentence hypotheses 
+H90-1016.3,grammar coverage problems
+H90-1016.4,fully-connected first-order statistical class grammar 
+H90-1016.5,speech-search algorithm
+H90-1016.6,board 
+H90-1016.7,Intel i860 chip
+H90-1016.8,SUN 4
+H90-1016.9,straight C code
+H90-1016.10,board 
+H90-1016.11,VME bus
+H90-1016.12, SUN4 
+H90-1016.13,natural language system
+H90-1016.14,application back end 
+H90-1060.1,large vocabulary continuous speech recognition 
+H90-1060.2,speaker-independent (SI) training 
+H90-1060.3,hidden Markov models (HMM)
+H90-1060.4,speech 
+H90-1060.5,speakers
+H90-1060.6,speech
+H90-1060.7,speakers
+H90-1060.8,training speakers
+H90-1060.9,statistics 
+H90-1060.10,independently trained models
+H90-1060.11,speech data
+H90-1060.12,speakers
+H90-1060.13,training
+H90-1060.14,training speakers 
+H90-1060.15,SI recognition
+H90-1060.16, word error rate 
+H90-1060.17,grammar
+H90-1060.18,test set
+H90-1060.19,DARPA Resource Management corpus
+H90-1060.20, performance 
+H90-1060.21,training speakers 
+H90-1060.22,speaker adaptation (SA) 
+H90-1060.23,SI corpus
+H90-1060.24,speech 
+H90-1060.25,speaker
+H90-1060.26, probabilistic spectral mapping 
+H90-1060.27,training (reference) speaker
+H90-1060.28,target speaker
+H90-1060.29,reference model 
+H90-1060.30,space
+H90-1060.31,target speaker 
+H90-1060.32,averaging
+H90-1060.33, utterances 
+H90-1060.34,target speaker
+H90-1060.35,adaptation 
+H90-1060.36,error rate
+H90-1060.37,SI
+J90-3002.1,editor
+J90-3002.2,dictionary 
+J90-3002.3,editor
+J90-3002.4,lexicologists
+J90-3002.5,dictionary 
+J90-3002.6,linguistic theory
+J90-3002.7,lexicons 
+J90-3002.8,grammars
+J90-3002.9,natural language processing 
+J90-3002.10,linguistic databases 
+J90-3002.11,editor
+J90-3002.12,coherence rules
+J90-3002.13,lexical entries
+J90-3002.14, interface 
+P90-1014.1,free indexation
+P90-1014.2,referential properties of noun phrases
+P90-1014.3,principle-and-parameters language framework 
+P90-1014.4,free indexation
+P90-1014.5,indexings
+P90-1014.6,exponential time 
+P90-1014.7,free indexation algorithm
+A92-1026.1,natural language processing
+A92-1026.2,TACITUS
+A92-1026.3,MUC-3 evaluation 
+A92-1026.4,syntactic and pragmatic analysis 
+A92-1026.5,syntactic analysis 
+A92-1026.6,agenda-based scheduling parser
+A92-1026.7,recovery technique for failed parses 
+A92-1026.8,terminal substring parsing
+A92-1026.9,pragmatics processing 
+A92-1026.10,abductive inference
+A92-1026.11,world knowledge 
+A92-1027.1,chart-based phrase structure parsing
+A92-1027.2,natural language 
+A92-1027.3, unrestricted texts 
+A92-1027.4,words
+A92-1027.5,text 
+A92-1027.6,parser
+A92-1027.7,reduction
+A92-1027.8,search space
+A92-1027.9,edge
+A92-1027.10,chart
+A92-1027.11,edges
+A92-1027.12,edges
+A92-1027.13,spanning edges 
+A92-1027.14,edges 
+A92-1027.15,constituent
+A92-1027.16,span
+A92-1027.17,phrase boundary heuristics 
+A92-1027.18,function words
+A92-1027.19,heuristic rules 
+A92-1027.20,phrases
+A92-1027.21,unknown words
+A92-1027.22,reduction in the search space 
+A92-1027.23,semantic
+A92-1027.24, syntactic categories 
+A92-1027.25,terminal and non-terminal edges
+A92-1027.26,ambiguity
+A92-1027.27,edges 
+A92-1027.28,edges
+A92-1027.29,semantic 
+C92-1052.1,discourse segments
+C92-1052.2,discourse segmentation 
+C92-1052.3,abduction
+C92-1052.4,temporal relations 
+C92-1052.5,segments
+C92-1052.6,computationally feasible 
+C92-1052.7,temporal anaphora resolution 
+C92-1055.1,adaptive learning procedure 
+C92-1055.2,syntactic ambiguity resolution
+C92-1055.3,insufficient training data
+C92-1055.4,approximation error 
+C92-1055.5,language model
+C92-1055.6,statistical approaches 
+C92-1055.7,ambiguities
+C92-1055.8,maximum likelihood method 
+C92-1055.9,performance
+C92-1055.10,accuracy rate 
+C92-1055.11,training corpus 
+C92-1055.12, separation margin 
+C92-1055.13,accuracy rate
+C92-1055.14,syntactic disambiguation 
+C92-2068.1,Graph unification
+C92-2068.2,unification-based grammar parsing
+C92-2068.3,unification algorithms
+C92-2068.4,copying
+C92-2068.5,unmodified subgraphs 
+C92-2068.6, structure-sharing 
+C92-2068.7,log(d) overheads
+C92-2068.8,structure-sharing of graphs 
+C92-2068.9,dependency pointers
+C92-2068.10,redundant copying
+C92-2068.11,quasi-destructive scheme's ability 
+C92-2068.12,over copying
+C92-2068.13,early copying 
+C92-2068.14,cyclic structures
+C92-2115.1,transfer phase
+C92-2115.2,machine translation (MT) systems 
+C92-2115.3,analysis
+C92-2115.4,generation 
+C92-2115.5,lexical rules
+C92-2115.6,case-based reasoning
+C92-2115.7,machine translation 
+C92-2115.8,translation examples
+C92-2115.9,MT
+C92-2115.10,transfer system 
+C92-2115.11,Similarity-driven Transfer System (SimTran)
+C92-2115.12,case-based MT (CBMT)
+C92-3165.1,interactive method for speech understanding
+C92-3165.2,generalized LR parsing
+C92-3165.3,Parsing 
+C92-3165.4, portion 
+C92-3165.5,parser
+C92-3165.6,portion 
+C92-3165.7,non-terminal symbol
+C92-3165.8,portion 
+C92-3165.9,re-utterance
+C92-3165.10, portion 
+C92-3165.11,parse record
+C92-3165.12,utterance
+C92-3165.13,user
+C92-3165.14,sentence
+C92-3165.15,unknown words 
+C92-3165.16,unknown words
+C92-3165.17,dictionary
+C92-3165.18,user
+C92-3165.19,pilot system
+C92-4199.1,Word Identification
+C92-4199.2,Chinese Natural Language Processing 
+C92-4199.3,sublanguage
+C92-4199.4,unknown words
+C92-4199.5,personal names 
+C92-4199.6,Chinese newspapers
+C92-4199.7,title-driven name recognition 
+C92-4199.8,adaptive dynamic word formation
+C92-4199.9, identification of 2-character and 3-character Chinese names without title 
+C92-4199.10,corpora
+C92-4199.11,NTHU's statistic-based system
+C92-4199.12,WI systems
+C92-4199.13,name identification 
+C92-4207.1,spatial descriptions
+C92-4207.2,Japanese 
+C92-4207.3,world
+C92-4207.4,computer program
+C92-4207.5,SPRINT
+C92-4207.6,natural language texts 
+C92-4207.7,model
+C92-4207.8,world 
+C92-4207.9,model
+C92-4207.10,qualitative spatial constraints 
+C92-4207.11,text
+C92-4207.12, numerical constraints 
+C92-4207.13,spatial attributes
+C92-4207.14,entities 
+C92-4207.15,spatial concepts 
+C92-4207.16,temporary belief
+C92-4207.17,world 
+H92-1003.1,spoken language corpus
+H92-1003.2,ATIS (Air Travel Information System) domain 
+H92-1003.3,MADCOW (Multi-site ATIS Data COllection Working group) 
+H92-1003.4,multi-site data collection paradigm 
+H92-1003.5,MADCOW
+H92-1003.6,collection 
+H92-1003.7,utterances
+H92-1003.8, spontaneous speech 
+H92-1003.9,multi-site common evaluation of speech, natural language and spoken language 
+H92-1010.1,LIMSI
+H92-1010.2,speech processing
+H92-1010.3,Human-Machine Communication 
+H92-1010.4,Natural Language Processing
+H92-1010.5,Non Verbal and Multimodal Communication 
+H92-1016.1,MIT ATIS system
+H92-1016.2,SUMMIT recognizer
+H92-1016.3,context-dependent phonetic modelling
+H92-1016.4,bigram language model 
+H92-1016.5,probabilistic LR parser
+H92-1016.6,lexicon
+H92-1016.7, training set 
+H92-1016.8,speech recognition word and sentence error rates 
+H92-1016.9,October '91 test set
+H92-1016.10,spoken language system
+H92-1016.11,test set 
+H92-1016.12,February '92 benchmark evaluation 
+H92-1017.1,domain-independent capabilities
+H92-1017.2,Paramax spoken language understanding system
+H92-1017.3,non-monotonic reasoning 
+H92-1017.4,implicit reference resolution
+H92-1017.5, database query paraphrase 
+H92-1017.6,February 1992 ATIS benchmark tests 
+H92-1017.7,standard evaluation metric
+H92-1017.8,n-best speech/language integration architecture
+H92-1017.9,OCR
+H92-1017.10,accuracy
+H92-1026.1,generative probabilistic model of natural language
+H92-1026.2,HBG
+H92-1026.3, linguistic information 
+H92-1026.4,ambiguity
+H92-1026.5,HBG
+H92-1026.6,lexical, syntactic, semantic, and structural information 
+H92-1026.7,parse tree
+H92-1026.8,disambiguation process 
+H92-1026.9,corpus of bracketed sentences
+H92-1026.10,Treebank 
+H92-1026.11,decision tree building
+H92-1026.12,parse tree
+H92-1026.13,parse 
+H92-1026.14,sentence
+H92-1026.15,grammar
+H92-1026.16, linguistic introspection 
+H92-1026.17,parse
+H92-1026.18,head-to-head tests 
+H92-1026.19,probabilistic parsing models
+H92-1026.20,P-CFG
+H92-1026.21,HBG model
+H92-1026.22,P-CFG
+H92-1026.23,parsing accuracy 
+H92-1036.1,maximum a posteriori estimation
+H92-1036.2, continuous density hidden Markov models (CDHMM) 
+H92-1036.3,MLE reestimation algorithms
+H92-1036.4,forward-backward algorithm 
+H92-1036.5,segmental k-means algorithm
+H92-1036.6,reestimation formulas 
+H92-1036.7,HMM with Gaussian mixture observation densities
+H92-1036.8,Bayesian learning
+H92-1036.9,speech recognition
+H92-1036.10,parameter smoothing 
+H92-1036.11,speaker adaptation
+H92-1036.12,speaker group modeling 
+H92-1036.13,corrective training
+H92-1036.14,MAP estimation approach 
+H92-1045.1,polysemous words
+H92-1045.2,sentence 
+H92-1045.3,meaning
+H92-1045.4,sense
+H92-1045.5,word-sense disambiguation systems 
+H92-1045.6,bilingual material
+H92-1045.7, Canadian Hansards 
+H92-1045.8,monolingual material
+H92-1045.9,Roget's Thesaurus 
+H92-1045.10,Grolier's Encyclopedia
+H92-1045.11,discourse
+H92-1045.12,polysemous word 
+H92-1045.13,sentence
+H92-1045.14,well-written discourse 
+H92-1045.15,sense
+H92-1045.16,sense 
+H92-1045.17,discourse
+H92-1045.18,constraint
+H92-1045.19,word-sense disambiguation algorithm
+H92-1045.20,disambiguation algorithms
+H92-1045.21,discourse constraint
+P06-1112.1,dependency relation paths
+P06-1112.2,answer extraction
+P06-1112.3, correlation measure
+P06-1112.4,dependency relations
+P06-1112.5,question phrases
+P06-1112.6, sentence 
+P06-1112.7,relations
+P06-1112.8,approximate phrase mapping algorithm
+P06-1112.9,mapping score
+P06-1112.10,correlation measure
+P06-1112.11,Maximum Entropy-based ranking model 
+P06-1112.12,path weights
+P06-1112.13,syntactic relation-based methods 
+P06-1112.14,MRR
+C90-3063.1,Manual acquisition
+C90-3063.2,semantic constraints
+C90-3063.3,cooccurrence patterns 
+C90-3063.4,corpus
+C90-3063.5,semantic constraints 
+C90-3063.6,anaphora references
+C90-3063.7,syntactic ambiguities
+C90-3063.8, references 
+C90-3063.9,pronoun "it"
+C90-3063.10,sentences
+C90-3063.11,corpus
+C90-3063.12,cooccurrence statistics
+C90-3063.13,semantic constraints 
+C90-3063.14,disambiguation tool
+C04-1011.1,Kullback-Leibler distance
+C04-1011.2,relative entropy
+C04-1011.3, probabilistic context-free grammar 
+C04-1011.4,probabilistic finite automaton
+C04-1011.5,closed-form (analytical) solution 
+C04-1011.6,Kullback-Leibler distance
+C04-1011.7,cross-entropy
+C04-1011.8,distributional approximation 
+C04-1011.9,probabilistic context-free grammars
+C04-1011.10,probabilistic finite automata
+A94-1037.1,spelling correction
+A94-1037.2, languages 
+A94-1037.3,English
+A94-1037.4,agglutinative languages
+A94-1037.5,spelling correction
+A94-1037.6,agglutinative languages 
+A94-1037.7,two-level morphology
+A94-1037.8, dynamic-programming based search algorithm
+A94-1037.9,spelling correction
+A94-1037.10, Turkish
+H94-1102.1,continuous speech recognition (CSR) techniques 
+H94-1102.2,Spoken Language Systems (SLS)
+H94-1102.3,military and civilian computer-based systems
+H94-1102.4,speech recognition and understanding systems
+H94-1102.5,spoken language technology 
+H94-1102.6,military and civilian systems
+H94-1102.7,CSR
+H94-1102.8,mobile military command and control
+H94-1102.9, acoustic modelling
+H94-1102.10,recognition-time adaptation techniques 
+H94-1102.11,large-vocabulary CSR
+H94-1102.12,ARPA large-vocabulary CSR corpora
+P98-1118.1,Presentor
+P98-1118.2,hypertext presentation generators
+P98-1118.3,Presentor 
+P98-1118.4,declarative languages
+P98-1118.5,Presentor 
+P98-1118.6,object modeling
+P98-1118.7,requirements summarization
+A92-1023.1,speech recognition (SR) 
+A92-1023.2,natural language (NL) interfaces 
+A92-1023.3,speech understanding (SU)
+A92-1023.4,DARPA Spoken Language Systems (SLS) program
+A92-1023.5,SLS systems
+A92-1023.6,SLS systems
+A92-1023.7,NL evaluations
+A92-1023.8,Message Understanding Conferences
+A92-1023.9,"black-box" methodology
+A92-1023.10,question-answering NL systems
+A92-1023.11,speech or text input
+A92-1023.12,DARPA SLS community
+P06-1053.1,psycholinguistic literature
+P06-1053.2,syntactic priming
+P06-1053.3,priming
+P06-1053.4,incremental probabilistic parser
+P06-1053.5,priming 
+P06-1053.6,rules
+P06-1053.7,sentences
+P06-1053.8,sentences
+P06-1053.9,coordinate structures
+P06-1053.10,parallel structures 
+P06-1053.11,human data
+P06-1053.12,parsing accuracy
+P06-1012.1,word
+P06-1012.2,domains 
+P06-1012.3,sense priors
+P06-1012.4,senses 
+P06-1012.5,word
+P06-1012.6,word sense disambiguation (WSD) systems 
+P06-1012.7,domains
+P06-1012.8,sense priors
+P06-1012.9,words 
+P06-1012.10,domain
+P06-1012.11,well calibrated probabilities 
+P06-1012.12,estimations
+P06-1012.13,well calibrated probabilities
+P06-1012.14,sense priors 
+P06-1012.15,WSD accuracy
+C86-1105.1,hierarchical relations
+C86-1105.2, superordinate -hyponym relation
+C86-1105.3,synonym relation
+C86-1105.4,thesaurus construction
+C86-1105.5,relations
+C86-1105.6,Japanese language dictionary 
+C86-1105.7,definition sentences
+C86-1105.8,dictionary
+C86-1105.9,hierarchical relations
+C86-1021.1,interlingual approach to MT
+C86-1021.2,natural language understanding
+C86-1021.3,machine translation
+C86-1021.4,ambiguity
+C86-1021.5, natural language 
+C86-1021.6,Mu-project
+C86-1021.7,transfer approach
+C86-1021.8,MT
+C86-1021.9,transfer phase
+C86-1021.10, Japanese 
+C86-1021.11,English
+C86-1021.12,interlingual approach
+C86-1021.13,transfer phase 
+C86-1021.14,Multiple Layer of Grammars
+C86-1021.15,Multiple Layer Presentation 
+C86-1021.16,Lexicon Driven Processing
+C86-1021.17, Form-Oriented Dictionary Description
+C04-1058.1,classifiers 
+C04-1058.2,maximum entropy classifiers
+C04-1058.3, boosting 
+C04-1058.4,SVMs
+C04-1058.5,language processing tasks
+C04-1058.6,error correction mechanisms 
+C04-1058.7,unseen data
+C04-1058.8,test set
+C04-1058.9,base classifier
+C04-1058.10,N-fold Templated Piped Correction, or NTPC ("nitpick")
+C04-1058.11,error corrector
+C04-1058.12,base models
+C04-1058.13,NTPC
+C04-1058.14,Occam's Razor argument
+N06-1007.1,automatic acquisition
+N06-1007.2,entailment relations 
+N06-1007.3,verbs
+N06-1007.4,paraphrases acquisition 
+N06-1007.5,semantic equivalence
+N06-1007.6,verbs
+N06-1007.7,entailment acquisition 
+N06-1007.8,asymmetric, or directional, relations
+N06-1007.9,local structure
+N06-1007.10,coherent text
+N06-1007.11, verb entailment 
+N06-1007.12,discourse relations
+N06-1007.13,clauses 
+N06-1007.14,parsed corpus
+N06-1007.15,verb entailment types
+N06-1007.16,mapping
+N06-1007.17,verbs
+N06-1007.18,argument structures
+A00-2023.1,statistical sentence generation
+A00-2023.2,phrases
+A00-2023.3,trees
+A00-2023.4,forests
+A00-2023.5,syntactic information
+A00-2023.6,statistical ranking
+A00-2023.7,statistical generation
+A00-2023.8,ranking algorithm 
+A00-2023.9,lattice-based approach
+X98-1022.1,Automatic summarization
+X98-1022.2,information extraction
+X98-1022.3,MUC 
+X98-1022.4,SUMMAC
+X98-1022.5,automatic summarization
+X98-1022.6,sentences
+X98-1022.7, summary generation 
+X98-1022.8,SUMMAC-1
+X98-1022.9, categorization task
+X98-1022.10,positive feature vectors
+X98-1022.11,negative feature vectors 
+X98-1022.12,summaries
+X98-1022.13,text model
+X98-1022.14,nouns 
+X98-1022.15,verbs
+X98-1022.16, discourse segment
+X98-1022.17,sentences
+X98-1022.18,user-directed summaries
+X98-1022.19,NormF 
+X98-1022.20,NormF 
+X98-1022.21,categorization task 
+X98-1022.22, categorization task 
+P98-2213.1,directed graph
+P98-2213.2,word vectors
+P98-2213.3,similarity 
+P98-2213.4,vectors
+P98-2213.5, graph 
+P98-2213.6,similarity matrix
+P98-2213.7,constraints 
+P98-2213.8,threading algorithm 
+P98-2213.9,0(n) time
+P98-2213.10,graph
+P98-2213.11,words 
+P98-2213.12,topics
+P98-2213.13, threads
+P98-2213.14,words
+P98-2213.15, information 
+P98-2213.16,threading technique
+P98-2213.17,threading server
+P98-2213.18,threading information
+P98-2213.19,eXtended Markup Language (XML)
+P98-2213.20,XML-based representation 
+P98-1113.1,Natural Language parsing
+P98-1113.2,example-based approach
+P98-1113.3,representation structure
+P98-1113.4,input sentence
+P98-1113.5,Structured String Tree Correspondence (SSTC) annotation schema 
+P98-1113.6,SSTC
+P98-1113.7,sentence
+P98-1113.8,representation tree
+P98-1113.9,substrings 
+P98-1113.10,sentence
+P98-1113.11,subtrees
+P98-1113.12,representation tree
+P98-1113.13, parsing
+P98-1113.14,subtrees
+P98-1113.15,phrases 
+P98-1113.16,input sentence
+P98-1113.17,example-base 
+P98-1113.18,subtrees
+P98-1113.19,single rooted representation tree
+P98-1113.20,representation structure
+P02-1060.1,Hidden Markov Model (HMM)
+P02-1060.2,HMM-based chunk tagger
+P02-1060.3,named entity (NE) recognition (NER) system 
+P02-1060.4,names
+P02-1060.5, times and numerical quantities
+P02-1060.6,HMM
+P02-1060.7,words
+P02-1060.8,capitalization 
+P02-1060.9,internal semantic feature
+P02-1060.10,internal gazetteer feature
+P02-1060.11, external macro context feature
+P02-1060.12,NER problem
+P02-1060.13,system
+P02-1060.14,MUC-6 and MUC-7 English NE tasks 
+P02-1060.15,F-measures
+P02-1060.16,machine-learning system
+P02-1060.17,performance
+P02-1060.18,handcrafted rules
+C96-2213.1,Natural Language Processing (NLP) system
+C96-2213.2,new domain 
+C96-2213.3,syntactic parsing
+C96-2213.4,lexicon
+C96-2213.5,existing grammar 
+C96-2213.6,new sublanguage
+C96-2213.7,lexicalized grammar
+C96-2213.8, domain 
+C96-2213.9,hybrid system
+C96-2213.10,traditional knowledge-based techniques
+C96-2213.11,corpus-based approach
+C04-1102.1,detection method
+C04-1102.2,transliteration 
+C04-1102.3,corpus
+C04-1102.4, similarities
+C04-1102.5,string similarity
+C04-1102.6,edit distance
+C04-1102.7,contextual similarity 
+C04-1102.8,vector space model
+C04-1102.9,F-measure
+N06-1018.1,natural language applications
+N06-1018.2,temporal expressions 
+N06-1018.3,newswire texts
+N06-1018.4,temporal expressions 
+N06-1018.5,genre
+N06-1018.6,expressions 
+N06-1018.7,constraint-based representation
+N06-1018.8,Time Calculus for Natural Language (TCNL)
+N06-1018.9,Temporal Expression Anchoror (TEA)
+N06-1018.10,baseline
+H89-2066.1,spoken language system
+H89-2066.2,voice input
+H89-2066.3, interactive problem solving
+H89-2066.4,continuous speech
+H89-2066.5,multiple speakers
+H89-2066.6,explicit speaker enrollment
+H89-2066.7,speech recognition 
+H89-2066.8,natural language processing
+H89-2066.9, speech understanding
+H89-2066.10,application domain 
+H89-2066.11,robust and high-performance speech recognition system 
+H89-2066.12,segment-based approach
+H89-2066.13,phonetic recognition
+H89-2066.14,recognition system
+H89-2066.15,natural language processing
+H89-2066.16, spoken language understanding
+J81-1002.1,creating natural language text
+J81-1002.2,processing paradigm
+J81-1002.3, Fragment-and-Compose 
+J81-1002.4,knowledge 
+J81-1002.5,text
+J81-1002.6,propositional units
+J81-1002.7,text
+J81-1002.8,KDS (Knowledge Delivery System)
+J81-1002.9,propositional units
+J81-1002.10, text
+J81-1002.11,excess redundancy
+J81-1002.12, sentences
+J81-1002.13,final text
+J81-1002.14,Fragment-and-Compose paradigm 
+J81-1002.15,computational methods
+J81-1002.16,KDS 
+C90-1002.1,A deterministic parser
+C90-1002.2,traditional deterministic parsers 
+C90-1002.3,symbolic and connectionist components
+C90-1002.4,patterns
+C90-1002.5,rules 
+C90-1002.6,deterministic grammar
+C90-1002.7,hybrid architecture 
+C90-1002.8,parser
+C90-1002.9,known deterministic parser
+C90-1002.10,training techniques 
+C90-1002.11,decision-making
+C90-1002.12,connectionist component 
+C90-1002.13,parsing process
+C90-1002.14,rules
+C90-1002.15, deterministic parsers
+C90-1002.16,rule packets
+C90-1002.17,parsing
+C90-1002.18,connectionist (neural) network 
+C90-1002.19,linguistic rules
+C90-1002.20,expected (grammatical) sentences 
+P02-1059.1,supervised learning 
+P02-1059.2,unsupervised learning
+P02-1059.3,summarization
+P02-1059.4, probabilistic decision tree 
+P02-1059.5,human created summaries
+P02-1059.6,corpus
+P02-1059.7,newspaper corpus
+P02-1059.8,probabilistic decision trees
+P02-1059.9,corpus
+P02-1002.1,conditional maximum entropy models
+P02-1002.2,Generalized Iterative Scaling
+P02-1002.3,maximum entropy problems
+C00-2123.1,statistical machine translation (MT) 
+C00-2123.2,dynamic programming (DP)
+C00-2123.3,word reordering 
+C00-2123.4,source and target language
+C00-2123.5,Verbmobil task 
+C00-2123.6,limited-domain spoken-language task
+C96-1055.1,word-sense ambiguity
+C96-1055.2,machine-readable resources 
+C96-1055.3,large-scale knowledge sources
+C96-1055.4,word-sense distinctions
+C96-1055.5,semantic classification
+C96-1055.6, verbs 
+C96-1055.7,word-sense distinctions
+C96-1055.8,verb semantics
+C96-1055.9,syntactic behavior 
+C96-1055.10,semantic information 
+C96-1055.11,syntactic cues
+C96-1055.12, syntactic cues 
+C96-1055.13,word senses
+C96-1055.14, word senses 
+M91-1029.1,PRC Adaptive Knowledge-based Text Understanding System (PAKTUS)
+M91-1029.2,core English lexicon
+M91-1029.3,grammar
+M91-1029.4, natural language processing (NLP) systems 
+M91-1029.5,text understanding
+M91-1029.6, PAKTUS 
+M91-1029.7,NLP system 
+M91-1029.8,electronic message stream
+M91-1029.9,PAKTUS
+M91-1029.10,JINTACCS messages
+M91-1029.11,RAINFORM messages
+M91-1029.12,news reports
+M91-1029.13,sublanguage and domain-specific grammar
+M91-1029.14,words, conceptual mappings
+M91-1029.15,discourse patterns
+P98-1088.1,linear logic
+P98-1088.2,computational linguistics
+P98-1088.3, "glue language" 
+P98-1088.4,LFG semantics
+P98-1088.5,parsing 
+P98-1088.6,categorial grammars
+P98-1088.7,multiplicative linear logic 
+P98-1088.8,CFG parsing
+E06-1045.1,embodied conversational agent 
+E06-1045.2,dialogue system
+E06-1045.3,corpus of sentences 
+E06-1045.4,target dialogue system
+E06-1045.5,speaker
+E06-1045.6,context
+E06-1045.7,context
+E06-1045.8,cross-validation 
+E06-1045.9,corpus
+E06-1045.10,cross-validation
+E06-1045.11,cross-validation
+P04-1030.1,head-driven statistical parsing model 
+P04-1030.2,simultaneous language model
+P04-1030.3,parser 
+P04-1030.4,large-vocabulary speech recognition
+P04-1030.5,online left to right chart-parser 
+P04-1030.6,word lattices
+P04-1030.7,parser
+P04-1030.8,structural and lexical dependencies 
+P04-1030.9,n-gram models
+P04-1030.10,Wall Street Journal treebank 
+P04-1030.11,word error rates
+P04-1030.12,standard n-gram language model 
+P04-1030.13,structural information
+P04-1030.14,speech understanding
+P02-1023.1,language model (LM) size
+P02-1023.2,LM 
+P02-1023.3,LM pruning
+P02-1023.4, rank
+P02-1023.5,entropy
+P02-1023.6,pruning criteria 
+P02-1023.7,Chinese text input
+P02-1023.8,character error rate (CER)
+P02-1023.9,rank
+P02-1023.10,rank
+P02-1023.11,error rate
+P02-1023.12,model pruning
+P02-1023.13,CER
+C00-1054.1,parsing
+C00-1054.2,utterances 
+C00-1054.3,multimodal integration
+C00-1054.4,unification-based grammar 
+C00-1054.5,multidimensional chart parser
+C00-1054.6,interfaces
+C00-1054.7,multimodal parsing and understanding 
+C00-1054.8,weighted finite-state device
+C00-1054.9,speech and gesture streams 
+C00-1054.10,speech recognition
+C00-1054.11,multimodal ambiguity resolution
+N06-1037.1,convolution kernel
+N06-1037.2,parse trees 
+N06-1037.3,syntactic structure information
+N06-1037.4, relation extraction
+N06-1037.5,syntactic structure features 
+N06-1037.6,parse tree
+N06-1037.7,relation extraction 
+N06-1037.8,convolution tree kernel
+N06-1037.9,ACE 2003 corpus
+N06-1037.10,convolution kernel 
+N06-1037.11,parse trees
+N06-1037.12,ACE relation subtypes
+N06-1037.13,dependency tree kernels 
+N06-1037.14,ACE relation major types
+H90-1011.1,parsing
+H90-1011.2,unification-based parsing
+H90-1011.3, classification-based knowledge representation
+H90-1011.4,unification-based grammatical frameworks 
+H90-1011.5,linguistic information
+H90-1011.6,KL-ONE-like knowledge representation systems
+H90-1011.7,classification-based representation techniques 
+H90-1011.8,unification-based linguistic descriptions
+H90-1011.9,semantic and syntactic information
+H90-1011.10,efficient parsing
+H90-1011.11,KL-ONE style representation
+H90-1011.12,parsing 
+H90-1011.13,semantic interpretation
+H90-1011.14,PSI-KLONE system 
+H90-1011.15,parsing
+H90-1011.16,incremental description refinement
+J97-1004.1,explanation system
+J97-1004.2,domain knowledge
+J97-1004.3,multisentential discourse plans
+J97-1004.4,discourse plans 
+J97-1004.5,explanation
+J97-1004.6,explanation generation 
+J97-1004.7,semantically rich, large-scale knowledge bases
+J97-1004.8,robust explanation system
+J97-1004.9,multisentential and multi-paragraph explanations 
+J97-1004.10,large-scale knowledge base
+P04-2005.1,English topic signatures
+P04-2005.2,concept
+P04-2005.3,word sense
+P04-2005.4,topic signature
+P04-2005.5,words 
+P04-2005.6,Topic signatures
+P04-2005.7,Natural Language Processing (NLP) applications
+P04-2005.8,Word Sense Disambiguation (WSD) 
+P04-2005.9,Text Summarisation
+P04-2005.10,word senses
+P04-2005.11, English 
+P04-2005.12,Chinese
+P04-2005.13,Chinese text 
+P04-2005.14,corpora
+P04-2005.15,topic signatures 
+P04-2005.16,WSD task
+P04-2005.17, second-order vector cooccurrence algorithm 
+P04-2005.18,standard WSD datasets
+P04-2010.1,ensemble learning approach
+P04-2010.2,German pronouns
+P04-2010.3,Boosting
+P04-2010.4,hypotheses
+P04-2010.5,classifiers 
+P04-2010.6,decision-tree classifier
+P04-2010.7, standalone system 
+P04-2010.8,pronouns
+P04-2010.9,unannotated text 
+P04-2010.10,preprocessing modules
+P04-2010.11,manual annotation process
+P04-2010.12,textual domain
+P04-2010.13,open-domain question answering
+P04-2010.14, text summarisation
+C04-1035.1,machine learning approach
+C04-1035.2, bare slice disambiguation 
+C04-1035.3,dialogue
+C04-1035.4,heuristic principles 
+C04-1035.5,corpus-based sample
+C04-1035.6,probabilistic Horn clauses
+C04-1035.7,clauses 
+C04-1035.8,domain independent features
+C04-1035.9,input dataset
+C04-1035.10,machine learning algorithms 
+C04-1035.11,rule-based learning algorithm
+C04-1035.12,memory-based system
+C04-1035.13,success rates 
+C04-1035.14,features
+C04-1035.15,heuristic principles
+C04-1035.16,rules
+C04-1035.17,Horn clauses 
+C04-1035.18,features
+C04-1036.1,evaluation criterion
+C04-1036.2, word similarity measures
+C04-1036.3,meaning-entailing substitutability 
+C04-1036.4,semantic-oriented NLP applications
+C04-1036.5,human agreement
+C04-1036.6,semantic criterion
+C04-1036.7,distributional word feature vectors
+C04-1036.8,word similarity results
+C04-1036.9,feature vector quality
+C04-1036.10,feature weighting and selection function 
+C04-1036.11,feature vectors
+C04-1036.12,word similarity performance
+C04-1068.1,electronic discussions 
+C04-1068.2,help-desk applications
+C04-1068.3,summaries
+C04-1068.4,features
+C04-1068.5, electronic discussions 
+C04-1068.6,clustering process
+C04-1068.7,filtering mechanism 
+C04-1068.8,influences
+C04-1068.9,clustering and filtering processes 
+C04-1068.10,electronic newsgroup discussions
+C04-1068.11,performance 
+C04-1068.12,coarse-level clustering
+C04-1068.13,information retrieval
+C04-1080.1,context
+C04-1080.2,word 
+C04-1080.3,unsupervised and supervised case
+C04-1080.4, unsupervised methods for part-of-speech tagging
+C04-1080.5,corpora
+C04-1080.6,lexicons
+C04-1080.7,quality
+C04-1080.8,lexicon
+C04-1080.9,accuracy
+C04-1080.10, algorithms
+C04-1080.11,HMM training
+C04-1080.12,accuracy 
+C04-1080.13,training
+C04-1080.14,lexical probabilities 
+C04-1080.15,supervised, non-training intensive framework
+C04-1096.1,referring expressions
+C04-1096.2,objects 
+C04-1096.3,binary relations
+C04-1096.4,objects
+C04-1096.5,objects
+C04-1096.6,objects
+C04-1096.7,n-ary relations 
+C04-1096.8,objects
+C04-1096.9,referring expressions 
+C04-1096.10,generation algorithm
+C04-1103.1,Machine transliteration/back-transliteration
+C04-1103.2,multilingual speech and language applications
+C04-1103.3,machine transliteration/backtransliteration 
+C04-1103.4,direct orthographical mapping (DOM)
+C04-1103.5,languages
+C04-1103.6,joint source-channel transliteration model
+C04-1103.7,n-gram transliteration model (n-gram TM)
+C04-1103.8,transliteration process
+C04-1103.9,transliteration/backtransliteration experiments
+C04-1103.10,English/Chinese and English/Japanese language pairs
+C04-1103.11,system development effort 
+C04-1103.12,transliteration accuracy
+C04-1112.1,corpus-based supervised word sense disambiguation (WSD) system 
+C04-1112.2,Dutch
+C04-1112.3,statistical classification 
+C04-1112.4,maximum entropy
+C04-1112.5,linguistic information
+C04-1112.6,classifiers 
+C04-1112.7,ambiguous wordform
+C04-1112.8, lemma-based approach
+C04-1112.9,inflected forms 
+C04-1112.10,ambiguous word
+C04-1112.11, classifier
+C04-1112.12,training material
+C04-1112.13,algorithm
+C04-1112.14,lemma-based model 
+C04-1112.15,Dutch Senseval-2 test data
+C04-1112.16,accuracy
+C04-1112.17,wordform model
+C04-1112.18,WSD system based on lemmas
+C04-1116.1,text mining method
+C04-1116.2, synonymous expressions 
+C04-1116.3,distributional hypothesis
+C04-1116.4,corpora
+C04-1116.5,accuracy 
+C04-1116.6,term aggregation system
+C04-1116.7,text 
+C04-1116.8,corpus
+C04-1116.9,expression
+C04-1116.10, meaning
+C04-1116.11,words
+C04-1116.12,similar context features 
+C04-1116.13,corpus
+C04-1116.14, synonymous expressions
+C04-1116.15,accuracy
+C04-1116.16,term aggregation system
+C04-1128.1,sentence extraction
+C04-1128.2, summarization 
+C04-1128.3,documents
+C04-1128.4,genres
+C04-1128.5,email communication 
+C04-1128.6,utterances
+C04-1128.7,sentence extraction 
+C04-1128.8,segments
+C04-1128.9, dialogue 
+C04-1128.10,summary
+C04-1128.11,question-answer pairs
+C04-1128.12,email conversation 
+C04-1128.13,email summarization
+C04-1128.14,features 
+C04-1128.15,lexical similarity 
+C04-1128.16,discourse segments
+C04-1128.17,question-answer pairing
+C04-1147.1,computation
+C04-1147.2, lexical affinity models
+C04-1147.3,co-occurrence distribution 
+C04-1147.4,terms
+C04-1147.5,independence model
+C04-1147.6,parametric affinity model
+C04-1147.7,models
+C04-1147.8,similarity 
+C04-1147.9,words
+C04-1147.10,lexical affinity 
+C04-1147.11,sequential models
+C04-1147.12,models 
+C04-1147.13,co-occurrence patterns
+C04-1147.14,words 
+C04-1147.15,phrases
+C04-1147.16, corpus
+C04-1147.17,adaptation
+C04-1147.18,applications 
+C04-1147.19,terabyte corpus 
+C04-1147.20,natural language tests
+C04-1192.1,word sense disambiguation
+C04-1192.2,parallel corpora
+C04-1192.3,word alignment 
+C04-1192.4,word clustering
+C04-1192.5,automatic extraction 
+C04-1192.6,translation equivalents
+C04-1192.7,wordnets 
+C04-1192.8,languages
+C04-1192.9,corpus
+C04-1192.10,wordnets 
+C04-1192.11,Princeton Wordnet
+C04-1192.12,EuroWordNet
+C04-1192.13,WSD system
+C04-1192.14, alignment errors 
+C04-1192.15,multilingually aligned wordnets
+C04-1192.16, BalkaNet 
+C04-1192.17,EuroWordNet
+N04-1022.1,Minimum Bayes-Risk (MBR) decoding
+N04-1022.2, statistical machine translation
+N04-1022.3,expected loss 
+N04-1022.4,translation errors
+N04-1022.5,loss functions 
+N04-1022.6,translation performance
+N04-1022.7,loss functions 
+N04-1022.8,linguistic information 
+N04-1022.9,word strings
+N04-1022.10,word-to-word alignments 
+N04-1022.11,MT system
+N04-1022.12,syntactic structure 
+N04-1022.13,parse-trees
+N04-1022.14,source and target language sentences
+N04-1022.15,performance
+N04-1022.16,MBR decoders 
+N04-1022.17,Chinese-to-English translation task
+N04-1022.18,MBR decoding 
+N04-1022.19,statistical MT performance
+N04-1022.20,loss functions
+N04-4028.1,Information extraction techniques
+N04-4028.2,structured databases
+N04-4028.3, unstructured data sources
+N04-4028.4,newswire documents
+N04-4028.5,accuracy
+N04-4028.6,confidence 
+N04-4028.7,extracted field
+N04-4028.8,information extraction system 
+N04-4028.9,linear-chain conditional random field (CRF)
+N04-4028.10,probabilistic model
+N04-4028.11,information extraction tasks 
+N04-4028.12,features
+N04-4028.13,input
+N04-4028.14,Markov model
+N04-4028.15,confidence
+N04-4028.16,extracted fields 
+N04-4028.17,multi-field records
+N04-4028.18,average precision 
+N04-4028.19,fields
+M92-1025.1,GE NLToolset
+M92-1025.2,text interpretation tools 
+M92-1025.3,domains
+M92-1025.4,MUC-4 task
+P05-1028.1,corpus study
+P05-1028.2,information graphic
+P05-1028.3,graphic interpretation system 
+P05-1028.4,communicative signals
+P05-1028.5,shallow processing
+P05-1028.6,sight-impaired users
+P05-1028.7,information graphics
+P05-1057.1,word alignment
+P05-1057.2, log-linear models
+P05-1057.3,knowledge sources
+P05-1057.4,feature functions
+P05-1057.5,source langauge sentence
+P05-1057.6,target language sentence
+P05-1057.7,Log-linear models
+P05-1057.8,statistical alignment models 
+P05-1057.9,syntactic information
+P05-1057.10,IBM Model 3 alignment probabilities
+P05-1057.11,POS correspondence
+P05-1057.12,bilingual dictionary coverage 
+P05-1057.13,features
+P05-1057.14, log-linear models 
+P05-1057.15,IBM translation models
+P05-2013.1,Combinatory Categorial Grammar (CCG) lexicon 
+P05-2013.2,Turkish dependency treebank
+P05-2013.3,Turkish 
+P05-2013.4,agglutinating free word order language
+P05-2013.5,language theories
+P05-2013.6,compact lexicon
+P05-2013.7,CCG principles
+P05-2013.8,treebank
+P05-2013.9,Penn WSJ
+I05-2044.1,Chinese language
+I05-2044.2,verb
+I05-2044.3,dependents
+I05-2044.4,ambiguity resolution 
+I05-2044.5,right-side dependencies
+I05-2044.6, dependency parsing 
+I05-2044.7,sentences
+I05-2044.8,verbs
+I05-2044.9,shift-reduce dependency parsers
+I05-2044.10,connectivity 
+I05-2044.11,dependency tree
+I05-2044.12,right-side dependencies
+I05-2044.13, two-phase shift-reduce dependency parser 
+I05-2044.14,SVM learning
+I05-2044.15,left-side dependents 
+I05-2044.16,right-side nominal dependents
+I05-2044.17,right-side verbal dependents 
+I05-2044.18,shift-reduce dependency parsers 
+I05-2044.19,Chine language
+I05-2044.20,dependency accuracy 
+E99-1038.1,focus
+E99-1038.2,discourse
+E99-1038.3,discourse model
+E99-1038.4,knowledge store 
+E99-1038.5,decomposition
+E99-1038.6, formal representation 
+E99-1038.7,determination process
+E99-1038.8,FDA
+E99-1038.9,focus
+E99-1038.10, FDA 
+E99-1038.11,discourse-level construct
+E99-1038.12,speech synthesis systems
+E99-1038.13,concept-to-speech systems
+E87-1037.1,grammatical formalisms
+E87-1037.2,context-free phrase-structure grammar
+E87-1037.3,LFG
+E87-1037.4,PATR-II
+E87-1037.5,chart-parsing framework
+E87-1037.6,formalisms
+E87-1037.7,optimal control strategy
+E87-1037.8,rule-invocation strategy
+E87-1037.9,processing efficiency
+E87-1037.10,rules
+E87-1037.11,rule-invocation strategies 
+E87-1037.12,context-free chart parsing
+E91-1043.1,model of grammatical processing
+E91-1043.2,uniform processing
+E91-1043.3,knowledge sources
+E91-1043.4,feature
+E91-1043.5,parsing 
+E91-1043.6,generation
+E91-1043.7,parametrized deduction
+E91-1043.8,natural language processing
+E93-1023.1,words
+E93-1023.2,constituent parts
+E93-1023.3,ambiguity
+E93-1023.4,generation 
+E93-1023.5,analyses
+E93-1023.6,input word
+E93-1023.7, ambiguity
+E93-1023.8,MORphological PArser MORPA
+E93-1023.9,probabilistic context-free grammar (PCFG)
+E93-1023.10,"conventional" context-free morphological grammar 
+E93-1023.11,ungrammatical segmentations
+E93-1023.12,probability-based scoring function 
+E93-1023.13,parse
+E93-1023.14,analyses
+E93-1023.15,PCFG
+E93-1023.16,morphological parsing
+E93-1023.17,MORPA
+E93-1023.18,parser
+E93-1023.19,text-to-speech conversion system
+I05-3022.1,word segmentation system
+I05-3022.2,word breaking
+I05-3022.3,OOV identification
+I05-3022.4,output
+I05-3022.5,segmentation standards
+I05-3022.6,system
+I05-3022.7,segmentation bakeoff
+I05-3022.8, PK-open
+I05-3022.9,PK-closed
+I05-3022.10, AS-open
+I05-3022.11,AS-closed
+I05-3022.12, HK-open
+I05-3022.13,HK-closed
+I05-3022.14,MSR-open
+I05-3022.15,MSR- closed 
+I05-3022.16,state-of-the-art performance
+I05-3022.17,MSR-open
+I05-3022.18,MSR-close
+I05-3022.19,PK-open 
+I05-3022.20,scores
+E93-1043.1,morphological component
+E93-1043.2,derived words
+E93-1043.3,two-level morphology
+E93-1043.4,feature-based word grammar
+E93-1043.5,hierarchical lexicon
+E93-1043.6,Polymorphemic stems
+E93-1043.7,lexicon
+E93-1043.8, compositional interpretation
+E93-1043.9,lexicon 
+E93-1043.10,derived words
+E93-1043.11,words formed ad-hoc
+E93-1043.12,German derivation
+E99-1014.1,full parsing
+E99-1014.2,Information Extraction 
+E99-1014.3,texts
+E99-1014.4,rules 
+E99-1014.5,text
+E99-1014.6, unambiguous structures
+E99-1014.7,chunks
+E99-1014.8,argumental relations 
+E99-1014.9,modifier attachment
+E99-1014.10,global parse tree 
+E99-1014.11,languages
+E99-1014.12,domains
+E99-1014.13,IE module 
+E99-1014.14,FACILE, a EU project for multilingual text classification and IE
+H91-1010.1,Lincoln CSR system
+H91-1010.2,semiphone modeling
+H91-1010.3,duration model 
+H91-1010.4,error rate
+H91-1010.5,triphone and semiphone systems
+H91-1010.6,training strategy 
+H91-1010.7,recognizer 
+H91-1010.8,bigram back-off language models
+H91-1010.9,RM task
+H91-1010.10,ATIS CSR task 
+H91-1010.11,RM and ATIS CSR tasks
+A97-1020.1,GLOSSER
+A97-1020.2,language
+A97-1020.3,language pairs
+A97-1020.4,GLOSSER
+A97-1020.5,English-Bulgarian
+A97-1020.6,English-Estonian
+A97-1020.7,English-Hungarian 
+A97-1020.8,French-Dutch
+A97-1020.9, Applied Natural Language Processing 
+A97-1020.10,intelligent computer-assisted morphological analysis (ICALL)
+A97-1020.11,disambiguated morphological analysis 
+A97-1020.12,lemmatized indexing
+A97-1020.13,aligned bilingual corpus 
+A97-1020.14,word examples
+A97-1042.1,topics
+A97-1042.2,texts 
+A97-1042.3,text
+A97-1042.4,training 
+A97-1042.5,Optimal Position Policy
+A97-1042.6,topic-bearing sentences
+A97-1042.7,genre-specific regularities 
+A97-1042.8,discourse structure
+A97-1042.9,information retrieval
+A97-1042.10,routing
+A97-1042.11,text summarization
+H05-1064.1,NLP structures 
+H05-1064.2,reranking approaches
+H05-1064.3,conditional log-linear model
+H05-1064.4,hidden variables 
+H05-1064.5,assignment
+H05-1064.6,lexical items 
+H05-1064.7,word clusters
+H05-1064.8,word senses
+H05-1064.9,assignments
+H05-1064.10,discriminative training criterion
+H05-1064.11,Training
+H05-1064.12,decoding 
+H05-1064.13,hidden-variable assignments
+H05-1064.14,dynamic programming
+H05-1064.15,parse reranking
+H05-1064.16,F-measure improvement 
+H05-1064.17,base parser
+H05-1064.18,Collins (2000) reranker
+H05-1064.19,parsing
+H05-1064.20,NLP structures 
+H05-1064.21,parse trees
+I05-4008.1,Taiwan Child Language Corpus
+I05-4008.2,scripts
+I05-4008.3,recordings 
+I05-4008.4,Southern Min Chinese
+I05-4008.5,corpus
+I05-4008.6,Child Language Data Exchange System (CHILDES)
+I05-4008.7,corpus 
+I05-4008.8,words
+I05-4008.9,data collection
+I05-4008.10,transcription
+I05-4008.11,word segmentation
+I05-4008.12,part-of-speech annotation 
+I05-4008.13,corpus
+I05-4008.14, corpus 
+P81-1032.1,natural language interpretation
+P81-1032.2,semantic domain models
+P81-1032.3,fail-soft recovery heuristics
+P81-1032.4,control structures
+P81-1032.5,single-strategy parsers 
+P81-1032.6,multi-strategy approach
+P81-1032.7,task-specific domain knowledge 
+P81-1032.8,general linguistic knowledge
+P81-1032.9,grammatical and ungrammatical input
+P81-1032.10,parsing algorithm 
+P81-1032.11,parsing strategies
+P81-1032.12,case-frame instantiation
+P81-1032.13,parsing strategies 
+P81-1032.14,types of knowledge
+P81-1032.15,conjunctions
+P81-1032.16,fragmentary input
+P81-1032.17,ungrammatical structures
+P81-1032.18,grammatically correct input
+P81-1032.19,specific heuristics
+P81-1032.20, ungrammatical input 
+P81-1032.21,multi-strategy framework
+P85-1015.1,location of a constituent
+P85-1015.2,discontinuous locations
+P85-1015.3, discontinuous constituents 
+P85-1015.4,non-configurational languages
+P85-1015.5, discontinuous constituents 
+P85-1015.6,definite clause grammars
+P85-1015.7,grammars 
+P85-1015.8,proof procedure
+P85-1015.9,parser for non-configurational languages
+P91-1016.1,context-sensitive, phrase structure grammar 
+P91-1016.2,best-path, bottom-up, deterministic parser
+P91-1016.3,grammar 
+P91-1016.4,English news stories
+P91-1016.5,parsing 
+P91-1016.6,CSG
+P91-1016.7,phrase structure grammar 
+P91-1016.8,news story text
+P95-1027.1,corpus-based study
+P95-1027.2,linguistics literature 
+P95-1027.3,semantically unmarked term
+P95-1027.4,antonymous adjectives
+P95-1027.5,term
+P95-1027.6,automatically collected data
+P95-1027.7,accuracy
+P95-1027.8,statistical analysis
+P95-1027.9,text frequency
+P95-1027.10,generic statistical learning methods 
+P95-1027.11,complex learning method
+P97-1015.1,machine translation systems
+P97-1015.2,language pair
+P97-1015.3,black-box method
+P97-1015.4,lexical coverage
+P97-1015.5,MT systems
+P97-1015.6,words
+P97-1015.7,frequency classes
+P97-1015.8, word lists 
+P97-1015.9,MT systems 
+P97-1015.10,English
+P97-1015.11, German
+P97-1052.1,abstract flat syntactic representations, LFG f-structures
+P97-1052.2,underspecified semantic representations, here Underspecified Discourse Representation Structures (UDRSs)
+P97-1052.3,one-to-one correspondence 
+P97-1052.4,LFG
+P97-1052.5,UDRS
+P97-1052.6,model theoretic interpretation
+P97-1052.7,inferential component 
+P97-1052.8,underspecified representations
+P97-1052.9,f-structures 
+P97-1052.10,translation images
+P97-1052.11, f-structures 
+P97-1052.12,UDRSs
+P99-1025.1,dialog management system 
+P99-1025.2,Construct Algebra
+P99-1025.3,collection of relations and operations 
+P99-1025.4,task representation
+P99-1025.5,relations and operations 
+P99-1025.6,analytical components
+P99-1025.7,dialog motivators
+P99-1025.8,dialog manager
+P99-1025.9,collection of dialog motivators
+P99-1025.10,Construct Algebra
+P99-1068.1,STRAND
+P99-1068.2,language-independent system
+P99-1068.3,automatic discovery of text 
+P99-1068.4,parallel translation
+P99-1068.5,STRAND
+P99-1068.6,automatic language identification
+P99-1068.7,automatically acquired parallel corpus
+P99-1068.8,English-French document pairs
+P99-1068.9,words 
+P99-1068.10,language
+L08-1260.1,lexicon grammar for Polish (SyntLex)
+L08-1260.2,computer-assisted acquisition and morpho-syntactic description of verb-noun collocations 
+L08-1260.3,Polish
+L08-1260.4,dictionary-based acquisition
+L08-1260.5,collocation lexicon
+L08-1260.6,corpus-based lexicon enlargement 
+L08-1260.7,corpus-based lexicon enlargement
+L08-1260.8, collocation description
+L08-1260.9,corpus-based approach
+L08-1260.10,verb-noun collocation dictionary for Polish
+L08-1260.11,SyntLex Dictionary of Collocations 
+L08-1540.1,large Czech MWE database
+L08-1540.2,MWEs
+L08-1540.3,lexical units
+L08-1540.4,encyclopedias 
+L08-1540.5,dictionaries
+L08-1540.6,databases
+L08-1540.7,proper names 
+L08-1540.8,toponyms
+L08-1540.9,collocations
+L08-1540.10,Czech WordNet
+L08-1540.11,botanical and zoological terms 
+L08-1540.12,database
+L08-1540.13,MWEs
+L08-1540.14,MWEs database 
+L08-1540.15,corpus data
+L08-1540.16,Czech National Corpus 
+L08-1540.17,MWEs 
+L08-1540.18,corpus
+L08-1540.19,MWEs
+L08-1540.20,Word Sketch Engine
+L08-1540.21,statistical parameters
+L08-1540.22, MWEs 
+L08-1540.23,salience
+L08-1540.24,MWEs
+L08-1540.25, database 
+L08-1540.26,tagging
+L08-1540.27,lemmatization
+L08-1540.28,MWEs 
+L08-1540.29,corpus text
+L08-1540.30,lexical units
+L08-1540.31,tagging
+L08-1540.32,lemmatization 
+L08-1110.1,statistical techniques
+L08-1110.2,translations
+L08-1110.3, graph 
+L08-1110.4,translation hypotheses
+L08-1110.5,hypotheses graph
+L08-1110.6,shallow mapping 
+L08-1110.7,permutation rules
+L08-1110.8,nodes 
+L08-1110.9,vectors representing morpho-syntactic properties
+L08-1110.10,words 
+L08-1110.11,phrases
+L08-1110.12,statistical feature functions
+L08-1110.13,vector components
+L08-1110.14,feature functions
+L08-1110.15,text
+L08-1110.16,log-linear combination 
+L08-1110.17,translation paths
+L08-1110.18,graph
+L08-1110.19,language modelling toolkits
+L08-1110.20,CMU
+L08-1110.21,SRI toolkit 
+L08-1110.22,word-lemma based feature function models 
+L08-1110.23,token-based models
+L08-1110.24,PoS-tag feature function 
+L08-1110.25,word-lemma model
+L08-1110.26,weights 
+L08-1110.27,lexical translations
+L08-1110.28,training material 
+L08-1110.29,texts
+L08-1154.1,term candidates
+L08-1154.2,internal and contextual information 
+L08-1154.3,domain specific terms
+L08-1154.4,features
+L08-1154.5,terms 
+L08-1154.6,non-terms
+L08-1154.7,features
+L08-1154.8,features
+L08-1154.9,term extraction
+L08-1154.10,delimiters 
+L08-1154.11,term frequency 
+L08-1154.12,hard rules 
+L08-1154.13,terms
+L08-1154.14,domain knowledge
+L08-1154.15, training 
+L08-1154.16,domains
+L08-1154.17,domains
+L08-1154.18,resource-limited domains
+L08-1154.19,domains 
+L08-1154.20,Chinese term extraction
+L08-1154.21,new term extraction 
+L08-1154.22, domain lexicon expansion
+L08-1050.1,language corpus annotation scenario 
+L08-1050.2,discourse relations
+L08-1050.3, Czech
+L08-1050.4,syntactically motivated relations 
+L08-1050.5,discourse
+L08-1050.6,Prague Dependency Treebank 2.0
+L08-1050.7,Penn Discourse Treebank 2
+L08-1050.8, syntactico-semantic (tectogrammatical) annotation 
+L08-1050.9,Prague Dependency Treebank
+L08-1050.10,sentence-boundary-crossing representation 
+L08-1050.11,discourse level
+L08-1050.12,annotation
+L08-1050.13,Praguian dependency-based approach
+L08-1050.14,Penn discourse annotation
+L08-1050.15,discourse connectives
+L08-1097.1,unsupervised automatic acquisition 
+L08-1097.2,Italian and English verb subcategorization frames (SCFs) 
+L08-1097.3,general and domain corpora
+L08-1097.4,syntactically shallow-parsed corpora 
+L08-1097.5,search heuristics
+L08-1097.6,lexico-syntactic knowledge
+L08-1097.7, SCFs
+L08-1097.8, state-of-the-art lexical acquisition systems
+L08-1097.9,verbs 
+L08-1097.10,SCFs distributions
+L08-1097.11,similar semantic properties 
+L08-1097.12,verbs
+L08-1097.13,frames 
+L08-1097.14,distribution
+L08-1097.15, Minimum Description Length Principle (MDL)
+L08-1097.16,Italian verbs 
+N04-2005.1,translation
+N04-2005.2,English text
+N04-2005.3,American Sign Language (ASL) animation 
+N04-2005.4,traditional MT architectural designs
+N04-2005.5,semantic representation 
+N04-2005.6,virtual reality 3D scene modeling software
+N04-2005.7,spatially complex ASL phenomena
+N04-2005.8, classifier predicates
+N04-2005.9,interlingua
+N04-2005.10,multi-pathway MT architecture design
+N04-2005.11,transfer 
+N04-2005.12,direct approaches
+A92-1010.1,cognitively well-motivated interfaces 
+A92-1010.2,display of graphical information
+A92-1010.3,graphical information
+A92-1010.4,information
+A92-1010.5,information 
+A92-1010.6,natural language generation 
+A92-1010.7,interaction
+H94-1064.1,multilingual, speaker-independent, large vocabulary speech dictation
+H94-1064.2,LIMSI recognizer 
+H94-1064.3,ARPA NOV93 CSR test
+H94-1064.4,WSJ and BREF corpora
+H94-1064.5,corpora
+H94-1064.6,word recognition experiments
+H94-1064.7, vocabularies 
+H94-1064.8,words
+H94-1064.9,continuous density HMM 
+H94-1064.10,Gaussian mixture
+H94-1064.11,acoustic modeling 
+H94-1064.12,n-gram statistics
+H94-1064.13, newspaper texts 
+H94-1064.14,language modeling
+H94-1064.15,time-synchronous graph-search strategy 
+H94-1064.16, bigram back-off language models
+H94-1064.17,forward pass
+H94-1064.18,word graph
+H94-1064.19, bigram
+H94-1064.20,trigram language model
+H94-1064.21,Acoustic modeling 
+H94-1064.22,cepstrum-based features
+H94-1064.23, context-dependent phone models (intra and interword)
+H94-1064.24,phone duration models
+H94-1064.25,sex-dependent models
+A00-1024.1,system for categorizing unknown words
+A00-1024.2,system 
+A00-1024.3,multi-component architecture
+A00-1024.4,component 
+A00-1024.5,unknown words
+A00-1024.6,components
+A00-1024.7, names 
+A00-1024.8,spelling errors
+A00-1024.9,component
+A00-1024.10,decision tree architecture
+A00-1024.11,evidence 
+A00-1024.12,unknown word
+A00-1024.13,system
+A00-1024.14,live closed captions
+A00-1024.15,unknown words
+X96-1059.1,Recognition of proper nouns
+X96-1059.2,Japanese text
+X96-1059.3,morphological analysis 
+X96-1059.4,Japanese text processing
+X96-1059.5,Japanese information extraction
+X96-1059.6,Japanese text
+X96-1059.7,morphological analysis problem
+X96-1059.8,Japanese
+X96-1059.9,morphological analyzer
+X96-1059.10,recognition and classification of proper names, numerical and temporal expressions, i.e. Named Entity (NE) items 
+X96-1059.11,Japanese text
+X96-1059.12,analyzer
+X96-1059.13,NE items
+X96-1059.14,dictionary lookup 
+X96-1059.15,rule application
+X96-1059.16,dictionaries 
+X96-1059.17,Japanese character strings
+X96-1059.18,dictionary lookup stage
+X96-1059.19,rules 
+X96-1059.20,segmented strings
+X96-1059.21,NE items
+X96-1059.22,segment
+X96-1059.23,NE item
+X96-1059.24, segment 
+H05-1041.1,practically unsupervised learning method
+H05-1041.2,single-snippet answers 
+H05-1041.3,definition questions
+H05-1041.4,question answering systems 
+H05-1041.5,Web search engines
+H05-1041.6,on-line encyclopedias and dictionaries 
+H05-1041.7,positive and negative definition examples
+H05-1041.8,svm
+H05-1041.9,system
+H05-1041.10,questions 
+H05-1041.11,news articles from trec
+H05-1041.12,search engine 
+H05-1041.13,definition questions
+W02-1403.1,Terminology structuring
+W02-1403.2,terms
+W02-1403.3,corpora
+W02-1403.4,terms
+W02-1403.5,corpus
+W02-1403.6,hierarchical (or other types of) relations 
+W02-1403.7,terms
+W02-1403.8,terminology structuring 
+W02-1403.9,lexical methods
+W02-1403.10,terms 
+W02-1403.11,content words
+W02-1403.12,morphological variants 
+W02-1403.13,terms
+W02-1403.14,hierarchically-structured terminology
+W02-1403.15,US National Library of Medicine MeSH thesaurus
+W02-1403.16,lexically-induced relations
+W02-1403.17,MeSH relations
+W02-1403.18,recall and precision metrics
+W02-1403.19,relations
+W02-1403.20,MeSH
+W02-1403.21,lexical structuring method
+W02-1403.22,naming conventions
+W02-1403.23,MeSH 
+W02-1403.24, automatic structuring
+W02-1404.1,knowledge-independent method
+W02-1404.2,terms 
+W02-1404.3,translations
+W02-1404.4, small, domain-specific corpus 
+W02-1404.5,parallel English and Chinese court judgments
+W02-1404.6,sentence-aligned corpus
+W02-1404.7,translation equivalences 
+W02-1404.8,frequency profiles
+W02-1404.9,parallel concordances
+W02-1404.10,conventional statistical methods 
+W02-1404.11,large corpora
+W02-1404.12,lexical approaches 
+W02-1404.13,bilingual dictionaries
+W02-1404.14,parallel corpus 
+W02-1404.15,Chinese words
+W02-1404.16, English words 
+W02-1404.17,precision
+W02-1404.18, recall
+W02-1404.19,algorithm
+W02-1404.20,translation lexicon
+W02-1404.21,legal terminology 
+W02-1404.22,general terms
+W02-1602.1,Coedition
+W02-1602.2,natural language text
+W02-1602.3,interlingual form 
+W02-1602.4,text revision
+W02-1602.5,languages
+W02-1602.6,UNL graphs
+W02-1602.7,prototype
+W02-1602.8,sharing scenario
+W02-1602.9,text 
+W02-1602.10,language (L0)
+W02-1602.11,graph
+W02-1602.12,graph
+W02-1602.13,UNL-L0 deconverter
+W02-1602.14,graph
+W02-1602.15,deconverter
+W02-1602.16,graph
+W02-1602.17,deconverters 
+W02-1602.18,languages
+W02-1602.19, languages 
+W02-1602.20,tags
+W02-1602.21, attributes 
+W02-1602.22,original multilingual document
+W02-1602.23,document
+W02-1602.24,text
+W02-1602.25,graph 
+W02-1602.26,LO-English or better a L0-UNL dictionary
+W02-1602.27,morphosyntactic parser of L0
+W02-1602.28,canonical graph2tree transformation
+W02-1602.29,UNL-tree+L0
+W02-1602.30,MS-L0 structure
+W02-1602.31,lattice
+W02-1602.32,dictionary 
+W02-1602.33,tree
+W02-1602.34,trajectory 
+W02-1602.35,crossing liaisons
+W02-1602.36,pivot MT
+W02-1602.37, interactive MT
+W02-1602.38,multilingual text authoring
+W03-0406.1,unsupervised learning method
+W03-0406.2,Expectation-Maximization (EM) algorithm 
+W03-0406.3,text classification problems
+W03-0406.4,word sense disambiguation (WSD) problems
+W03-0406.5,EM algorithm
+W03-0406.6,optimum iteration number
+W03-0406.7,noun WSD problems 
+W03-0406.8,Japanese Dictionary Task in SENSEVAL2
+W03-0406.9,verb WSD problems
+W99-0408.1,user knowledge modeling architecture
+W99-0408.2,ICICLE system
+W99-0408.3,language tutoring application 
+W99-0408.4,written English
+W99-0408.5,language proficiency 
+W99-0408.6,writing analysis 
+W99-0408.7,feedback production
+W99-0408.8, model design 
+W99-0408.9,second language and cognitive skill acquisition
+W99-0408.10,design
+W99-0408.11,design 
+W99-0408.12,robust information base
+W99-0408.13,user proficiency
+P98-1083.1,Japanese parsers
+P98-1083.2,decision trees
+P98-1083.3,decision tree 
+P98-1083.4,modification probabilities
+P98-1083.5,phrase 
+P98-1083.6,boosting algorithm
+P98-1083.7,decision trees
+P98-1083.8,probability estimation
+P98-1083.9,parsers 
+P98-1083.10,EDR Japanese annotated corpus
+P98-1083.11,conventional Japanese stochastic methods 
+P98-1083.12,parsing accuracy 
+P98-1083.13,training data
+P98-1083.14,over-fitting to data
+P98-1083.15, iterations
+I08-1027.1,Automatic estimation
+I08-1027.2,word significance
+I08-1027.3,speech-based Information Retrieval (IR) 
+I08-1027.4,significance
+I08-1027.5, words 
+I08-1027.6,IR
+I08-1027.7,automatic speech recognition (ASR) performance 
+I08-1027.8,weighted word error rate (WWER)
+I08-1027.9,weight
+I08-1027.10, IR
+I08-1027.11,word error rate (WER)
+I08-1027.12,words 
+I08-1027.13,decoding strategy
+I08-1027.14,WWER 
+I08-1027.15,Minimum Bayes-Risk framework
+I08-1027.16,ASR
+I08-1027.17,IR
+I08-1027.18,automatic estimation method
+I08-1027.19,word significance (weights) 
+I08-1027.20,IR
+I08-1027.21,weights 
+I08-1027.22,evaluation measures
+I08-1027.23,ASR 
+I08-1027.24,IR
+I08-1027.25,speech-based information retrieval system
+I08-1027.26,IR system
+I08-1043.1,method to automatically acquire paraphrases 
+I08-1043.2,bilingual corpora
+I08-1043.3, bilingual dependency relations 
+I08-1043.4,monolingual dependency parse
+I08-1043.5,statistical alignment techniques
+I08-1043.6,paraphrasing method 
+I08-1043.7,sense
+I08-1043.8,phrase 
+I08-1043.9,bilingual context
+I08-1043.10,dependency relation
+I08-1043.11,paraphrases 
+I08-1043.12,context
+I08-1043.13,generalized translation knowledge
+I08-1043.14,paraphrases
+I08-1043.15, generalized translation knowledge 
+I08-1043.16,Korean-English translation
+I08-1043.17,parallel corpora 
+I08-1043.18,Korean and English language pairs
+I08-1043.19,paraphrasing method 
+I08-1043.20,paraphrases
+I08-1043.21, precision
+I08-1043.22,Korean
+I08-1043.23,English
+I08-1043.24,translation knowledge
+I08-1043.25,bilingual corpora
+I08-1043.26,paraphrases 
+I08-1043.27,compression ratio
+W04-1307.1,computational model
+W04-1307.2,word segmentation 
+W04-1307.3,realistic acquisition
+W04-1307.4,statistical learning mechanisms 
+W04-1307.5,cognitive psychology 
+W04-1307.6,linguistics
+W04-2204.1,transfer dictionary
+W04-2204.2,Dictionary construction
+W04-2204.3,machine translation system
+W04-2204.4,dictionary
+W04-2204.5,linguistic resources
+W04-2204.6,algorithm
+W04-2204.7,language pairs
+W04-2204.8,Korean-to-Japanese dictionary 
+W04-2204.9,English
+W04-2204.10,pivot
+W04-2204.11,automatic construction
+W04-2204.12,directionality
+W04-2204.13,dictionaries
+W04-2204.14,"one-time look up" method
+W04-2204.15,Korean-to-English and a Japanese-to-English dictionary
+W04-2204.16,"overlapping constraint"
+W04-2204.17, Korean-to-English dictionary 
+W04-2204.18,English-to-Japanese dictionary
+W04-2204.19,dictionary
+W04-2204.20,English-to-Korean dictionary 
+W04-2204.21,English-to-Japanese dictionary
+W04-2703.1,large scale discourse-level annotation
+W04-2703.2,Penn Discourse TreeBank (PDTB)
+W04-2703.3,discourse structure
+W04-2703.4,discourse connectives 
+W04-2703.5,arguments
+W04-2703.6,PDTB
+W04-2703.7,Penn TreeBank
+W04-2703.8,Propbank
+W04-2703.9, syntactic and semantic features 
+W04-2703.10, practical algorithms
+W04-2703.11, inter-annotator agreement 
+W04-2703.12,level of agreement
+W04-2703.13,inter-annotator variation
+W05-1308.1,fully automated extraction system
+W05-1308.2,IntEx
+W05-1308.3,gene and protein interactions 
+W05-1308.4,biomedical text
+W05-1308.5,complex sentences 
+W05-1308.6,simple clausal structures
+W05-1308.7, syntactic roles
+W05-1308.8,biological entities
+W05-1308.9,biomedical and linguistic ontologies
+W05-1308.10,complete interactions 
+W05-1308.11,syntactic roles
+W05-1308.12,extraction system
+W05-1308.13,complex sentences 
+W05-1308.14,multiple and nested interactions
+W05-1308.15,sentence
+W05-1308.16,extraction systems 
+W05-1308.17,IntEx system
+W05-1308.18,performance 
+W05-1308.19,pattern engineering requirement
+W06-1605.1,distance
+W06-1605.2,concepts 
+W06-1605.3,distributional measures of word co-occurrences
+W06-1605.4,categories 
+W06-1605.5,thesaurus
+W06-1605.6,coarse-grained concepts
+W06-1605.7,distance values
+W06-1605.8,concept-concept matrix 
+W06-1605.9,concept-distance measures 
+W06-1605.10,traditional distributional word-distance measures
+W06-1605.11,word pairs
+W06-1605.12, semantic distance
+W06-1605.13,real-word spelling errors
+W06-1605.14,WordNet-based measures
+W06-1605.15,distributional concept-distance measures
+W07-0208.1,labeled directed graph
+W07-0208.2,linguistic structures
+W07-0208.3,NLP tasks
+W07-0208.4,graph transformations
+W07-0208.5,transformations
+W07-0208.6,annotated corpus 
+W07-0208.7,identification of non-local depenencies 
+W07-0208.8,Penn Treebank data
+W07-0208.9,semantic role labeling 
+W07-0208.10,Proposition Bank data
+P08-1105.1,Topical blog post retrieval
+P08-1105.2,blog posts
+P08-1105.3,relevance 
+P08-1105.4,topic
+P08-1105.5,topical blog post retrieval 
+P08-1105.6,textual credibility indicators
+P08-1105.7,retrieval process
+P08-1105.8, indicators
+P08-1105.9,blog posts 
+P08-1105.10, blogs
+P08-1105.11,indicators
+P08-1105.12,retrieval approach
+P08-1105.13,language models
+P08-1105.14,TREC Blog track test set 
+P08-1105.15,credibility indicators
+P08-1105.16,retrieval effectiveness
+P08-2034.1,Lyric-based song sentiment classification
+P08-2034.2,sentiment labels
+P08-2034.3,vector space model (VSM)-based text classification approach 
+P08-2034.4,words
+P08-2034.5,song lyrics 
+P08-2034.6,sentiment
+P08-2034.7, Nouns 
+P08-2034.8,verbs
+P08-2034.9,sentiment
+P08-2034.10,Negations
+P08-2034.11,modifiers
+P08-2034.12,sentiment keywords
+P08-2034.13,sentiment
+P08-2034.14,Song lyric
+P08-2034.15,sentiment vector space model (s-VSM)
+P08-2034.16,song lyric document
+P08-2034.17,s-VSM model
+P08-2034.18,VSM model 
+P08-2034.19,lyric-based song sentiment classification task
+C08-1118.1,source language 
+C08-1118.2,EUROPARL corpus
+C08-1118.3,frequency counts 
+C08-1118.4,word n-grams
+C08-1118.5,accuracy 
+C08-1118.6,classification method
+C08-1118.7,positive markers
+C08-1128.1,Words
+C08-1128.2,Chinese text
+C08-1128.3, delimiters
+C08-1128.4,standard machine translation (MT) systems
+C08-1128.5,MT
+C08-1128.6,Chinese word segmenter 
+C08-1128.7,manually annotated data
+C08-1128.8,lexicon
+C08-1128.9,word segmentation
+C08-1128.10,translation
+C08-1128.11,Bayesian semi-supervised Chinese word segmentation model 
+C08-1128.12,monolingual and bilingual information
+C08-1128.13,segmentation 
+C08-1128.14,MT
+C08-1128.15,state-of-the-art MT system 
+C08-1128.16,large data environment
+C08-2010.1,Language resource quality
+C08-2010.2,NLP
+C08-2010.3,NLP
+C08-2010.4,MT 
+C08-2010.5,reference translations
+C08-2010.6,automatic evaluations 
+C08-2010.7,high-quality data
+C08-2010.8,automatic and human translations
+C08-2010.9, different-quality references 
+C08-2010.10,evaluation
+C08-2010.11,automatic metrics 
+C08-2010.12,MT
+C08-3010.1,search tool
+C08-3010.2,ngrams
+C08-3010.3,queries
+C08-3010.4,wildcards
+C08-3010.5,fillers
+C08-3010.6, wildcards
+C08-3010.7, memory 
+C08-3010.8,disk space
+C08-3010.9,linguistic knowledge discovery
+C08-3010.10,NLP tasks
+W03-2907.1,unsupervised learning
+W03-2907.2,parts of speech 
+W03-2907.3,morphological and syntactic information
+W03-2907.4,model 
+W03-2907.5,unsupervised learning 
+W03-2907.6,POS tags in English
+W03-2907.7, syntactic information
+W03-2907.8,languages
+W03-2907.9,morphology
+W03-2907.10,languages
+W03-2907.11,morphology
+W03-2907.12,word order
+W03-2907.13,computational model 
+W03-2907.14,POS learning
+W03-2907.15,Bulgarian
+W03-2907.16,Slavic language
+W03-2907.17,free word order 
+W03-2907.18,rich morphology
+W08-2122.1,CoNLL 2008 shared task
+W08-2122.2,generative history-based latent variable model
+W08-2122.3,derivation
+W08-2122.4,synchronous dependency parser 
+W08-2122.5,syntactic and semantic dependencies
+W08-2122.6,model 
+W08-2122.7,macro-average F1 performance
+W08-2122.8,syntactic dependencies LAS 
+W08-2122.9,semantic dependencies F1
+W08-2122.10,model 
+W08-2122.11,macro-average F1
+W08-2122.12,syntactic dependencies LAS
+W08-2122.13, semantic dependencies F1
+P03-1034.1,Pipelined Natural Language Generation (NLG) systems
+P03-1034.2,architectural modules
+P03-1034.3,language functionalities
+P03-1034.4,referring expressions
+P03-1034.5,lexical choice
+P03-1034.6, revision
+P03-1034.7,modules 
+P03-1034.8,architecture
+P03-1034.9,multi-paragraph text
+P03-1034.10,discourse markers
+P03-1034.11,discourse marker insertion algorithm 
+P03-1034.12,pipelined NLG architecture
+P03-1034.13,revision component
+P03-1034.14,multi-page system
+P06-1088.1,accuracy
+P06-1088.2,newspaper text
+P06-1088.3,part of speech (pos) tagging
+P06-1088.4,parser
+P06-1088.5,pos tag ambiguity 
+P06-1088.6,grammar formalisms
+P06-1088.7,fine-grained grammatical categories
+P06-1088.8,tag 
+P06-1088.9,ccg
+P06-1088.10,tagging accuracy
+P06-1088.11,formalisms
+P06-1088.12, ambiguity resolution 
+P06-1088.13,parsing
+P06-1088.14, multi-tagging approach 
+P06-1088.15,lexical category ambiguity
+P06-1088.16,ccg parsing
+P06-1088.17,multi-tagging approach 
+P06-1088.18,pos level
+P06-1088.19,pos tags
+P06-1088.20,pos tagging accuracy 
+P06-1088.21,pos tag ambiguity
+P06-1088.22,language processing pipeline 
+P06-1088.23,ccg supertagging
+P06-3008.1,rhetorical structure
+P06-3008.2,punctuation
+P06-3008.3,discourse processing
+P06-3008.4, corpus annotation project
+P06-3008.5,discursive usage
+P06-3008.6,Chinese punctuation marks
+P06-3008.7,news commentary texts
+P06-3008.8,Colon
+P06-3008.9,Dash
+P06-3008.10,Ellipsis
+P06-3008.11,Exclamation Mark
+P06-3008.12,Question Mark
+P06-3008.13,Semicolon
+P06-3008.14,rhetorical patterns 
+P06-3008.15,patterns
+P06-3008.16,cue phrases 
+P06-3008.17,Chinese punctuation marks
+P06-3008.18,cue phrases
+P06-3008.19,Chinese texts
+C90-3007.1,feature-based partial descriptions
+C90-3007.2,Halliday's systemic networks
+C90-3007.3,consistency checking
+C90-3007.4,algorithms
+C90-3007.5,intractability
+C94-1091.1,classifier word 
+C94-1091.2,noun
+C94-1091.3,Thai language
+C94-1091.4,classifier
+C94-1091.5,concrete noun
+C94-1091.6,speech community 
+C94-1091.7,individual speakers
+C94-1091.8,classifier selection
+C94-1091.9,rule-based approach 
+C94-1091.10,default rule
+C94-1091.11,classifier 
+C94-1091.12,noun
+C94-1091.13,classifier 
+C94-1091.14,noun
+C94-1091.15,type of unit classifier 
+C94-1091.16,corpus-based method 
+C94-1091.17,Noun Classifier Associations (NCA) 
+C94-1091.18,classifier assignment
+C94-1091.19,semantic construction of noun phrase
+C94-1091.20,NCA 
+C94-1091.21,corpus
+C94-1091.22,concept hierarchy constraints 
+C94-1091.23,frequency of occurrences
+C02-1120.1,unsupervised learning method
+C02-1120.2,associative relationships between verb phrases
+C02-1120.3,Q&amp;A systems
+C02-1120.4,query
+C02-1120.5,Q&amp;A system
+C02-1120.6,text
+C02-1120.7,description
+C02-1120.8,description
+C02-1120.9,query
+C02-1120.10,large-scale database 
+C02-1120.11,associative relationship
+C02-1120.12,unsupervised learning method
+C02-1120.13,associative relationship
+C02-1120.14,scenario consistency
+C02-1120.15,expectation-maximization (EM) based word-clustering algorithm
+C02-1120.16,Japanese verb phrases
+C04-1022.1,Statistical language modeling
+C04-1022.2,morphologically rich languages
+C04-1022.3,factored language models 
+C04-1022.4,models
+C04-1022.5,conditioning variables
+C04-1022.6,preceding words
+C04-1022.7,morphological or syntactic features
+C04-1022.8,model parameters 
+C04-1022.9,large space of models
+C04-1022.10,entirely data-driven model selection procedure
+C04-1022.11,genetic search
+C04-1022.12,knowledge-based and random selection procedures 
+C04-1022.13,language modeling tasks
+C04-1022.14, Arabic 
+C04-1022.15,Turkish
+E85-1004.1,analytical inverses
+E85-1004.2,compositional syntax rules 
+E85-1004.3,Definite Clause Grammar techniques
+E85-1004.4,parser
+E85-1004.5,Montague analysis trees
+E85-1004.6,parser MDCC
+E85-1004.7,augmented Friedman - Warren algorithm 
+E85-1004.8,post referencing
+E85-1004.9,intenslonal logic translator LILT 
+E85-1004.10,derivational history
+E85-1004.11,reduced IL formulae
+E85-1004.12,Montague's PTQ 
+E85-1004.13,basic DCG mechanism
+E89-1040.1,machine translation
+E89-1040.2,formalism
+E89-1040.3,compositionality
+E89-1040.4,translation 
+E89-1040.5,anaphoric component 
+E89-1040.6,Mimo formalism
+E89-1040.7,translation 
+E89-1040.8,anaphoric relations
+E89-1040.9,relations 
+E89-1040.10,strict compositionality
+E89-1040.11,Mimo
+E89-1040.12, translation 
+E89-1040.13,anaphoric relations
+E89-1040.14,anaphoric component 
+E89-1040.15,linguistic phenomena
+E89-1040.16,wh-movement
+E89-1040.17,passive
+E89-1040.18,binding of reflexives and pronouns 
+E89-1040.19,wh-movement
+C96-1062.1,domain independent model
+C96-1062.2, automated interpretation 
+C96-1062.3,nominal compounds
+C96-1062.4,English
+C96-1062.5,model
+C96-1062.6,productive rules of interpretation 
+C96-1062.7,morpho-syntactic and semantic characteristics 
+C96-1062.8,nominal constituents
+C96-1062.9,predicative information
+C96-1062.10,nominals
+C96-1062.11,generalizable semantic principles 
+C96-1062.12,domain-specific semantic information
+C96-1062.13,interpretation 
+C96-1062.14,compounds
+C96-1062.15,real texts
+C96-1062.16,semantic information
+P05-1018.1,local coherence
+P05-1018.2,entity-based representation
+P05-1018.3, discourse 
+P05-1018.4,Centering Theory
+P05-1018.5,raw text
+P05-1018.6,coherence assessment 
+P05-1018.7,ranking learning problem
+P05-1018.8,discourse representation 
+P05-1018.9,ranking function
+P05-1018.10,induced model
+P05-1018.11,accuracy
+P05-1018.12,state-of-the-art coherence model
+P05-1056.1,Sentence boundary detection
+P05-1056.2,speech
+P05-1056.3,speech recognition 
+P05-1056.4,hidden Markov model (HMM) and maximum entropy (Maxent) classifiers 
+P05-1056.5,knowledge sources
+P05-1056.6,sentence boundaries
+P05-1056.7,conditional random field (CRF) 
+P05-1056.8,telephone speech
+P05-1056.9,broadcast news speech
+P05-1056.10,human transcriptions
+P05-1056.11,speech recognition 
+P05-1056.12,CRF
+P05-1056.13,HMM and Max-ent models 
+P05-1056.14,NIST sentence boundary detection task
+P05-1056.15,speech
+P05-1056.16,three-way voting
+P05-1056.17, classifiers
+P05-1056.18,model
+P05-1056.19,knowledge sources
+P05-2008.1,Sentiment Classification
+P05-2008.2,text
+P05-2008.3,subject
+P05-2008.4,machine learning techniques 
+P05-2008.5,training and test data
+P05-2008.6,topic
+P05-2008.7,training data 
+P05-2008.8,emoticons
+P05-2008.9,domain
+P05-2008.10,topic
+I05-2043.2,natural language processing
+I05-2043.3,Japanese natural language processing studies 
+I05-2043.4,Japanese NLP 
+I05-2043.5,NLP
+E99-1034.1,co-occurrence similarities
+E99-1034.2,terms 
+E99-1034.3,query terms
+E99-1034.4,retrieval 
+E99-1034.5,useful terms 
+E99-1034.6,query terms
+E99-1034.7,first-order and second-order co-occurrence 
+E99-1034.8,Term similarities
+E99-1034.9,query terms
+E99-1034.10,weights 
+E99-1034.11,query terms
+E85-1041.1,model
+E85-1041.2,structure of communicative context 
+E85-1041.3,dialogue interaction
+E85-1041.4,dialogue 
+E91-1012.1,LR-parsers
+E91-1012.2,correctness proof
+E91-1012.3,recursive descent parser
+E91-1012.4,non-LR grammars 
+E91-1012.5,parser
+E91-1012.6,parser
+E91-1012.7, memo-functions
+E91-1012.8,Memo-functions 
+E91-1012.9,parse forest
+E91-1012.10,LR(0) grammars
+E91-1012.11,recursive ascent parsers
+E91-1012.12,Extended CF grammars
+E91-1012.13,grammars 
+E91-1012.14,regular expressions
+E91-1012.15,LR-parser
+E91-1012.16,CF grammars
+P05-1010.1,generative probabilistic model
+P05-1010.2,parse trees
+P05-1010.3,PCFG-LA
+P05-1010.4,model 
+P05-1010.5,PCFG
+P05-1010.6,non-terminal symbols 
+P05-1010.7,latent variables
+P05-1010.8,CFG rules 
+P05-1010.9,parsed corpus
+P05-1010.10,training 
+P05-1010.11,PCFG-LA model
+P05-1010.12, EM-algorithm
+P05-1010.13,parsing
+P05-1010.14,PCFG-LA 
+P05-1010.15,NP-hard
+P05-1010.16,approximations
+P05-1010.17,Penn WSJ corpus
+P05-1010.18,model
+P05-1010.19,performance 
+P05-1010.20,sentences
+P05-1010.21, words
+P05-1010.22,unlexicalized PCFG parser 
+P05-1010.23,manual feature selection
+P05-1053.1,Extracting semantic relationships between entities
+P05-1053.2,lexical, syntactic and semantic knowledge 
+P05-1053.3,feature-based relation extraction
+P05-1053.4, SVM
+P05-1053.5,phrase chunking
+P05-1053.6,relation extraction
+P05-1053.7,performance improvement 
+P05-1053.8,syntactic
+P05-1053.9,full parsing 
+P05-1053.10,full parse trees 
+P05-1053.11,relation extraction
+P05-1053.12,chunking
+P05-1053.13,semantic information 
+P05-1053.14,WordNet
+P05-1053.15,Name List
+P05-1053.16,feature-based relation extraction
+P05-1053.17,performance
+P05-1053.18,Evaluation
+P05-1053.19,ACE corpus 
+P05-1053.20,features
+P05-1053.21,system 
+P05-1053.22,systems
+P05-1053.23,24 ACE relation subtypes 
+P05-1053.24,tree kernel-based systems
+P05-1053.25,F-measure
+P05-1053.26,5 ACE relation types
+P05-1076.1,system
+P05-1076.2,acquiring adjectival subcategorization frames 
+P05-1076.3,scfs
+P05-1076.4,English 
+P05-1076.5,corpus data
+P05-1076.6,system
+P05-1076.7,decision-tree classifier 
+P05-1076.8,scf types
+P05-1076.9,grammatical relations 
+P05-1076.10,grs
+P05-1076.11,output
+P05-1076.12,statistical parser
+P05-1076.13, pattern-matching language 
+P05-1076.14,grs
+P05-1076.15,frames
+P05-1076.16,inheritance-based lexica
+P05-1076.17,experiments 
+P05-1076.18,system
+P05-1076.19,scf types 
+P05-1076.20,70% precision
+P05-1076.21,66% recall rate
+P05-1076.22,tool
+P05-1076.23,linguistic annotation 
+P05-1076.24,scfs
+P05-1076.25,corpus data
+P05-1076.26,training and test data 
+P05-1076.27,subcategorization acquisition
+I05-2013.1,tool
+I05-2013.2,ILIMP
+I05-2013.3,raw text
+I05-2013.4,French
+I05-2013.5,text
+I05-2013.6,pronoun il 
+I05-2013.7,[ANA]
+I05-2013.8, anaphoric 
+I05-2013.9,[IMP]
+I05-2013.10,impersonal
+I05-2013.11,expletive
+I05-2013.12,tool
+I05-2013.13,anaphoric occurrences of il
+I05-2013.14,anaphora resolution system 
+I05-2013.15,expletive occurrences
+I05-2013.16,pronoun
+I05-2013.17,precision rate 
+I05-2013.18,ILIMP
+I05-2013.19,errors
+I05-2013.20,tasks
+I05-2013.21, method 
+I05-2013.22,ILIMP
+I05-2013.23,ILIMP 
+I05-2013.24,syntactic analysis system
+E85-1037.1,Systemic grammar
+E85-1037.2,AI text generation
+E85-1037.3,implementations 
+E85-1037.4,text generation 
+E85-1037.5,AI problem solving techniques
+E85-1037.6,systemic grammar
+E85-1037.7,approach 
+E85-1037.8,systemic grammar
+E85-1037.9,problem solving
+E85-1037.10,text generation
+E85-1037.11,linguistic theory
+E89-1016.1,critical discussion
+E89-1016.2,approaches 
+E89-1016.3,evaluation of Natural Language systems
+E89-1016.4,approaches
+E89-1016.5,systems 
+E89-1016.6,task
+E89-1016.7,data retrieval
+E89-1016.8,approaches
+E89-1016.9,laboratory study 
+E89-1016.10,Wizard of Oz technique
+E89-1016.11,NL requirements 
+E89-1016.12,task
+E89-1016.13,task dialogues 
+E89-1016.14,technique
+E89-1016.15,prototype Natural Language system
+E89-1016.16,task
+E89-1016.17,database access
+E89-1016.18,contextual reference 
+E89-1016.19,structure
+E89-1016.20, information source
+E89-1016.21, Natural Language systems
+E93-1013.1,Semantic theories
+E93-1013.2,natural language
+E93-1013.3,meanings
+E93-1013.4,utterances 
+E93-1013.5,meanings
+E93-1013.6,lexical items 
+E93-1013.7,rules
+E93-1013.8,meaning 
+E93-1013.9,units
+E93-1013.10,meanings
+E93-1013.11,meanings
+E93-1013.12,function composition
+E93-1013.13, constituent structure trees 
+E93-1013.14,semantic composition
+E93-1013.15,functional structure 
+E93-1013.16,LFG
+E93-1013.17, syntactic information 
+E93-1013.18,derivations
+E93-1013.19, meaning 
+E93-1013.20,cross-linguistically uniform format
+E93-1013.21,approach
+E93-1013.22,meanings 
+E93-1013.23,function composition
+E93-1013.24,compositional approaches
+E93-1013.25,deductive approach 
+E93-1013.26,meanings
+E93-1013.27,reasoning with constraints
+E93-1013.28, information 
+E93-1013.29,functional structure
+E93-1013.30, linear logic 
+E93-1013.31,meanings
+E93-1013.32,modification
+E93-1013.33,LFG 
+E93-1013.34,completeness
+E93-1013.35, coherence
+E95-1036.1,temporal anaphora
+E95-1036.2,sentences 
+E95-1036.3,quantification over events
+E95-1036.4,Discourse Representation Theory
+E95-1036.5,quantified sentences
+E95-1036.6,temporal connective
+E95-1036.7,truth-conditions
+E95-1036.8,temporal connective 
+E95-1036.9,subordinate clause
+E95-1036.10,problem 
+E95-1036.11, proportion problem 
+E95-1036.12,Generalized Quantifier approach
+E95-1036.13,reference time 
+E95-1036.14, problem
+E95-1036.15,DRT
+E95-1036.16,solution
+E95-1036.17,temporal anaphora phenomena 
+E95-1036.18,quantified sentences
+H89-2019.1,domain-independent means of evaluating Spoken Language Systems (SLS) 
+H89-2019.2,software
+H89-2019.3,Comparator
+H89-2019.4,specifications
+H89-2019.5,answer expressions 
+H89-2019.6,Common Answer Specification
+H89-2019.7, CAS
+H89-2019.8,Comparator
+H89-2019.9,SLS 
+H89-2019.10,canonical answer
+H89-2019.11,Common Answer Specification 
+H89-2019.12,syntax
+H89-2019.13,answer expressions
+H89-2019.14,content
+H89-2019.15,data
+H89-2019.16,test corpora
+H89-2019.17,procedures
+H89-2019.18, Comparator
+H89-2019.19,CAS
+H89-2019.20,domains
+H89-2019.21,Comparator software 
+H89-2019.22,domain-independent
+H89-2019.23,CAS approach
+H93-1076.3,speech and text image processing
+H93-1076.4,Xerox PARC 
+H93-1076.5,recognition technology 
+H93-1076.6,document-oriented applications
+H93-1076.7,text processors
+H93-1076.8,audio and scanned image data
+H93-1076.9,speech and text-image recognition
+H93-1076.10,documents with signal content
+H93-1076.11,PARC
+H93-1076.12,text-image editor
+H93-1076.13,wordspotter
+H93-1076.14,voice editing and indexing
+H93-1076.15,decoding framework 
+H93-1076.16,scanned-document content retrieval
+H93-1076.17,signal-based document processing functionality
+A97-1028.1,statistical profile
+A97-1028.2,Named Entity task
+A97-1028.3,information extraction task 
+A97-1028.4,corpora
+A97-1028.5,languages 
+A97-1028.6,results
+A97-1028.7, statistical analysis
+A97-1028.8,algorithm
+A97-1028.9,lower bound estimation 
+A97-1028.10,Named Entity corpora
+A97-1028.11,cross-lingual comparisons 
+A97-1028.12,analysis
+H05-1115.1,question-focused sentence retrieval
+H05-1115.2,news articles 
+H05-1115.3,multi-event stories published over time
+H05-1115.4,Annotators 
+H05-1115.5,questions
+H05-1115.6,story 
+H05-1115.7,corpus
+H05-1115.8,stories
+H05-1115.9,questions
+H05-1115.10,Judges
+H05-1115.11,sentences 
+H05-1115.12,answer
+H05-1115.13, question
+H05-1115.14,sentence retrieval problem
+H05-1115.15,stochastic, graph-based method 
+H05-1115.16,textual units
+H05-1115.17,generic summarization
+H05-1115.18,method
+H05-1115.19,baseline
+H05-1115.20,similarity 
+H05-1115.21,sentence
+H05-1115.22,question 
+H05-1115.23,IDF-weighted word overlap
+H05-1115.24,method 
+H05-1115.25,TRDR score
+H05-1115.26,baseline
+J89-4003.1,model
+J89-4003.2,class of languages 
+J89-4003.3,reduplication
+J89-4003.4, context-free languages
+J89-4003.5,model
+J89-4003.6, pushdown automaton 
+J89-4003.7,reduplication
+J89-4003.8,stack 
+J89-4003.9,class of languages
+J89-4003.10,context-free languages
+J89-4003.11,indexed languages
+J89-4003.12,model
+J89-4003.13,reduplications
+J89-4003.14,natural languages
+J89-4003.15,constructions 
+J89-4003.16,formal models
+I05-6010.1,quantifying noun groups 
+I05-6010.2,German
+I05-6010.3,corpus-based investigations
+I05-6010.4,grammar sensu stricto 
+I05-6010.5,treebank
+I05-6010.6,annotation
+I05-6010.7,tree-bank
+I05-6010.8,stochastic parsers
+I05-6010.9,tree-bank 
+I05-6010.10,grammars
+I05-6010.11, treebank
+I05-6010.12,treebank
+I05-6010.13,source of data 
+I05-6010.14,theoretical linguistic investigations
+I05-6010.15,corpus research
+I05-6010.16,SILVA
+I05-6010.17,parsing
+I05-6010.18,extraction tool 
+I05-6010.19,German text corpora
+P83-1004.1,Metagrammatical formalisms
+P83-1004.2,context-free phrase structure rules
+P83-1004.3,metarules (MPS grammars) 
+P83-1004.4,syntax 
+P83-1004.5,natural languages
+P83-1004.6,Unconstrained MPS grammars
+P83-1004.7,computational tractability and explanatory adequacy
+P83-1004.8,metagrammatical formalisms
+P87-1022.1,formalization
+P87-1022.2, centering approach 
+P87-1022.3,attentional structure in discourse
+P87-1022.4,algorithm
+P87-1022.5,discourse context 
+P87-1022.6,pronouns
+P87-1022.7,centering attention on entities in the discourse 
+P87-1022.8,intersentential transitional states of continuing, retaining and shifting
+P87-1022.9,states
+P87-1022.10,ambiguous pronouns
+P87-1022.11,algorithm 
+P87-1022.12,HPSG natural language system
+P87-1022.13,database query application
+P95-1013.1,compilation algorithm
+P95-1013.2,HPSG 
+P95-1013.3,lexicalized feature-based TAG
+P95-1013.4,theories
+P95-1013.5,HPSG
+P95-1013.6,principle-based theory
+P95-1013.7, phrase structures
+P95-1013.8,TAG
+P95-1013.9,lexicalized structures 
+P95-1013.10,projection of structures 
+P95-1013.11,lexicon
+P95-1013.12,maximal projections
+P95-1013.13,auxiliary trees
+P95-1013.14,foot nodes
+P97-1002.1,Boolean matrix multiplication (BMM)
+P97-1002.2,CFG parsing
+P97-1002.3,CFG parsers 
+P97-1002.4,time O(|G||w|3-e)
+P97-1002.5,grammar G 
+P97-1002.6,string w
+P97-1002.7,m x m Boolean matrices 
+P97-1002.8,time O(m3-e/3)
+P97-1002.9,formal definition 
+P97-1002.10,parsing
+P97-1002.11,CFG parsing
+P97-1002.12,CFG parser
+P97-1002.13,BMM algorithm
+P97-1040.1,primitive Optimality Theory (OTP)
+P97-1040.2,OT
+P97-1040.3,OTP
+P97-1040.4,class of autosegmental representations
+P97-1040.5, universal generator Gen
+P97-1040.6,permissible constraints
+P97-1040.7,theories
+P97-1040.8,Generalized Alignment
+P97-1040.9,OTP
+P97-1040.10,surface forms 
+P97-1040.11,finite-state methods
+P97-1040.12,methods
+P97-1040.13,time exponential on the size of the grammar
+P97-1040.14,generation problem 
+P97-1040.15,NP-complete
+P97-1040.16,Ellison's approach
+P97-1040.17,grammar 
+P97-1040.18, finite-state notion
+P97-1040.19,factored automata
+P97-1040.20,regular languages 
+P97-1040.21,formal intersections of FSAs
+P97-1072.1,resolving bridging definite descriptions
+P97-1072.2,Wall Street Journal articles 
+P97-1072.3,Penn Treebank Corpus
+P97-1072.4,WordNet 
+P97-1072.5,bridging descriptions
+P97-1072.6,antecedents
+P99-1058.1,hardware designs
+P99-1058.2,model checking
+P99-1058.3,circuit specifications
+P99-1058.4,temporal logic CTL
+P99-1058.5,Automatic conversion of English to CTL 
+P99-1058.6,restricted subset 
+P99-1058.7,English
+P99-1058.8,semantic expressibility 
+P99-1058.9,CTL
+P99-1058.10,subsets
+P99-1058.11,computational semantic analyses
+P99-1058.12, English 
+P99-1058.13,sentences 
+P99-1058.14,subset
+P99-1058.15,CTL translation
+P05-1039.1,unlexicalized parser
+P05-1039.2,German 
+P05-1039.3,smoothing
+P05-1039.4,suffix analysis 
+P05-1039.5,labelled bracket F-score
+P05-1039.6,NEGRA corpus
+P05-1039.7,accuracy 
+P05-1039.8,smoothing
+P05-1039.9, unlexicalized parser 
+P05-1039.10,smoothing
+P05-1039.11,parsing 
+P05-1058.1,alignment adaptation approach
+P05-1058.2,domain-specific (in-domain) word alignment
+P05-1058.3,alignment adaptation 
+P05-1058.4,out-of-domain corpus
+P05-1058.5, in-domain word alignment 
+P05-1058.6,statistical word alignment models 
+P05-1058.7,out-of-domain corpus
+P05-1058.8,in-domain corpus 
+P05-1058.9, domain-specific word alignment
+P05-1058.10,domain-specific word alignment 
+P05-1058.11,precision
+P05-1058.12, recall
+P05-1058.13,relative error rate reduction
+P05-3001.1,dialogue system
+P05-3001.2,modular architecture
+P05-3001.3,understanding
+P05-3001.4, generation
+P05-3001.5,information-state model of reference
+P05-3001.6,semantics
+P05-3001.7,collaborative problem solving
+E83-1021.1,interpretation
+E83-1021.2, conceptual operations 
+E83-1021.3,natural language (NL)
+E83-1021.4,Structured Inheritance Network (SI-Nets) paradigm
+E83-1021.5,functions
+E83-1021.6,formal language
+E83-1021.7, SI-Nets
+E83-1021.8,SI-Nets
+E83-1021.9,conceptual system
+E83-1021.10,NL
+E83-1021.11, KL-ONE 
+E83-1021.12,epistemological level
+E83-1021.13,KL-Conc
+E83-1021.14, conceptual level
+E83-1021.15,SI-Nets
+E87-1043.1,verb forms
+E87-1043.2,information 
+E87-1043.3,event
+E87-1043.4, sentence 
+E87-1043.5,present
+E87-1043.6,past
+E87-1043.7,future 
+E87-1043.8,deictic information
+E87-1043.9, event 
+E87-1043.10,sentence
+E87-1043.11,aspectual information
+E87-1043.12,verb form meanings
+E87-1043.13,habituality
+E87-1043.14, model-theoretic semantics
+E91-1050.1,Unification
+E91-1050.2,relations
+E91-1050.3,representations 
+E91-1050.4,feature structures
+E91-1050.5,declarative formalism
+E91-1050.6,mappings
+E91-1050.7, feature structure 
+E93-1025.1,ellipsis resolution
+E93-1025.2,discourse copying algorithm 
+E93-1025.3,identity-of-relations analyses
+E93-1025.4,full NPs 
+E93-1025.5,referential elements
+E93-1025.6,role linking
+E93-1025.7,predictions
+E93-1025.8,ellipsis
+E93-1025.9,discourse copying phenomena
+E99-1023.1,sentences
+E99-1023.2,chunks of words
+E99-1023.3,parsing
+E99-1023.4,information extraction 
+E99-1023.5,information retrieval
+E99-1023.6,data representation
+E99-1023.7,chunking 
+E99-1023.8,tagging task
+E99-1023.9,data representations
+E99-1023.10,noun phrase chunks
+E99-1023.11,data representation choice 
+E99-1023.12,chunking performance
+E99-1023.13,data representation
+E99-1023.14, memory-based learning chunker 
+E99-1023.15,chunking results
+E99-1023.16,standard data set
+E95-1021.1,part-of-speech tagging
+E95-1021.2,statistical and constraint-based disambiguation
+E95-1021.3, French 
+E95-1021.4,test language
+E95-1021.5,constraint system
+E95-1021.6,statistical model
+E95-1021.7,accuracy 
+E95-1021.8,statistical method
+E95-1021.9,taggers 
+E95-1021.10,English
+E95-1021.11,constraint-based tagger 
+E95-1021.12,rule development
+E99-1015.1,automatic abstracting systems
+E99-1015.2,training resources
+E99-1015.3,annotation scheme
+E99-1015.4,resource
+E99-1015.5,scheme 
+E99-1015.6,rhetorical moves
+E99-1015.7, argumentation
+E99-1015.8,scheme
+H91-1067.1,tagged text corpus
+H91-1067.2,subcategorization frames
+H91-1067.3,verb 
+H91-1067.4,occurrences 
+H91-1067.5,verb
+H91-1067.6,training corpus
+H91-1067.7,False positive rates 
+H91-1067.8,subcategorization frames
+H91-1067.9,subcategorization dictionary 
+H91-1067.10,NLP community
+H91-1067.11, dictionaries 
+H91-1067.12,corpora
+A97-1021.1,repositories
+A97-1021.2,lexical conceptual structure (LCS) representations 
+A97-1021.3,verbs
+A97-1021.4,languages
+A97-1021.5,broad semantic classes 
+A97-1021.6,LCS meaning components
+A97-1021.7,acquisition program - LEXICALL - 
+A97-1021.8,verb classification
+A97-1021.9,thematic grid tagging
+A97-1021.10,LCS representations 
+A97-1021.11,languages
+A97-1021.12, representations 
+A97-1021.13,English, Arabic and Spanish lexicons
+A97-1021.14,verbs
+A97-1021.15,lexicons 
+A97-1021.16,operational foreign language tutoring
+A97-1021.17,machine translation
+A97-1050.1,algorithm for translation lexicon acquisition (SABLE)
+A97-1050.2,corpus
+A97-1050.3,translation lexicons
+A97-1050.4,algorithm
+A97-1050.5,corpus
+A97-1050.6,domain-specific translation lexicons
+J87-1003.1,English
+J87-1003.2,coordinations
+J87-1003.3,strictly syntactic cross-serial agreement
+J87-1003.4,agreement
+J87-1003.5,number
+J87-1003.6,nouns 
+J87-1003.7,reflexive pronouns
+J87-1003.8,grammatical number
+J87-1003.9, English
+J87-1003.10,grammatical gender
+J87-1003.11, languages 
+J87-1003.12,French
+J87-1003.13,Interchange Lemma
+J87-1003.14,English
+J87-1003.15,grammatical sentences 
+J87-1003.16,coordinate phrases
+J87-1003.17,conjuncts
+J87-1003.18,constructions
+J87-1003.19,conjuncts 
+J87-1003.20,scope
+J87-1003.21,arguments 
+I05-5004.1,compositional classes of paraphrases
+I05-5004.2,class-oriented framework
+I05-5004.3, paraphrase examples
+I05-5004.4,sentential paraphrases
+I05-5004.5,paraphrase class
+I05-5004.6, automatic candidate generation 
+I05-5004.7,manual judgement
+I05-5004.8,paraphrase corpus 
+I05-5004.9,cost-efficiency
+I05-5004.10,exhaustiveness
+I05-5004.11,reliability
+P81-1033.1,flexible parser
+P81-1033.2,grammar
+P81-1033.3,parser 
+P81-1033.4,correction 
+P81-1033.5, ambiguity 
+P81-1033.6,parser
+P81-1033.7,Focused interaction
+P81-1033.8,construction-specific approach 
+P81-1033.9,flexible parsing
+P81-1033.10,specialized parsing techniques 
+P81-1033.11,construction
+P81-1033.12,ambiguity representations 
+P81-1033.13,ambiguity
+P81-1033.14,construction 
+P81-1033.15,construction-specific approach
+P81-1033.16,task-specific language development 
+P81-1033.17,language definition
+P81-1033.18,task domain 
+P81-1033.19,uniform grammar formalism
+P81-1033.20,testing
+P81-1033.21,language definition
+P85-1019.1,restricted domain parser
+P85-1019.2,Plume
+P85-1019.3,Plume's approach to parsing 
+P85-1019.4,semantic caseframe instantiation
+P85-1019.5,efficiency
+P85-1019.6,grammatical input
+P85-1019.7,robustness 
+P85-1019.8,ungrammatical input
+P85-1019.9, Plume 
+P85-1019.10,declarative and imperative utterances
+P85-1019.11,passives
+P85-1019.12,relative clauses
+P85-1019.13,interrogatives 
+P85-1019.14,syntactic coverage
+P85-1019.15,Plume
+P85-1019.16,Plume
+P85-1019.17,passives
+P85-1019.18,relative clauses
+P85-1019.19,interrogatives
+P91-1025.1,Languages
+P91-1025.2,concepts
+P91-1025.3,real-world entities 
+P91-1025.4,words
+P91-1025.5,grammatical constructs
+P91-1025.6,translation
+P91-1025.7,meaning
+P91-1025.8,source language text 
+P91-1025.9,target language
+P91-1025.10,translation framework
+P91-1025.11, Situation Theory
+P91-1025.12,information lattice
+P91-1025.13,representation scheme
+P91-1025.14, utterances 
+P91-1025.15,contexts
+P91-1025.16,mismatch resolution scheme 
+P91-1025.17,information flow
+P91-1025.18,translation
+P91-1025.19,English
+P91-1025.20,Japanese
+P95-1034.1,Large-scale natural language generation
+P95-1034.2,knowledge
+P95-1034.3,robust generator
+P95-1034.4,knowledge
+P95-1034.5,incomplete or inaccurate inputs
+P95-1034.6,hybrid generator
+P95-1034.7,symbolic knowledge 
+P95-1034.8,statistical methods
+P95-1034.9,hybrid generation model
+P95-1034.10,generators
+P95-1034.11,portability
+P95-1034.12,knowledge
+P97-1017.1,names
+P97-1017.2,technical terms 
+P97-1017.3,languages
+P97-1017.4,alphabets 
+P97-1017.5,sound inventories
+P97-1017.6,phonetic equivalents
+P97-1017.7,English 
+P97-1017.8,Japanese
+P97-1017.9,Japanese
+P97-1017.10,English
+P97-1017.11,text phrases 
+P97-1017.12,bilingual dictionaries
+P97-1017.13,backwards transliterations
+P97-1017.14,machine
+P97-1017.15,generative model
+P97-1017.16,transliteration process
+P97-1058.1,human language
+P97-1058.2, syntactic analysis 
+P97-1058.3,semantic interpretation
+P97-1058.4, context-free complexity
+P97-1058.5,speech processing 
+P97-1058.6,finite-state models
+P97-1058.7,grammar
+P97-1058.8,finite-state approximation
+P97-1058.9,speech recognition
+P97-1058.10, finite-state approximations 
+P97-1058.11,context-free grammars
+P99-1036.1,statistical model
+P99-1036.2,Japanese unknown words 
+P99-1036.3,length and spelling models
+P99-1036.4,character types 
+P99-1036.5,word
+P99-1036.6,character sets 
+P99-1036.7,character types
+P99-1036.8,Japanese script
+P99-1036.9, ideograms 
+P99-1036.10,Chinese
+P99-1036.11,kanji
+P99-1036.12,phonograms 
+P99-1036.13,English
+P99-1036.14,katakana
+P99-1036.15,word segmentation accuracy 
+P99-1036.16,part of speech tagging accuracy
+P99-1036.17,tagging accuracy
+P99-1036.18,unknown words 
+P99-1080.1,decision-tree approach
+P99-1080.2,probabilities 
+P99-1080.3,words
+P99-1080.4,text
+P99-1080.5,decision-tree language model attempts
+P99-1080.6,nearly optimal questions
+P99-1080.7,The Wall Street Journal
+P99-1080.8,tri-gram model
+E93-1066.1,full scale two-level morphological description 
+E93-1066.2,Turkish word structures
+E93-1066.3,PC-KIMMO environment
+E93-1066.4,root word lexicon
+E93-1066.5,roots words
+E93-1066.6,phonological and morphological rules 
+E93-1066.7,Turkish
+E93-1066.8, agglutinative language 
+E93-1066.9,word structures
+E93-1066.10,productive affixations of derivational and inflectional suffixes 
+E93-1066.11,root words
+E93-1066.12,Turkish
+E93-1066.13,finite-state 
+E93-1066.14,Morphemes
+E93-1066.15,root word 
+E93-1066.16,stem
+E93-1066.17,word
+E93-1066.18,nominal
+E93-1066.19,verbal structure
+E93-1066.20,adverbial constructs
+E93-1066.21,surface realizations 
+E93-1066.22,morphological constructions
+E93-1066.23,phonetic rules
+E93-1066.24,vowel harmony
+X96-1041.1,TIPSTER Architecture
+X96-1041.2,text applications 
+X96-1041.3,common text processing modules
+X96-1041.4,user interfaces 
+X96-1041.5,particular applications
+X96-1041.6,user interface styles or conventions
+X96-1041.7,TIPSTER Architecture specification
+X96-1041.8,Computing Research Laboratory (CRL) 
+X96-1041.9,TIPSTER applications
+X96-1041.10,Graphical User Interface (GUI) functions
+X96-1041.11,GUIs 
+X96-1041.12,CRL's TIPSTER User Interface Toolkit (TUIT)
+X96-1041.13,TUIT 
+X96-1041.14,software library
+X96-1041.15,multilingual TIPSTER user interfaces 
+X96-1041.16,CRL
+X96-1041.17,TUIT 
+X96-1041.18,TIPSTER modules
+X96-1041.19,TUIT
+P02-1008.1,finite-state Optimality Theory
+P02-1008.2,comprehension
+P02-1008.3,Optimality Theory grammars 
+P02-1008.4,finite-state constraints
+P02-1008.5, Comprehension 
+P02-1008.6,OT
+P02-1008.7,production
+P02-1008.8,finite-state methods 
+P02-1008.9, OT
+P02-1008.10,comprehension
+P02-1008.11,variants of OT
+P02-1008.12,grammars
+P02-1008.13,finite-state transducers
+P02-1008.14,compilation
+P02-1008.15,grammar 
+P02-1008.16,regular relations
+P02-1008.17, harmony ordering 
+P02-1008.18,scored candidates
+P98-2176.1,semantic constraints
+P98-2176.2,lexical choice
+P98-2176.3,contextual indicators
+P98-2176.4,indicators
+P98-2176.5,correlations 
+P98-2176.6,choice of a noun phrase description
+P98-2176.7,named entity 
+P98-2176.8,supervised learning
+P98-2176.9,correlation
+P98-2176.10,automatic lexical choice 
+P98-2176.11,descriptions
+P98-2176.12,entities 
+P98-2176.13,text generation
+P98-2176.14,pragmatics
+P98-2176.15, description 
+P98-2176.16,automatically generated text
+P98-2176.17,semantics
+P98-2176.18,description
+P98-2176.19, linguistic structures 
+P98-2176.20,large corpora
+H94-1024.1,evaluations
+H94-1024.2,ARPA HLT Machine Translation (MT) Initiative
+H94-1024.3,1993 MT test runs
+H94-1024.4,subjective judgments 
+H94-1024.5,translation accuracy and quality
+H94-1024.6,judgments 
+H94-1024.7,non-translators
+H94-1024.8,data points 
+H94-1024.9,performance
+H94-1024.10,research MT systems 
+H94-1024.11,production MT systems
+H94-1024.12, performance 
+H94-1024.13,novice translators
+H94-1024.14,evaluation methods 
+H94-1024.15,1993 evaluation
+H94-1024.16,Winter 1994 evaluation
+H94-1024.17,core MT technology 
+H94-1024.18,portability
+H94-1024.19,MT evaluation methodology
+C02-1071.1,deep processing
+C02-1071.2,shallow techniques 
+C02-1071.3,NLP system
+C02-1071.4,linguistic PoS tagger and chunker 
+C02-1071.5,broad coverage unification based grammar of Spanish
+C02-1071.6,efficiency
+C02-1071.7,robustness 
+C02-1071.8,linguistic processing
+C02-1071.9,accuracy 
+C02-1071.10,precision
+C02-1071.11,grammar
+P06-2067.1,statistical parser 
+P06-2067.2,written and spoken language
+P06-2067.3,sub-categorization cues
+P06-2067.4,written and spoken language
+P06-2067.5,Bikel's parser
+P06-2067.6,accuracy 
+P06-2067.7,written language
+P06-2067.8,accuracy 
+P06-2067.9,subcategorization cues
+P06-2067.10, spoken language
+P06-2067.11, extracting subcategorization frames 
+P06-2067.12,written texts
+P06-2067.13,spoken language
+P06-2067.14,punctuation 
+P06-2067.15,parsing
+P06-2067.16,extraction
+P06-2067.17,subcategorization cues
+P06-2067.18, punctuation 
+P06-2067.19,spoken language
+P06-2067.20,subcategorization cues 
+P06-2067.21,spoken language
+P06-2067.22,punctuation 
+P06-2067.23,spoken corpora
+P06-2067.24,parsers
+C94-1088.1,characters-based Chinese collocation system
+C94-1088.2,word-based system
+C94-1088.3,wordbreaks 
+C94-1088.4,Chinese text corpora
+C94-1088.5,character-based collocation system 
+C94-1088.6,pre-processing distortion
+C94-1088.7,sub-lexical information
+C94-1088.8,word-based collocational properties 
+C94-1088.9,automatic segmentation
+C04-1024.1,bit-vector-based CKY-style parser
+C04-1024.2, context-free parsing 
+C04-1024.3,parser
+C04-1024.4, parse forest representation 
+C04-1024.5,analyses for large treebank grammars
+C04-1024.6,input sentences
+C04-1024.7,parser
+C04-1024.8,bit-vector operations 
+C04-1024.9,basic parsing operations
+C04-1024.10,parser 
+N04-1008.1,Question Answering system
+N04-1008.2,FAQ-like questions and answers 
+N04-1008.3,noisy-channel architecture
+N04-1008.4,language model
+N04-1008.5,answers
+N04-1008.6,transformation model
+N04-1008.7,answer/question terms
+N04-1008.8,corpus
+N04-1008.9, question/answer pairs 
+P05-1046.1,information extraction techniques
+P05-1046.2,supervised training data
+P05-1046.3,field structured extraction tasks
+P05-1046.4,prior knowledge 
+P05-1046.5,hidden Markov models (HMMs) 
+P05-1046.6,generative model
+P05-1046.7,field structured text
+P05-1046.8,unsupervised HMM learning
+P05-1046.9,prior knowledge
+P05-1046.10,unsupervised methods
+P05-1046.11,accuracies 
+P05-1046.12,unlabeled examples
+P05-1046.13,supervised methods 
+P05-1046.14,labeled examples
+P05-1046.15, semi-supervised methods 
+P05-1046.16,labeled data
+P05-1073.1,semantic role labeling
+P05-1073.2,independent classifiers
+P05-1073.3,label sequence models
+P05-1073.4,Viterbi decoding
+P05-1073.5,core argument frame 
+P05-1073.6,dependencies
+P05-1073.7,arguments
+P05-1073.8,joint model
+P05-1073.9,argument frames
+P05-1073.10,features
+P05-1073.11,discriminative log-linear models
+P05-1073.12,error reduction
+P05-1073.13, arguments 
+P05-1073.14,core arguments
+P05-1073.15,classifier 
+P05-1073.16,gold-standard parse trees
+P05-1073.17, PropBank
+P05-3030.1,vocabulary learning
+P05-3030.2,texts
+P05-3030.3,target corpus
+P05-3030.4,target vocabulary 
+P05-3030.5,vocabulary
+P05-3030.6,target vocabulary
+P05-3030.7,English Wikipedia
+P05-3030.8, target corpus
+P05-3030.9,target vocabulary 
+E83-1029.1,scenes descriptions in natural language 
+E83-1029.2,syntactic analyzer
+E83-1029.3,Procedural Systemic Grammar
+E83-1029.4,semantic analyzer
+E83-1029.5,Conceptual Dependency Theory
+E83-1029.6, dictionary
+E89-1006.1,French tenses
+E89-1006.2,Discourse Representation Theory 
+E89-1006.3,IMS
+E89-1006.4,theory of tenses
+E89-1006.5,operators
+E89-1006.6,meaning
+E89-1006.7,tenses
+E89-1006.8,tenses
+E89-1006.9, meaning 
+E89-1006.10,text
+E89-1006.11,events 
+E89-1006.12,sentence
+E89-1006.13,event structure 
+E89-1006.14,text
+E89-1006.15,system of relevant times 
+E89-1006.16,text
+E89-1006.17, temporal adverbials 
+E89-1006.18,sentence
+E89-1006.19,reference times
+E89-1006.20,temporal perspective times
+E89-1006.21,speech time
+E89-1006.22,location time
+E89-1006.23,new event 
+E89-1006.24,system of relevant times
+E89-1006.25,system of temporal coordinates 
+E89-1006.26,meaning
+E89-1006.27, tenses 
+E89-1006.28,resolution component
+E89-1006.29,syntactic analysis
+E93-1004.1,modal language LT
+E93-1004.2,constraints 
+E93-1004.3,trees
+E93-1004.4,LT (LF)
+E93-1004.5,constraints
+E93-1004.6,trees decorated with feature structures
+E93-1004.7,languages
+E93-1004.8,grammatical frameworks
+E93-1004.9,GPSG
+E93-1004.10,LT (LF)
+E93-1004.11, modal languages 
+E93-1004.12,constraint formalisms
+E99-1029.1,Tree Adjoining Grammars
+E99-1029.2,extended domain of locality (EDOL)
+E99-1029.3,feature structure unification
+E99-1029.4,parsing
+E99-1029.5,lexicalized grammars of English
+E99-1029.6,LEXSYS
+E99-1029.7, XTAG
+E99-1029.8,grammars
+E99-1029.9,EDOL 
+E95-1033.1,sentence-level and text-level anaphora
+E95-1033.2,dependency-based grammar model
+E95-1033.3,anaphora resolution 
+E95-1033.4,sentence boundaries
+E95-1033.5,GB's binding theory
+E95-1033.6,text-level anaphora 
+E95-1033.7,Grosz-Sidner-style focus model
+H89-1027.1,phonetically-based spoken language understanding system 
+H89-1027.2,SUMMIT
+H89-1027.3,heuristic rules
+H89-1027.4,knowledge engineering
+H89-1027.5,speech knowledge 
+H89-1027.6,features 
+H89-1027.7,decision strategies
+H89-1027.8,speech data
+H91-1077.1,sense resolution
+H91-1077.2,WordNet
+H91-1077.3,lexical database
+H91-1077.4,semantic relations
+H91-1077.5,synonymy
+H91-1077.6,antonymy
+H91-1077.7,hyponymy
+H91-1077.8, meronymy
+H91-1077.9,causal and troponymic entailment
+H91-1077.10,labeled pointers 
+H91-1077.11,word senses
+H91-1077.12,WordNet
+H91-1077.13,semantically related words
+H91-1077.14,sense resolution
+H91-1077.15,text processing
+H91-1077.16,word
+H91-1077.17,senses 
+H91-1077.18,words 
+H91-1077.19,meaning
+H91-1077.20,alternative senses 
+H91-1077.21,polysemous word
+H91-1077.22,strings 
+H91-1077.23,words
+H91-1077.24,context 
+H91-1077.25,polysemous word
+H91-1077.26,textual corpus 
+H91-1077.27,derived strings
+H91-1077.28,sense 
+H91-1077.29,derived string
+H91-1077.30,corpus
+H91-1077.31,context 
+H91-1077.32,polysemous word
+H91-1077.33,corpus
+H91-1077.34,words
+H91-1077.35,context
+H91-1077.36,WordNet
+H91-1077.37,semantic distance
+H91-1077.38,words 
+H91-1077.39,alternative senses
+H91-1077.40,polysemous word
+H91-1077.41,sense
+H91-1077.42,meaning 
+H91-1077.43,words
+H91-1077.44, context 
+H91-1077.45,information retrieval
+H91-1077.46,mechanical translation
+H91-1077.47,intelligent tutoring systems
+A97-1027.1,morphological component
+A97-1027.2,NLP-system for Dutch (Dutch Medical Language Processor - DMLP)
+A97-1027.3,language independent modules 
+A97-1027.4,LSP-MLP system (Linguistic String Project - Medical Language Processor) 
+A97-1027.5,language independent developments 
+A97-1027.6,idiosyncrasies
+A97-1027.7,Dutch
+A97-1027.8,patient discharge summary (PDS) 
+A97-1027.9,HyperText Mark-Up Language (HTML) technology
+A97-1052.1, subcategorization dictionary 
+A97-1052.2,textual corpora
+A97-1052.3,dictionary entry 
+A97-1052.4,relative frequency of occurrence
+A97-1052.5,subcategorization classes
+A97-1052.6,English
+A97-1052.7,verbs
+A97-1052.8,multiple complementation patterns
+A97-1052.9,accuracy 
+A97-1052.10,subcategorization classes
+A97-1052.11,subcategorization dictionary 
+A97-1052.12,accuracy
+A97-1052.13,parser 
+J87-3001.1,dictionary word sense definitions
+J87-3001.2,phrasal patterns
+J87-3001.3,definitions
+J87-3001.4,Longman Dictionary of Contemporary English
+J87-3001.5,dictionary
+J87-3001.6, restricted vocabulary 
+J87-3001.7,word sense definitions
+J87-3001.8,classification
+J87-3001.9,word senses 
+J87-3001.10,senses
+J87-3001.11,words
+J87-3001.12,restricted vocabulary
+J87-3001.13,phrasal analysis rules
+J87-3001.14,patterns
+J87-3001.15,patterns 
+J87-3001.16,definitions 
+J87-3001.17,analysis mechanism
+J87-3001.18,robustness problems 
+J87-3001.19,natural language processing systems
+J87-3001.20,lexicon
+J87-3001.21,knowledge 
+J87-3001.22,phrasal constructions
+I05-5009.1,evaluation method
+I05-5009.2,latent variable model 
+I05-5009.3,paraphrases
+I05-5009.4,contexts
+I05-5009.5,context
+I05-5009.6,sentence
+I05-5009.7,latent variable
+I05-5009.8,model 
+I05-5009.9,topic
+I05-5009.10,likelihood
+I05-5009.11,variable
+I05-5009.12,paraphrase 
+I05-5009.13,sentences
+I05-5009.14,context
+I05-5009.15,accuracy
+I05-5009.16,models
+I05-5009.17,accuracy 
+I05-5009.18,method
+I05-5009.19, topic information
+P83-1003.1,GPSG grammatical formalism
+P83-1003.2,non-terminals 
+P83-1003.3,category labels
+P83-1003.4,schematic variables 
+P83-1003.5,grammar 
+P83-1003.6,crossed serial dependencies
+P83-1003.7,Dutch subordinate clauses
+P83-1003.8,constructions 
+P83-1003.9,conjunction
+P83-1003.10,parsing method
+P83-1003.11,GPSG
