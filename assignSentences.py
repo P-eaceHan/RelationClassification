@@ -17,6 +17,7 @@ from stanfordcorenlp import StanfordCoreNLP
 from pycorenlp import StanfordCoreNLP as scnlp
 from shortestDependencyPath import sdp
 
+
 # This is a class to store text id, title, and original abstract for each document
 class Text:
     def __init__(self, text_id, text_title, text_abstract, text_entities):
@@ -110,7 +111,7 @@ for text in root.findall('text'):
     abstractString = ' '.join(re.split('  +', abstractString))
     # [x.strip() for x in abstractString]
     # print("Original abstract: \n\t", abstractString)
-    abstractString, entities = replaceEntities.replace_ent(abstractString)
+    abstractString, entities = replaceEntities.encode(abstractString)
     t = Text(textId, title, abstractString, entities)
     texts[textId] = t
     # sents = split_sents(nlp, abstractString)
@@ -159,7 +160,7 @@ nlp.close()
 
 # nlp = scnlp('http://localhost:{0}'.format(9000))
 outfile = path + '/1.1.features.txt'
-# entfile = path + '/1.1.text_ents.csv'
+entfile = path + '/1.1.text_ents.csv'
 o = open(outfile, 'w')
 # p = open(entfile, 'w')
 print("Generating dependencies...")
@@ -169,6 +170,7 @@ for pair in rels:
     # print(pair.sentence.index(pair.ent2))
     print(pair.sentence)
     pair.dep_parse = sdp(pair)
+    pair.dep_parse = replaceEntities.decode(pair.dep_parse, texts[pair.text_id].entities)
     print(pair.dep_parse)
     o.write(pair.dep_parse)
     o.write(' ' + pair.relation)

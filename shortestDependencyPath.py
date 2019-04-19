@@ -1,17 +1,21 @@
-# from assignSentences import Pair
-import re
 import networkx as nx
 from pycorenlp import StanfordCoreNLP
 from pprint import pprint
 
 
 # nlp = StanfordCoreNLP(r'/home/peace/CoreNLP/stanford-corenlp-full-2018-10-05/')
-
-
 nlp = StanfordCoreNLP('http://localhost:{0}'.format(9000))
+
 
 def get_stanford_annotations(text, port=9000,
                              annotators='tokenize,ssplit,pos,lemma,depparse,parse'):
+    """
+    get the appropriate stanfordCoreNLP annotations for this text
+    :param text: The text to annotate
+    :param port: The port at which StanfordCoreNLP is active (be sure to run from terminal)
+    :param annotators: list of annotations to include
+    :return: the annotations for the text
+    """
     output = nlp.annotate(text, properties={
         "timeout": "100000",
         'annotators': annotators,
@@ -75,8 +79,27 @@ def sdp(pair):
     return ' '.join(outString)
 
 
+class Pair:
+    def __init__(self, ent1, ent2, relation, rev=False):
+        self.ent1 = ent1
+        self.ent2 = ent2
+        self.relation = relation
+        self.rev = rev
+        assert ent1.split('.')[0] == ent2.split('.')[0]
+        self.text_id = ent1.split('.')[0]
+        self.sentence = ''
+        self.dep_parse = ''
+
+    def __str__(self):
+        return "Pair: " \
+               "relation: {}; " \
+               "{}, {}, REVERSE={}".format(self.relation,
+                                           self.ent1,
+                                           self.ent2,
+                                           self.rev)
+
+
 def main():
-    '''
     ent1 = 'H01-1001.5'
     ent2 = 'H01-1001.7'
     rel = 'USAGE'
@@ -84,8 +107,7 @@ def main():
     myPair = Pair(ent1, ent2, rel, rev)
     myPair.sentence = ['Traditional', 'H01-1001.5', 'use', 'a', 'H01-1001.6', 'of', 'H01-1001.7', 'as', 'the', 'H01-1001.8', 'but', 'H01-1001.9', 'may', 'offer', 'additional', 'H01-1001.10', 'such', 'as', 'the', 'time', 'and', 'place', 'of', 'the', 'rejoinder', 'and', 'the', 'attendance', '.']
     myPair.dep_parse = [('ROOT', 0, 3), ('amod', 2, 1), ('nsubj', 3, 2), ('det', 5, 4), ('dobj', 3, 5), ('case', 7, 6), ('nmod', 5, 7), ('case', 10, 8), ('det', 10, 9), ('nmod', 3, 10), ('cc', 10, 11), ('conj', 10, 12), ('aux', 14, 13), ('dep', 3, 14), ('amod', 16, 15), ('dobj', 14, 16), ('case', 20, 17), ('mwe', 17, 18), ('det', 20, 19), ('nmod', 16, 20), ('cc', 20, 21), ('conj', 20, 22), ('case', 25, 23), ('det', 25, 24), ('nmod', 20, 25), ('cc', 20, 26), ('det', 28, 27), ('conj', 20, 28), ('punct', 3, 29)]
-    '''
-    # print(sdp(myPair))
+    print(sdp(myPair))
 # print(myPair.dep_parse.pop())
 
 
