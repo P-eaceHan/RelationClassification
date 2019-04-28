@@ -1,35 +1,38 @@
 """
 This is a script to assign one sentence for each pair of entity
-in an abstract
+in an abstract and extract feature vectors for each pair
 feature vector:
 [
 shortest dependency path - raw
   shortest dependency path - POS
-  distance to main verb/root
+  distance to main verb/root?
 ]
 
 @author Peace Han
 """
+import pprint
+import time
+import numpy as np
+
 import regex as re
 import xml.etree.ElementTree as ET
 import replaceEntities
-from stanfordcorenlp import StanfordCoreNLP
-from pycorenlp import StanfordCoreNLP as scnlp
-from shortestDependencyPath import sdp
+from shortestDependencyPath import sdp, get_stanford_annotations
 
 
-# This is a class to store text id, title, and original abstract for each document
 class Text:
-    def __init__(self, text_id, text_title, text_abstract, text_entities):
+    """
+    Class to store information for each document
+    id: the text ID for this <text>
+    abstract: original abstract text (cleaned using replaceEntities.encode())
+    sents: list of sentences (tokenized), split using StanfordCoreNLP's ssplit
+    entities: a dictionary of entityID, entityText (obtained using replaceEntities.encode())
+    """
+    def __init__(self, text_id, text_abstract, text_entities):
         self.id = text_id
-        self.title = text_title
         self.abstract = text_abstract
-        self.sents = split_sents(nlp, text_abstract)
         self.entities = text_entities
-        # print("Created Text object {}: {}".format(self.id, self.title))
-        # print("\t" + self.abstract)
-        # print(self.sents)
-        # print(self.entities)
+        self.annotations = get_stanford_annotations(text_abstract)
 
     def __str__(self):
         return "Text {}: {}\n\t{}\n\thas {} sentences and {} entities".format(self.id,
@@ -40,15 +43,27 @@ class Text:
 
 
 class Pair:
+    """
+    Class to store the pairs of entities to classify
+    ent1, ent2: The entities related in this Pair
+    relation: The relation between ent1 and ent2
+    rev: Flag, if this relation is REVERSE
+    text_id: the Text that this Pair comes from
+    sentence: the sentence assigned to this Pair
+    dep_text: the shortest dependency path for this pair, raw text
+    dep_pos: the shortest dependency path for this pair, POS tags
+    """
     def __init__(self, ent1, ent2, relation, rev=False):
         self.ent1 = ent1
         self.ent2 = ent2
         self.relation = relation
         self.rev = rev
-        assert ent1.split('.')[0] == ent2.split('.')[0]
+        assert ent1.split('.')[0] == ent2.split('.')[0]  # entities should occur in the same Text
         self.text_id = ent1.split('.')[0]
+        # these are assigned later
         self.sentence = ''
-        self.dep_parse = ''
+        self.dep_text = ''
+        self.dep_pos = ''
 
     def __str__(self):
         return "Pair: " \
@@ -59,129 +74,135 @@ class Pair:
                                            self.rev)
 
 
-def split_sents(nlp, abstract_string):
-    # this function takes an nlp object and a full abstract string
-    # return: list of sentences
-    # sentences are lists of tokens
-    sents_list = []  # final list to return
-    properties = {'annotators': 'ssplit', 'outputFormat': 'xml'}
-    # this actually does the splitting, returns a string in xml format
-    ann = nlp.annotate(abstract_string, properties=properties)
-    # from the xml string, reconstruct each sentence
-    root = ET.fromstring(ann)
-    sents_tree = root[0][0]
-    for sent in sents_tree:
-        out_sent = []
-        for tok in sent[0]:
-            out_sent.append(tok[0].text)
-        sents_list.append(out_sent)
-        # sent = ' '.join(out_sent)
-        # print(nlp.dependency_parse(sent))
-    return sents_list
+def get_texts(filename):
+    """
+    Takes text.xml data and converts to list of Text objects
+    :param filename: XML file containing raw shared task data
+    :param annotator: the nlp annotation object to annotate texts
+    :return: dictionary of textID, Text object extracted from file
+    """
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    textCount = 0
+    entCount = 0
+    texts = {}  # dictionary of textID, Text to return
+    for text in root.findall('text'):
+        textCount += 1
+        textID = text.attrib.get('id')
+        # print(textID)
+        abstract = text.find('abstract')
+        abstract_string = ET.tostring(abstract)  # this includes the <abstract> tags
+        abstract_string = abstract_string.decode('UTF-8').strip()
+        abstract_string = ' '.join(abstract_string.split('\n'))
+        abstract_string = ' '.join(re.split('  +', abstract_string))
+        abstract_string, entities = replaceEntities.encode(abstract_string)
+        t = Text(textID, abstract_string, entities)
+        texts[textID] = t
+    return texts
 
 
-nlp = StanfordCoreNLP(r'/home/peace/CoreNLP/stanford-corenlp-full-2018-10-05/')
-
-# test = 'This paper shows how J87-3001.1 can be analysed by applying a hierarchy of J87-3001.2 . An experimental system embodying this mechanism has been implemented for processing J87-3001.3 from the J87-3001.4 . A property of this J87-3001.5 , exploited by the system, is that it uses a J87-3001.6 in its J87-3001.7 . The structures generated by the experimental system are intended to be used for the J87-3001.8 of new J87-3001.9 in terms of the J87-3001.10 of J87-3001.11 in the J87-3001.12 . Examples illustrating the output generated are presented, and some qualitative performance results and problems that were encountered are discussed. The analysis process applies successively more specific J87-3001.13 as determined by a hierarchy of J87-3001.14 in which less specific J87-3001.15 dominate more specific ones. This ensures that reasonable incomplete analyses of the J87-3001.16 are produced when more complete analyses are not possible, resulting in a relatively robust J87-3001.17 . Thus the work reported addresses two J87-3001.18 faced by current experimental J87-3001.19 : coping with an incomplete J87-3001.20 and with incomplete J87-3001.21 of J87-3001.22 .'
-# print(split_sents(nlp, test))
-
-# takes text.xml data and converts to Text objects
 path = 'clean/train_data/'
 file = path + '1.1.text.xml'
-
-tree = ET.parse(file)
-root = tree.getroot()
-print(root)
-print(root.tag)
-
-textCount = 0
-entCount = 0
-texts = {}  # dictionary of textID, Text
-for text in root.findall('text'):
-    textCount += 1
-    attr = text.attrib
-    textId = attr.get('id')
-    # print(attr)
-    # print(text.find('abstract'))
-    title = text.find('title').text.strip()  # TODO: further clean up title texts
-    abstract = text.find('abstract')
-    abstractString = ET.tostring(text.find('abstract'))
-    abstractString = abstractString.decode('UTF-8').strip()
-    abstractString = ' '.join(abstractString.split('\n'))
-    abstractString = ' '.join(re.split('  +', abstractString))
-    # [x.strip() for x in abstractString]
-    # print("Original abstract: \n\t", abstractString)
-    abstractString, entities = replaceEntities.encode(abstractString)
-    t = Text(textId, title, abstractString, entities)
-    texts[textId] = t
-    # sents = split_sents(nlp, abstractString)
-print(texts)
+# file = path + 'test_texts.xml'
+print('Collecting abstract texts...')
+start_time = time.time()
+texts = get_texts(file)
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
+# print(texts)
+# print(texts['H01-1001'].annotations)
 
 
-file = path + '1.1.relations.txt'
-rels = []  # list of Pairs
-with open(file) as f:
+def get_pairs(filename):
+    """
+    Takes relations.txt data to create a list of Pairs of entities to be classified
+    :param filename: the txt file containing relation information
+    :return: list of Pairs to be classified
+    """
+    rels = []  # list of Pairs
+    f = open(filename)
     for line in f:
         line = line.strip()
         line = line.split('(')
-        print(line)
         rel = line[0]
-        print(rel)
         ents = line[1][:-1].split(',')
         ent1 = ents[0]
         ent2 = ents[1]
-        print(ents)
-        print(ent1)
-        print(ent2)
         pair = Pair(ent1, ent2, rel, len(ents) == 3)
         pair.relation = rel
-        print(pair)
+        # print(pair)
         rels.append(pair)
-        # if rel not in rels:
-        #     rels[rel] = []
-        # rels[rel].append(pair)
-print(rels)
+    return rels
 
-# fullList = []  # a master list of all Pairs
-print("Assigning sentences for relation type: ", rel)
-for pair in rels:
-    # print('\t', pair)
-    # print(texts[pair.text_id])  # this is the Text object
-    textObj = texts[pair.text_id]
-    # print(textObj.sents)
-    for sent in textObj.sents:
-        if (pair.ent1 in sent) and (pair.ent2 in sent):
-            pair.sentence = sent
-            # print('\t', pair.sentence)
-            sent = ' '.join(sent)
-            # pair.dep_parse = nlp.dependency_parse(sent)
-    # fullList.append(pair)
-nlp.close()
 
-# nlp = scnlp('http://localhost:{0}'.format(9000))
-outfile = path + '/1.1.features.txt'
-entfile = path + '/1.1.text_ents.csv'
+file = path + '1.1.relations.txt'
+print("Collecting relations and generating Pairs...")
+start_time = time.time()
+rels = get_pairs(file)
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
+# print(rels)
+# print(rels[0])
+
+
+def assign_sentences(relations, text_ids):
+    """
+    Assign a single sentence to every Pair in the given relations list
+    Also assign the dependency paths to each Pair
+    :param relations: a list of Pairs to process
+    :param text_ids: a dictionary of textID, Text object
+    :return: N/A
+    """
+    for pair in relations:
+        if pair.text_id in text_ids.keys():
+            text_obj = text_ids[pair.text_id]
+            sentences = text_obj.annotations['sentences']
+            # print(pair)
+        # print(sentences)
+        #     [print(x) for x in sentences]
+            for sent in sentences:
+                # construct the sentence from the tokens first
+                tokens = sent['tokens']
+                sent_toks = []
+                for i in range(len(tokens)):
+                    word = tokens[i]['word']
+                    # print(word)
+                    sent_toks.append(word)
+                # print(sent_toks)
+                if (pair.ent1 in sent_toks)\
+                        and (pair.ent2 in sent_toks):
+                    sent_toks = ' '.join(sent_toks)
+                    pair.sentence = sent_toks
+                    # print('\t', pair.sentence)
+
+                    # generating the sdps
+                    pair.dep_text, pair.dep_pos = sdp(pair.ent1,
+                                                      pair.ent2,
+                                                      sent)
+
+
+print("Generating SDPs for each Pair...")
+start_time = time.time()
+assign_sentences(rels, texts)
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
+
+
+# writing the features file
+outfile = path + 'data_2.0/1.1.features.txt'
+# entfile = path + 'data_2.0/1.1.text_ents.csv'
 o = open(outfile, 'w')
 # p = open(entfile, 'w')
-print("Generating dependencies...")
+print("Writing features to {}...".format(outfile))
 for pair in rels:
-    print(pair)
-    # print(pair.sentence.index(pair.ent1))
-    # print(pair.sentence.index(pair.ent2))
-    print(pair.sentence)
-    pair.dep_parse = sdp(pair)
-    pair.dep_parse = replaceEntities.decode(pair.dep_parse, texts[pair.text_id].entities)
-    print(pair.dep_parse)
-    o.write(pair.dep_parse)
-    o.write(' ' + pair.relation)
-    # [o.write(x.__str__()) for x in pair.dep_parse]
+    # print(pair)
+    o.write(pair.relation + ' ')
+    # print(pair.sentence)
+    pair.dep_text = replaceEntities.decode(pair.dep_text, texts[pair.text_id].entities)
+    # print(pair.dep_text)
+    o.write(pair.dep_text)
+    if pair.rev:
+        o.write(' ' + 'REVERSE')
     o.write('\n')
-
 o.close()
-
-# pair = fullList[0]
-# print(pair)
-# print(pair.sentence)
-# print(pair.dep_parse)
-
 

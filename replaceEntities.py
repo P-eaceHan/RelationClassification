@@ -20,7 +20,7 @@ def encode(abstract):
     res = re.findall(pattern, abstract)
     pattern2 = '<entity id="(.*?)">'
     pattern3 = '<entity.*?>(.*?)</entity>'
-    ents = {}  # dictionary of all entities occurring in this abstract
+    ents = {}  # dictionary of entityID, entityText
     for ent in res:
         id = re.match(pattern2, ent).group(1)
         t = re.match(pattern3, ent).group(1)
