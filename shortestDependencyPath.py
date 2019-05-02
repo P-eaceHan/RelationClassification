@@ -70,7 +70,7 @@ def sdp(e1, e2, anno_sent):
         tok_id1 = path[i]  # index of the first token in path
         token = tokens[tok_id1 - 1]  # tokens are offset by 1 to account for sentence ROOT
         token_text = token['originalText']  # the text of the token
-        token_pos = token['pos']  # the POS of the token
+        token_pos = token_text + "_" + token['pos']  # the POS of the token
         if j < len(path):
             tok_id2 = path[j]  # index of the next token in path
             tup = (tok_id1, tok_id2)  # dependency pairs are represented as (index_of_governor, index_of_dependent)

@@ -12,8 +12,8 @@ shortest dependency path - raw
 """
 import pprint
 import time
+import pickle
 import numpy as np
-
 import regex as re
 import xml.etree.ElementTree as ET
 import replaceEntities
@@ -51,7 +51,7 @@ class Pair:
     text_id: the Text that this Pair comes from
     sentence: the sentence assigned to this Pair
     dep_text: the shortest dependency path for this pair, raw text
-    dep_pos: the shortest dependency path for this pair, POS tags
+    dep_pos: the shortest dependency path for this pair, text_POS tags
     """
     def __init__(self, ent1, ent2, relation, rev=False):
         self.ent1 = ent1
@@ -103,17 +103,25 @@ def get_texts(filename):
 
 path = 'clean/train_data/'
 file = path + '1.1.text.xml'
-# file = path + 'test_texts.xml'
-print('Collecting abstract texts...')
+# file = path + 'test_texts.xml'  # small sample file for testing
+print('Collecting abstract texts from {}...'.format(file))
 start_time = time.time()
-texts = get_texts(file)
+train_texts = get_texts(file)
 end_time = np.round(time.time() - start_time, 2)
 print("DONE! ({} seconds)".format(end_time))
 # print(texts)
 # print(texts['H01-1001'].annotations)
 
+path = 'clean/test_data/'
+file = path + '1.1.test.text.xml'
+print('Collecting abstract texts from {}...'.format(file))
+start_time = time.time()
+test_texts = get_texts(file)
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
 
-def get_pairs(filename):
+
+def get_pairs(filename, test=False):
     """
     Takes relations.txt data to create a list of Pairs of entities to be classified
     :param filename: the txt file containing relation information
@@ -134,15 +142,23 @@ def get_pairs(filename):
         rels.append(pair)
     return rels
 
-
+path = 'clean/train_data/'
 file = path + '1.1.relations.txt'
-print("Collecting relations and generating Pairs...")
+print("Collecting relations and generating Pairs for {}...".format(file))
 start_time = time.time()
-rels = get_pairs(file)
+train_rels = get_pairs(file)
 end_time = np.round(time.time() - start_time, 2)
 print("DONE! ({} seconds)".format(end_time))
 # print(rels)
 # print(rels[0])
+
+path = 'clean/test_data/'
+file = path + 'keys.test.1.1.txt'
+print("Collecting relations and generating Pairs for {}...".format(file))
+start_time = time.time()
+test_rels = get_pairs(file)
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
 
 
 def assign_sentences(relations, text_ids):
@@ -181,28 +197,66 @@ def assign_sentences(relations, text_ids):
                                                       sent)
 
 
-print("Generating SDPs for each Pair...")
+print("Generating SDPs for each training Pair...")
 start_time = time.time()
-assign_sentences(rels, texts)
+assign_sentences(train_rels, train_texts)
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
+
+print("Generating SDPs for each testing Pair...")
+start_time = time.time()
+assign_sentences(test_rels, test_texts)
 end_time = np.round(time.time() - start_time, 2)
 print("DONE! ({} seconds)".format(end_time))
 
 
 # writing the features file
-outfile = path + 'data_2.0/1.1.features.txt'
-# entfile = path + 'data_2.0/1.1.text_ents.csv'
-o = open(outfile, 'w')
-# p = open(entfile, 'w')
-print("Writing features to {}...".format(outfile))
-for pair in rels:
-    # print(pair)
-    o.write(pair.relation + ' ')
-    # print(pair.sentence)
-    pair.dep_text = replaceEntities.decode(pair.dep_text, texts[pair.text_id].entities)
-    # print(pair.dep_text)
-    o.write(pair.dep_text)
-    if pair.rev:
-        o.write(' ' + 'REVERSE')
-    o.write('\n')
-o.close()
+def extract_features(pairs, text_index, outfile, outfile2):
+    o = open(outfile, 'w')
+    p = open(outfile2, 'w')
+    print("writing features to {}...".format(outfile))
+    feature_map = {}  # maps '(ent1, ent2)' to corresponding feature path
+    for pair in pairs:
+        o.write(pair.relation + ' ')
+        p.write(pair.relation + ' ')
+        pair.dep_text = replaceEntities.decode(pair.dep_text,
+                                               text_index[pair.text_id].entities)
+        pair.dep_pos = replaceEntities.decode(pair.dep_pos,
+                                              text_index[pair.text_id].entities)
+        o.write(pair.dep_text)
+        p.write(pair.dep_pos)
+        if pair.rev:
+            o.write(' ' + 'REVERSE')
+            p.write(' ' + 'REVERSE')
+            tup = str((pair.ent1, pair.ent2, 'REVERSE'))
+        else:
+            tup = str((pair.ent1, pair.ent2))
+        o.write('\n')
+        p.write('\n')
+        feature_map[tup] = pair.dep_text
+    o.close()
+    return feature_map
+
+
+path = 'clean/train_data/'
+out = path + 'data_3.0/1.1.features.txt'
+out2 = path + 'data_3.0/1.1.features_pos.txt'
+start_time = time.time()
+train_feats = extract_features(train_rels, train_texts, out, out2)
+tr_feat_file = open('training_features.pkl', 'wb')
+pickle.dump(train_feats, tr_feat_file)
+tr_feat_file.close()
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
+
+path = 'clean/test_data/'
+out = path + 'data_3.0/1.1.test.features.txt'
+out2 = path + 'data_3.0/1.1.test.features_pos.txt'
+start_time = time.time()
+test_feats = extract_features(test_rels, test_texts, out, out2)
+te_feat_file = open('testing_features.pkl', 'wb')
+pickle.dump(test_feats, te_feat_file)
+te_feat_file.close()
+end_time = np.round(time.time() - start_time, 2)
+print("DONE! ({} seconds)".format(end_time))
 

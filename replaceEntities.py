@@ -52,9 +52,14 @@ def decode(abstract, entities):
     abstract = abstract.split()
     for i in range(len(abstract)):
         word = abstract[i]
+        tok = ''
+        if '_' in word:
+            word = word.split('_')
+            tok = word[1]
+            word = word[0]
         if word in entities:
             ent = entities[word]
-            abstract[i] = ent
+            abstract[i] = ent + '_' + tok
             # print(abstract[i])
     abstract = ' '.join(abstract)
     # print(abstract)
