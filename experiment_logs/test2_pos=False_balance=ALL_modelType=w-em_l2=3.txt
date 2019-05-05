@@ -1,0 +1,77 @@
+2591 unique tokens
+284591 word vectors found in embeddings_index.pkl
+word coverage: 0.06635802469135803
+
+Training time: 45.87s
+
+Eval time: 0.31s
+score: 4.412706305341023
+acc: 0.4512195136488938
+model mse: 0.1141957884760407
+cosine: -0.557789584485496
+
+Class predictions on x_val
+Predict time: 1.29
+Accuracy: 0.5560081466395111
+Mean Squared Error: 0.10315095633268356
+RMSE: 0.3211712258790995
+R2: 0.08715742057515113
+               precision    recall  f1-score   support
+
+      COMPARE       1.00      0.01      0.03        76
+MODEL-FEATURE       0.48      0.80      0.60       261
+   PART_WHOLE       0.00      0.00      0.00       187
+       RESULT       0.00      0.00      0.00        58
+        TOPIC       0.00      0.00      0.00        14
+        USAGE       0.62      0.87      0.72       386
+
+    micro avg       0.56      0.56      0.56       982
+    macro avg       0.35      0.28      0.22       982
+ weighted avg       0.45      0.56      0.45       982
+
+Class predictions on x_val
+Predict time: 0.31
+Accuracy: 0.45121951219512196
+Mean Squared Error: 0.11419577151536942
+RMSE: 0.3379286485567174
+R2: 0.03042147684124702
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        19
+MODEL-FEATURE       0.38      0.58      0.46        65
+   PART_WHOLE       0.00      0.00      0.00        47
+       RESULT       0.00      0.00      0.00        14
+        TOPIC       0.00      0.00      0.00         4
+        USAGE       0.51      0.75      0.61        97
+
+    micro avg       0.45      0.45      0.45       246
+    macro avg       0.15      0.22      0.18       246
+ weighted avg       0.30      0.45      0.36       246
+
+Class predictions on x_test
+
+Predict time: 0.45
+Accuracy: 0.4704225352112676
+Precision: 0.3513010914853915
+Recall: 0.4704225352112676
+Macro F1: 0.1763911136999822
+Mean Squared Error: 0.11224577575922012
+RMSE: 0.3350310071608599
+R2: -0.010714492808317674
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        21
+MODEL-FEATURE       0.30      0.68      0.41        66
+   PART_WHOLE       0.00      0.00      0.00        70
+       RESULT       0.00      0.00      0.00        20
+        TOPIC       0.00      0.00      0.00         3
+        USAGE       0.60      0.70      0.65       175
+
+    micro avg       0.47      0.47      0.47       355
+    macro avg       0.15      0.23      0.18       355
+ weighted avg       0.35      0.47      0.39       355
+
+label counts in training set: {'USAGE': 483, 'PART_WHOLE': 234, 'MODEL-FEATURE': 326, 'RESULT': 72, 'COMPARE': 95, 'TOPIC': 18}
+label counts in test set: {'PART_WHOLE': 70, 'RESULT': 20, 'USAGE': 175, 'COMPARE': 21, 'MODEL-FEATURE': 66, 'TOPIC': 3}
+
+total runtime: 49.86

@@ -59,11 +59,67 @@ def decode(abstract, entities):
             word = word[0]
         if word in entities:
             ent = entities[word]
-            abstract[i] = ent + '_' + tok
+            abstract[i] = ent
             # print(abstract[i])
     abstract = ' '.join(abstract)
     # print(abstract)
     return abstract
+
+
+def collect_tags(file):
+    """
+    Return all the unique POS tags used in given file
+    :param file: the file to evaluate
+    :return: list of each unique POS tag
+    """
+    out = set()
+    with open(file) as f:
+        for line in f:
+            line = line.split()
+            for elem in line:
+                if elem.isupper():
+                    out.add(elem)
+    return out
+
+
+def ptb_to_universal(abstract):
+    """
+    translate Penn treebank POS tags to
+    the universal tagset
+    :param abstract: the abstract (sdp representation) to translate
+    :return: transl_abs, the translated abstract
+    """
+    tags_dict = {'RB': 'ADV',
+                 'PRP': 'ADP',
+                 'IN': 'ADP',
+                 'NNP': 'NOUN',
+                 'NNS': 'NOUN',
+                 'NN': 'NOUN',
+                 'JJ': 'ADJ',
+                 'JJR': 'ADJ',
+                 'JJS': 'ADJ',
+                 'VBZ': 'VERB',
+                 'VBP': 'VERB',
+                 'VB': 'VERB',
+                 'VBN': 'VERB',
+                 'VBG': 'VERB',
+                 'VBD': 'VERB',
+                 'DT': 'DET',
+                 'WDT': 'DET',
+                 'FW': 'X',
+                 'CD': 'NUM'}
+
+    abstract = abstract.split()
+    # print(abstract)
+    for i in range(len(abstract)):
+        elem = abstract[i]
+        try:
+             new_tag = tags_dict[elem]
+        except KeyError:
+            continue
+        if elem:
+            abstract[i] = new_tag
+    return ' '.join(abstract)
 
 
 # example abstracts
@@ -72,13 +128,18 @@ I05_5009_abs = '<abstract> This paper presents an <entity id="I05-5009.1">evalua
 P83_1003_abs = '<abstract> An extension to the <entity id="P83-1003.1">GPSG grammatical formalism</entity> is proposed, allowing <entity id="P83-1003.2">non-terminals </entity> to consist of finite sequences of <entity id="P83-1003.3">category labels</entity>, and allowing <entity id="P83-1003.4">schematic variables </entity> to range over such sequences. The extension is shown to be sufficient to provide a strongly adequate <entity id="P83-1003.5">grammar </entity> for <entity id="P83-1003.6">crossed serial dependencies</entity>, as found in e.g. <entity id="P83-1003.7">Dutch subordinate clauses</entity>. The structures induced for such <entity id="P83-1003.8">constructions </entity> are argued to be more appropriate to data involving <entity id="P83-1003.9">conjunction</entity> than some previous proposals have been. The extension is shown to be parseable by a simple extension to an existing <entity id="P83-1003.10">parsing method</entity> for <entity id="P83-1003.11">GPSG</entity>. </abstract>'
 P83_1003_enc = 'An extension to the P83-1003.1 is proposed, allowing P83-1003.2 to consist of finite sequences of P83-1003.3 , and allowing P83-1003.4 to range over such sequences. The extension is shown to be sufficient to provide a strongly adequate P83-1003.5 for P83-1003.6 , as found in e.g. P83-1003.7 . The structures induced for such P83-1003.8 are argued to be more appropriate to data involving P83-1003.9 than some previous proposals have been. The extension is shown to be parseable by a simple extension to an existing P83-1003.10 for P83-1003.11 .'
 P83_1003_ent = {'P83-1003.1': 'GPSG grammatical formalism', 'P83-1003.2': 'non-terminals ', 'P83-1003.3': 'category labels', 'P83-1003.4': 'schematic variables ', 'P83-1003.5': 'grammar ', 'P83-1003.6': 'crossed serial dependencies', 'P83-1003.7': 'Dutch subordinate clauses', 'P83-1003.8': 'constructions ', 'P83-1003.9': 'conjunction', 'P83-1003.10': 'parsing method', 'P83-1003.11': 'GPSG'}
+pos_sdp = 'USAGE NN <-- nsubj <-- VBP --> dobj --> NN --> nmod --> NN REVERSE'
 
 
 def main():
+    filename = 'clean/train_data/data_3.0/1.1.features_pos.txt'
     print(encode(J87_3001_abs))
     print(encode(I05_5009_abs))
     [print(x) for x in encode(P83_1003_abs)]
     print(decode(P83_1003_enc, P83_1003_ent))
+    print(collect_tags(filename))
+    print(ptb_to_universal(pos_sdp))
+    pprint.pprint(P83_1003_ent)
 
 
 if __name__ == '__main__':

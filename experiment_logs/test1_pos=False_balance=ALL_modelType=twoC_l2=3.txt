@@ -1,0 +1,77 @@
+2591 unique tokens
+284591 word vectors found in embeddings_index.pkl
+word coverage: 0.06635802469135803
+
+Training time: 94.28s
+
+Eval time: 0.64s
+score: 8.826809193060651
+acc: 0.3943089428471356
+model mse: 0.12369135761164068
+cosine: -0.5101064981483832
+
+Class predictions on x_val
+Predict time: 2.61
+Accuracy: 0.39307535641547864
+Mean Squared Error: 0.12370572239160538
+RMSE: 0.3517182429041823
+R2: -0.02620181505739631
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        76
+MODEL-FEATURE       0.00      0.00      0.00       261
+   PART_WHOLE       0.00      0.00      0.00       187
+       RESULT       0.00      0.00      0.00        58
+        TOPIC       0.00      0.00      0.00        14
+        USAGE       0.39      1.00      0.56       386
+
+    micro avg       0.39      0.39      0.39       982
+    macro avg       0.07      0.17      0.09       982
+ weighted avg       0.15      0.39      0.22       982
+
+Class predictions on x_val
+Predict time: 0.63
+Accuracy: 0.3943089430894309
+Mean Squared Error: 0.1236913874745369
+RMSE: 0.3516978639038584
+R2: -0.023422379990346704
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        19
+MODEL-FEATURE       0.00      0.00      0.00        65
+   PART_WHOLE       0.00      0.00      0.00        47
+       RESULT       0.00      0.00      0.00        14
+        TOPIC       0.00      0.00      0.00         4
+        USAGE       0.39      1.00      0.57        97
+
+    micro avg       0.39      0.39      0.39       246
+    macro avg       0.07      0.17      0.09       246
+ weighted avg       0.16      0.39      0.22       246
+
+Class predictions on x_test
+
+Predict time: 0.93
+Accuracy: 0.49295774647887325
+Precision: 0.24300733981352907
+Recall: 0.49295774647887325
+Macro F1: 0.110062893081761
+Mean Squared Error: 0.12122789770364761
+RMSE: 0.34817796843517773
+R2: -0.07454340897639722
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        21
+MODEL-FEATURE       0.00      0.00      0.00        66
+   PART_WHOLE       0.00      0.00      0.00        70
+       RESULT       0.00      0.00      0.00        20
+        TOPIC       0.00      0.00      0.00         3
+        USAGE       0.49      1.00      0.66       175
+
+    micro avg       0.49      0.49      0.49       355
+    macro avg       0.08      0.17      0.11       355
+ weighted avg       0.24      0.49      0.33       355
+
+label counts in training set: {'USAGE': 483, 'PART_WHOLE': 234, 'MODEL-FEATURE': 326, 'RESULT': 72, 'COMPARE': 95, 'TOPIC': 18}
+label counts in test set: {'PART_WHOLE': 70, 'RESULT': 20, 'USAGE': 175, 'COMPARE': 21, 'MODEL-FEATURE': 66, 'TOPIC': 3}
+
+total runtime: 100.57

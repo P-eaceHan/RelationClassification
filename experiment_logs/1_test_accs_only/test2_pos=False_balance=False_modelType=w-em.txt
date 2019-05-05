@@ -1,0 +1,34 @@
+2591 unique tokens
+284591 word vectors found in embeddings_index.pkl
+word coverage: 0.06635802469135803
+
+Training time: 46.31s
+
+Eval time: 0.33s
+score: 11.289308189859195
+acc: 0.3510204092580445
+model mse: 0.12298318099002449
+cosine: -0.5104382338572522Class predictions on x_test
+
+Predict time: 0.54
+Accuracy: 0.49295774647887325
+Mean Squared Error: 0.11322945356369019
+RMSE: 0.3364958447940928
+R2: -0.1212374544980354
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        21
+MODEL-FEATURE       0.00      0.00      0.00        66
+   PART_WHOLE       0.00      0.00      0.00        70
+       RESULT       0.00      0.00      0.00        20
+        TOPIC       0.00      0.00      0.00         3
+        USAGE       0.49      1.00      0.66       175
+
+    micro avg       0.49      0.49      0.49       355
+    macro avg       0.08      0.17      0.11       355
+ weighted avg       0.24      0.49      0.33       355
+
+label counts in training set: {'USAGE': 483, 'PART_WHOLE': 234, 'MODEL-FEATURE': 326, 'RESULT': 72, 'COMPARE': 95, 'TOPIC': 18}
+label counts in test set: {'PART_WHOLE': 70, 'RESULT': 20, 'USAGE': 175, 'COMPARE': 21, 'MODEL-FEATURE': 66, 'TOPIC': 3}
+
+total runtime: 48.81

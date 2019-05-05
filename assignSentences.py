@@ -142,6 +142,7 @@ def get_pairs(filename, test=False):
         rels.append(pair)
     return rels
 
+
 path = 'clean/train_data/'
 file = path + '1.1.relations.txt'
 print("Collecting relations and generating Pairs for {}...".format(file))
@@ -224,7 +225,7 @@ def extract_features(pairs, text_index, outfile, outfile2):
         pair.dep_pos = replaceEntities.decode(pair.dep_pos,
                                               text_index[pair.text_id].entities)
         o.write(pair.dep_text)
-        p.write(pair.dep_pos)
+        p.write(replaceEntities.ptb_to_universal(pair.dep_pos))
         if pair.rev:
             o.write(' ' + 'REVERSE')
             p.write(' ' + 'REVERSE')
@@ -243,9 +244,9 @@ out = path + 'data_3.0/1.1.features.txt'
 out2 = path + 'data_3.0/1.1.features_pos.txt'
 start_time = time.time()
 train_feats = extract_features(train_rels, train_texts, out, out2)
-tr_feat_file = open('training_features.pkl', 'wb')
-pickle.dump(train_feats, tr_feat_file)
-tr_feat_file.close()
+# tr_feat_file = open('training_features.pkl', 'wb')
+# pickle.dump(train_feats, tr_feat_file)
+# tr_feat_file.close()
 end_time = np.round(time.time() - start_time, 2)
 print("DONE! ({} seconds)".format(end_time))
 
@@ -254,9 +255,9 @@ out = path + 'data_3.0/1.1.test.features.txt'
 out2 = path + 'data_3.0/1.1.test.features_pos.txt'
 start_time = time.time()
 test_feats = extract_features(test_rels, test_texts, out, out2)
-te_feat_file = open('testing_features.pkl', 'wb')
-pickle.dump(test_feats, te_feat_file)
-te_feat_file.close()
+# te_feat_file = open('testing_features.pkl', 'wb')
+# pickle.dump(test_feats, te_feat_file)
+# te_feat_file.close()
 end_time = np.round(time.time() - start_time, 2)
 print("DONE! ({} seconds)".format(end_time))
 

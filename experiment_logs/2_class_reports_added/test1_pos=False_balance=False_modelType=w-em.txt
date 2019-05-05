@@ -1,0 +1,73 @@
+2591 unique tokens
+284591 word vectors found in embeddings_index.pkl
+word coverage: 0.06635802469135803
+
+Training time: 46.45s
+
+Eval time: 0.33s
+score: 11.230960896550393
+acc: 0.39183673688343595
+model mse: 0.12210986273629325
+cosine: -0.5179126807621547
+
+Class predictions on x_val
+Predict time: 1.31
+Accuracy: 0.49949135300101727
+Mean Squared Error: 0.11447891592979431
+RMSE: 0.33834733031279307
+R2: 0.010563211394628957
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        71
+MODEL-FEATURE       0.37      0.98      0.54       263
+   PART_WHOLE       0.00      0.00      0.00       187
+       RESULT       0.00      0.00      0.00        59
+        TOPIC       0.00      0.00      0.00        15
+        USAGE       0.79      0.60      0.68       388
+
+    micro avg       0.50      0.50      0.50       983
+    macro avg       0.19      0.26      0.20       983
+ weighted avg       0.41      0.50      0.41       983
+
+Class predictions on x_val
+Predict time: 0.31
+Accuracy: 0.39183673469387753
+Mean Squared Error: 0.12210985273122787
+RMSE: 0.34944220227560935
+R2: -0.03174366345365189
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        24
+MODEL-FEATURE       0.31      0.87      0.46        63
+   PART_WHOLE       0.00      0.00      0.00        47
+       RESULT       0.00      0.00      0.00        13
+        TOPIC       0.00      0.00      0.00         3
+        USAGE       0.61      0.43      0.51        95
+
+    micro avg       0.39      0.39      0.39       245
+    macro avg       0.15      0.22      0.16       245
+ weighted avg       0.32      0.39      0.31       245
+Class predictions on x_test
+
+Predict time: 0.44
+Accuracy: 0.37183098591549296
+Mean Squared Error: 0.12257353216409683
+RMSE: 0.35010503018965156
+R2: -0.10232840695917494
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        21
+MODEL-FEATURE       0.23      0.88      0.37        66
+   PART_WHOLE       0.00      0.00      0.00        70
+       RESULT       0.00      0.00      0.00        20
+        TOPIC       0.00      0.00      0.00         3
+        USAGE       0.69      0.42      0.52       175
+
+    micro avg       0.37      0.37      0.37       355
+    macro avg       0.15      0.22      0.15       355
+ weighted avg       0.38      0.37      0.33       355
+
+label counts in training set: {'USAGE': 483, 'PART_WHOLE': 234, 'MODEL-FEATURE': 326, 'RESULT': 72, 'COMPARE': 95, 'TOPIC': 18}
+label counts in test set: {'PART_WHOLE': 70, 'RESULT': 20, 'USAGE': 175, 'COMPARE': 21, 'MODEL-FEATURE': 66, 'TOPIC': 3}
+
+total runtime: 50.35

@@ -1,0 +1,34 @@
+33 unique tokens
+284602 word vectors found in combo_index.pkl
+word coverage: 0.14705882352941177
+
+Training time: 48.57s
+
+Eval time: 0.39s
+score: 12.461374559207838
+acc: 0.41632653073388703
+model mse: 0.1266921578013167
+cosine: -0.4922000357082912Class predictions on x_test
+
+Predict time: 0.58
+Accuracy: 0.4225352112676056
+Mean Squared Error: 0.12452743202447891
+RMSE: 0.3528844457106021
+R2: -0.17188928433006734
+               precision    recall  f1-score   support
+
+      COMPARE       0.00      0.00      0.00        21
+MODEL-FEATURE       0.25      0.64      0.36        66
+   PART_WHOLE       0.00      0.00      0.00        70
+       RESULT       0.00      0.00      0.00        20
+        TOPIC       0.00      0.00      0.00         3
+        USAGE       0.58      0.62      0.60       175
+
+    micro avg       0.42      0.42      0.42       355
+    macro avg       0.14      0.21      0.16       355
+ weighted avg       0.33      0.42      0.36       355
+
+label counts in training set: {'USAGE': 483, 'PART_WHOLE': 234, 'MODEL-FEATURE': 326, 'RESULT': 72, 'COMPARE': 95, 'TOPIC': 18}
+label counts in test set: {'PART_WHOLE': 70, 'RESULT': 20, 'USAGE': 175, 'COMPARE': 21, 'MODEL-FEATURE': 66, 'TOPIC': 3}
+
+total runtime: 51.05
