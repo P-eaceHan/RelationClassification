@@ -1,0 +1,1228 @@
+USAGE information retrieval techniques <-- nsubj <-- use --> dobj --> histogram  --> nmod --> keywords REVERSE
+USAGE oral communication <-- conj <-- document representation  <-- nmod <-- use --> dep --> offer --> dobj -->  indices 
+PART_WHOLE database --> nmod --> TV shows  REVERSE
+MODEL-FEATURE distributed message-passing infrastructure  --> nmod --> dialogue systems
+PART_WHOLE CCLINC Korean-to-English translation system  <-- nsubj <-- consists --> nmod --> core modules REVERSE
+USAGE parsing  --> nmod --> Korean
+MODEL-FEATURE verb final language  --> nmod --> overt case markers REVERSE
+USAGE translation  --> nmod --> word sense disambiguation REVERSE
+USAGE automated evaluation techniques  <-- dobj <-- applying <-- acl <-- efficacy <-- dobj <-- test --> nmod --> output
+MODEL-FEATURE  intelligibility  --> nmod --> MT output
+PART_WHOLE spoken language understanding system --> nmod --> intelligent mobile agents  REVERSE
+RESULT interpolation methods <-- nsubj <-- improve --> dobj --> performance
+RESULT word string <-- dobj <-- selects --> nmod -->  performance 
+RESULT word string <-- nsubjpass <-- obtained --> advcl --> using --> dobj --> LM  REVERSE
+USAGE dynamic combiner  <-- nmod <-- acts --> xcomp --> using --> dobj --> reference  REVERSE
+RESULT dynamic language model combination  <-- nsubj <-- improve --> dobj --> performance
+MODEL-FEATURE LMs  <-- dobj <-- tagging --> nmod --> confidence measures REVERSE
+MODEL-FEATURE LM --> nmod -->  confidence  REVERSE
+USAGE error-correction rules  <-- conj <-- n-gram models <-- dobj <-- employing --> nmod --> Thai key prediction
+USAGE mutual information  <-- dobj <-- applying --> advcl --> reduce --> dobj --> error-correction rules
+RESULT accuracy <-- dep <-- % <-- dobj <-- reported --> nmod --> language identification  REVERSE
+MODEL-FEATURE sentence plans <-- nmod <-- list --> nmod --> text-plan input 
+USAGE ranking rules <-- dobj <-- uses --> dep --> learned --> nmod --> training data  REVERSE
+COMPARE sentence plan  --> acl:relcl --> worse --> nmod --> top human-ranked sentence plan 
+RESULT retrieval performance  --> nmod --> translation memory system REVERSE
+USAGE bag-of-words and segment order-sensitive string comparison methods  <-- nmod <-- selection <-- dobj <-- take --> conj --> run --> nmod --> character- and word-segmented data
+USAGE indexing  --> nmod --> character bigrams REVERSE
+COMPARE bag-of-words methods  <-- nsubjpass <-- shown --> xcomp --> equivalent --> nmod --> segment order-sensitive methods
+USAGE range concatenation grammar [RCG] formalism  <-- nmod <-- study <-- nsubj <-- revealed --> dobj --> properties --> acl:relcl --> used --> nmod --> NLP
+MODEL-FEATURE range concatenation languages [RCL] <-- nsubjpass <-- parsed --> nmod --> polynomial time  REVERSE
+MODEL-FEATURE tree adjoining grammar <-- nsubjpass <-- parsed --> nmod --> O(n6) time  REVERSE
+USAGE parsing technique --> acl:relcl --> is --> xcomp --> improve --> dobj --> efficiency --> nmod --> RCL parsers
+USAGE guide --> acl:relcl --> uses --> dobj --> output --> compound -->  shared derivation forest  REVERSE
+USAGE RCL parser --> nmod --> superset of L 
+USAGE paraphrasing <-- nsubj <-- critical --> nmod -->  interpretation and generation of natural language 
+USAGE unsupervised learning algorithm --> nmod --> identification of paraphrases 
+TOPIC formal analysis --> nmod --> class --> acl --> called --> xcomp --> alternative markers
+RESULT performance <-- nsubjpass <-- improved --> advcl --> incorporating --> dobj --> approximation --> nmod --> formal analysis  REVERSE
+PART_WHOLE operational semantics --> nmod --> natural language applications 
+USAGE  learning algorithm  --> nmod --> structured data REVERSE
+MODEL-FEATURE  quality  --> nmod --> utterances
+COMPARE trainable components  <-- nmod <-- produced <-- acl <--  quality  <-- nsubj <-- compete --> nmod --> hand-crafted template-based or rule-based approaches
+USAGE trainable sentence planner --> nmod --> spoken dialogue system 
+COMPARE trainable sentence planner <-- nsubj <-- performs --> dobj --> better --> nmod --> rule-based systems
+MODEL-FEATURE statistical models --> nmod --> WH-questions 
+MODEL-FEATURE  shallow linguistic features  --> nmod --> questions
+RESULT predictive performance --> nmod --> models REVERSE
+RESULT training and testing factors <-- nmod <-- influence --> nmod --> predictive performance 
+USAGE utterance classification <-- nmod <-- method --> acl:relcl --> require --> dobj --> manual transcription REVERSE
+USAGE  word-trigram recognition  --> acl --> requiring --> dobj --> manual transcription REVERSE
+USAGE unsupervised training  <-- nsubjpass <-- used --> xcomp --> train --> dobj --> phone n-gram model
+USAGE output <-- nsubjpass <-- passed --> nmod --> phone-string classifier  REVERSE
+USAGE multi-strategy and multi-source approach to question answering  --> acl:relcl --> based --> advcl --> combining --> dobj --> results --> nmod --> answering agents  REVERSE
+PART_WHOLE answers <-- nmod <-- searching --> nmod --> corpora 
+USAGE answering agents <-- nsubj <-- adopt --> dobj --> one --> acl --> utilizing --> dobj --> knowledge-based mechanisms REVERSE
+COMPARE answer resolution algorithm  <-- nmod <-- effectiveness <-- dobj <-- evaluating <-- acl <-- Experiments <-- nsubj <-- show --> dobj --> improvement --> nmod --> baseline system
+USAGE scoring  <-- compound <-- speech recognition hypotheses (SRH)
+PART_WHOLE German corpus --> nmod --> SRHs  REVERSE
+COMPARE phrase-based models <-- compound <-- word-based models 
+USAGE heuristic learning  --> nmod --> word-based alignments  REVERSE
+MODEL-FEATURE lexical weighting <-- conj <-- word-based alignments  --> nmod --> phrase translations 
+PART_WHOLE phrases <-- dobj <-- learning --> nmod --> high-accuracy word-level alignment models 
+USAGE model  <-- nsubjpass <-- designed --> nmod --> use --> nmod --> error correction
+USAGE post-processing  <-- nmod <-- focus --> dep --> output
+USAGE model <-- nmod <-- implementation --> acl --> based --> nmod --> finite-state models  REVERSE
+RESULT model <-- nmod:poss <-- ability --> acl --> reduce --> dobj --> character and word error rate 
+USAGE automatic extraction --> nmod --> printed text
+USAGE ambiguity packing and stochastic disambiguation techniques  <-- nmod <-- application --> nmod --> Lexical-Functional Grammars (LFG)
+USAGE linguistic parser/generator --> nmod --> LFG 
+USAGE transfer component --> nmod --> operating --> compound --> parse reduction 
+USAGE  maximum-entropy model  --> nmod --> stochastic output selection REVERSE
+TOPIC experimental evaluation  --> nmod --> quality --> compound --> summarization
+MODEL-FEATURE grammaticality --> nmod --> system output 
+USAGE priors <-- nmod <-- use --> nmod --> conditional loglinear models 
+RESULT tagger <-- nsubj <-- gives --> dobj --> accuracy 
+USAGE training data --> amod --> suitable --> nmod -->  language modeling 
+PART_WHOLE text --> nmod --> web 
+RESULT translation quality --> nmod -->  EBMT  REVERSE
+PART_WHOLE hubs <-- dobj <-- identifying --> nmod --> automaton
+USAGE syntax-based constraint --> nmod --> word alignment 
+USAGE bootstrapping approach --> nmod --> Named Entity (NE) tagging 
+MODEL-FEATURE seeds <-- conj <-- common noun --> acl:relcl --> correspond --> nmod --> concept
+USAGE decision list <-- nsubjpass <-- used --> xcomp --> learn --> dobj --> parsing-based NE rules  REVERSE
+USAGE Hidden Markov Model <-- nsubjpass <-- trained --> nmod --> corpus 
+USAGE phrase-based unigram model --> nmod --> statistical machine translation 
+PART_WHOLE blocks <-- nsubjpass <-- learned --> nmod --> source interval projections
+USAGE block selection criteria --> nmod --> counts --> compound --> unigram REVERSE
+USAGE Cooperative Model --> nmod --> natural language understanding 
+PART_WHOLE JAVELIN system <-- nsubj <-- integrates --> dobj -->  planning-based architecture  REVERSE
+USAGE JAVELIN  <-- amod <-- questions
+PART_WHOLE answer candidates  <-- dobj <-- retrieves --> nmod --> text corpus
+PART_WHOLE repository --> nmod --> data objects  REVERSE
+USAGE IE paradigm --> acl:relcl --> takes --> dobj --> advantage --> nmod --> predicate-argument structures REVERSE
+USAGE Hierarchical Directed Acyclic Graph (HDAG) Kernel  --> nmod --> structured natural language data
+MODEL-FEATURE attribute sequences --> nmod --> HDAGs
+COMPARE HDAG Kernel  <-- nsubj <-- superior --> nmod --> kernel functions
+MODEL-FEATURE semantic verb classes <-- dobj <-- inducing --> nmod --> corpus data 
+USAGE subcategorization frame (SCF)  <-- compound <-- distributions --> acl --> using --> dobj --> methods --> compound --> Information Bottleneck REVERSE
+MODEL-FEATURE polysemy <-- nmod <-- effect --> nmod --> clusters
+USAGE decision tree based approach <-- dobj <-- apply --> nmod -->  pronoun resolution 
+MODEL-FEATURE  pronouns  --> nmod --> NP- and non-NP-antecedents REVERSE
+USAGE pronoun resolution --> nmod --> spoken dialogue 
+PART_WHOLE Topic Detection and Tracking tasks  --> nmod --> new event detection
+USAGE discourse understanding process --> nmod --> spoken dialogue systems 
+MODEL-FEATURE context --> nmod --> dialogue
+USAGE candidates --> nmod --> result --> compound --> understanding
+MODEL-FEATURE  ambiguity  --> nmod --> speech understanding
+USAGE candidates <-- dobj <-- holding --> nmod --> results --> compound -->  understanding 
+MODEL-FEATURE statistical information --> acl --> obtained --> nmod --> dialogue corpora 
+USAGE candidates <-- dobj <-- holding --> nmod --> results --> compound --> understanding 
+USAGE user modeling <-- dobj <-- address --> advcl --> generate --> dobj --> cooperative responses 
+MODEL-FEATURE models <-- nsubjpass <-- derived --> nmod --> decision tree learning  REVERSE
+USAGE Dialogue strategies  --> nmod --> user modeling REVERSE
+USAGE unsupervised learning approach --> acl --> building --> dobj --> non-English (Arabic) stemmer 
+USAGE stemming model <-- nsubjpass <-- based --> nmod --> statistical machine translation  REVERSE
+MODEL-FEATURE language --> acl:relcl --> needs --> dobj --> affix removal REVERSE
+RESULT resource-frugal approach <-- nsubj <-- results --> nmod -->  agreement 
+USAGE Task-based evaluation  --> acl --> using --> dobj --> Arabic information retrieval REVERSE
+USAGE manually segmented Arabic corpus  <-- nmod <-- seeded --> conj --> uses --> advcl --> bootstrap --> dobj --> unsupervised algorithm
+USAGE Arabic word segmenter  <-- dobj <-- build --> nmod --> unsegmented Arabic corpus REVERSE
+MODEL-FEATURE morpheme sequence --> nmod --> input 
+MODEL-FEATURE language model <-- nsubjpass <-- estimated --> nmod --> manually segmented corpus 
+PART_WHOLE stems <-- dobj <-- acquiring --> nmod --> unsegmented corpus
+USAGE model parameters  <-- dobj <-- re-estimate --> nmod --> vocabulary
+RESULT Arabic word segmentation system <-- nsubj <-- achieves --> dobj --> % --> amod --> exact match accuracy
+PART_WHOLE test corpus  --> acl --> containing --> dobj --> word tokens REVERSE
+MODEL-FEATURE manually segmented corpus --> nmod --> language
+USAGE word sense disambiguation (WSD) <-- nmod <-- problem <-- nsubj <-- lack --> nmod --> manually sense-tagged data  REVERSE
+MODEL-FEATURE sense-tagged training data <-- dobj <-- acquire --> nmod --> English-Chinese parallel corpora 
+MODEL-FEATURE domain dependence <-- nmod <-- issue <-- nmod <-- importance --> acl --> evaluating --> dobj --> WSD programs 
+USAGE semantically annotated corpus  <-- compound <-- resource <-- nmod <-- construction <-- dobj <-- describe --> nmod --> basis --> nmod --> acquisition of word-semantic information 
+MODEL-FEATURE ambiguity <-- conj <--  vagueness  <-- nmod <-- problems --> nmod --> semantic annotation 
+MODEL-FEATURE attentional focus  <-- conj <-- eye gaze  --> nmod --> context --> nmod --> direction-giving task
+USAGE ECA --> acl:relcl --> uses --> dobj --> verbal and nonverbal grounding acts  REVERSE
+COMPARE HPSG  <-- nmod <-- approximation <-- nsubj <-- produces --> dobj --> CFG filter --> nmod --> that --> nmod --> LTAG 
+MODEL-FEATURE analogies <-- nmod <-- number --> nmod --> sentences 
+USAGE CriterionSM Online Essay Evaluation Service <-- nsubj <-- includes --> dobj --> capability --> acl:relcl --> labels --> nmod --> writing
+MODEL-FEATURE coherence <-- nmod <-- aspects --> nmod --> essays 
+MODEL-FEATURE features --> nmod -->  sentences 
+USAGE support vector machine <-- nsubj <-- uses --> dobj -->  features  REVERSE
+TOPIC Intra-sentential quality  <-- nsubjpass <-- evaluated --> nmod --> rule-based heuristics REVERSE
+MODEL-FEATURE information redundancy <-- dobj <-- use --> nmod --> multilingual input 
+MODEL-FEATURE documents <-- nsubj <--  Arabic  REVERSE
+MODEL-FEATURE summary <-- conj <-- multi-document summarization  <-- nmod <-- case <-- nsubj <-- English  REVERSE
+MODEL-FEATURE information  <-- dobj <-- realize --> nmod --> English REVERSE
+USAGE maximum entropy word alignment algorithm --> acl --> based --> nmod --> supervised training data REVERSE
+RESULT supervised and unsupervised methods <-- compound <-- yields <-- nmod <-- mixture <-- nsubj <-- performance
+USAGE probabilistic model  --> acl --> used --> nmod --> alignment
+USAGE phrase-based statistical machine translation method  --> nmod --> non-contiguous phrases REVERSE
+PART_WHOLE phrases <-- dobj <-- producing --> nmod --> word-aligned corpora 
+USAGE statistical translation model <-- nsubjpass <-- presented --> dobj --> that --> dep --> deals --> dep --> phrases
+USAGE training method  --> nmod --> maximization --> nmod --> translation accuracy REVERSE
+USAGE Translations  <-- nsubjpass <-- produced --> nmod --> means --> nmod --> beam-search decoder REVERSE
+USAGE automatic evaluation --> nmod --> machine translation 
+COMPARE rankings --> acl --> produced --> nmod --> correlate --> nmod --> official rankings
+PART_WHOLE patterns <-- dobj <-- identifying --> nmod --> translation data 
+PART_WHOLE  patterns  <-- dobj <-- explore --> nmod --> machine translation output
+MODEL-FEATURE translation  --> nmod --> words
+RESULT accuracy --> nmod --> SMT models REVERSE
+COMPARE SMT models  <-- nsubj <-- have --> nmod --> comparison --> nmod --> WSD models
+COMPARE SMT <-- nsubj <-- gives --> nmod --> rule-based translation systems 
+PART_WHOLE English-Chinese bitexts  --> nmod --> laws --> nmod --> Web
+PART_WHOLE English-Chinese bitexts  <-- dobj <-- exploring --> nmod --> volume --> nmod --> Web
+COMPARE machine translation (MT) evaluation <-- nmod <-- task <-- nsubj <-- related --> nmod --> task --> nmod --> sentence-level semantic equivalence classification
+USAGE MT evaluation methods (BLEU, NIST, WER and PER)  <-- dobj <-- applying --> advcl --> building --> dobj --> classifiers
+USAGE classification method  --> nmod --> PER REVERSE
+MODEL-FEATURE part of speech information  --> nmod --> words
+RESULT MT evaluation techniques  <-- nsubj <-- able --> xcomp --> produce --> dobj --> features
+RESULT technique  <-- nsubj <-- gives --> dobj --> improvement --> nmod --> paraphrase classification accuracy 
+PART_WHOLE paraphrase <-- compound <-- sets <-- dobj <-- generates --> nmod --> seed sentences 
+MODEL-FEATURE lexical and syntactical variation  <-- nmod <-- amount --> nmod --> set --> nmod --> paraphrases
+USAGE reference sets <-- nmod <-- adequate --> xcomp --> used --> nmod --> MT evaluation 
+MODEL-FEATURE annotating scheme --> acl:relcl --> encodes --> dobj --> honorifics 
+RESULT referential information <-- nsubj <-- vital --> advcl --> resolving --> conj --> improving --> dobj --> machine translation outputs
+MODEL-FEATURE ranks <-- dobj <-- assigning --> nmod --> referents
+MODEL-FEATURE candidate parses  <-- nmod <-- set --> nmod --> sentence
+MODEL-FEATURE features --> nmod --> tree 
+USAGE generative model --> acl:relcl --> takes --> dobj --> features  REVERSE
+USAGE boosting approach --> nmod --> ranking problems 
+USAGE parsing  <-- nmod <-- apply --> dobj --> Wall Street Journal treebank
+RESULT model  <-- nsubj <-- achieved --> dobj --> F-measure
+MODEL-FEATURE sparsity of the feature space <-- nmod <-- advantage <-- dobj <-- takes --> nmod -->  parsing data 
+PART_WHOLE  feature selection methods  <-- nmod <-- work --> nmod --> log-linear (maximum-entropy) models
+USAGE discovering parallel sentences --> nmod --> comparable, non-parallel corpora 
+PART_WHOLE parallel data <-- dobj <-- extract --> nmod --> Chinese, Arabic, and English non-parallel newspaper corpora 
+USAGE MT system <-- nsubjpass <-- built --> advcl --> starting --> nmod --> parallel corpus REVERSE
+PART_WHOLE phrase translations --> nmod -->  suffix array-based data structure 
+MODEL-FEATURE syntactic information <-- dobj <-- combines --> nmod --> source language 
+MODEL-FEATURE source dependency parse  --> nmod --> sentence
+USAGE Chinese word sense disambiguation model  <-- dobj <-- Using --> advcl --> choose --> dobj --> translation candidates
+RESULT word sense disambiguation <-- nsubj <-- yield --> dobj --> translation quality
+USAGE statistical models  <-- dobj <-- applying --> nmod --> structured data
+USAGE syntax-based statistical machine translation system  --> nmod --> probabilistic synchronous dependency insertion grammar REVERSE
+PART_WHOLE grammar <-- dobj <-- inducing --> nmod --> parallel corpora 
+USAGE graphical model --> nmod --> machine translation task 
+USAGE baseline system --> nmod --> IBM models REVERSE
+USAGE localized phrase-based prediction model  --> nmod --> statistical machine translation (SMT)
+USAGE log-linear block bigram model  --> acl:relcl --> uses --> dobj --> real-valued features REVERSE
+PART_WHOLE monolingual parallel corpora <-- dobj <-- used --> conj --> generate --> dobj --> paraphrases REVERSE
+PART_WHOLE paraphrases --> acl --> extracted --> nmod --> bilingual parallel corpus 
+PART_WHOLE  paraphrases  --> acl --> extracted --> nmod --> automatic alignments
+USAGE Czech-English statistical machine translation system --> acl:relcl --> performs --> dobj --> tree-to-tree translation
+COMPARE system's output  <-- dobj <-- compare --> nmod --> benchmark system
+USAGE two-step clustering process  --> acl --> using --> dobj --> sentence co-occurrences REVERSE
+USAGE addressee identification --> nmod --> four-participants face-to-face meetings 
+RESULT classifiers  <-- compound <-- gain
+USAGE evaluation measures --> nmod --> machine translation 
+USAGE evaluation measure --> acl:relcl --> models --> dobj --> block reordering
+RESULT evaluation measures <-- nsubjpass <-- improved --> nmod --> introduction --> nmod --> word-dependent substitution costs REVERSE
+COMPARE measure <-- nmod <-- correlation --> nmod --> human judgment 
+COMPARE automatic evaluation measures  --> conj --> human judgment
+PART_WHOLE segment boundaries  --> nmod --> spoken multiparty dialogue
+COMPARE ASR output  <-- dobj <-- using --> advcl --> opposed --> nmod --> human transcription
+USAGE predicting top-level boundaries --> conj --> performs --> nsubj -->  machine learning approach  REVERSE
+MODEL-FEATURE transcription errors --> amod --> inevitable --> nmod --> ASR output 
+RESULT Combination methods <-- nsubj <-- way --> acl --> improving --> dobj --> system performance 
+USAGE combination methods  <-- nsubj <-- rely --> nmod --> predominant senses REVERSE
+MODEL-FEATURE underspecified semantic representation (USR) --> nmod --> scope ambiguity 
+USAGE machine learning techniques  <-- dobj <-- using --> advcl --> build --> dobj --> comma checker
+USAGE grammar checker  --> nmod --> Basque
+PART_WHOLE corpus  --> nmod --> words REVERSE
+MODEL-FEATURE corpus --> acl --> written --> nmod --> author  REVERSE
+USAGE unsupervised learning approach --> acl --> disambiguate --> nmod --> use --> nmod --> lexical and syntactic features  REVERSE
+COMPARE spectral clustering based approach  <-- nsubj <-- outperforms --> dobj --> clustering methods
+PART_WHOLE polarity-tagged corpus --> nmod --> HTML documents 
+PART_WHOLE corpus --> acl --> consisting --> nmod --> sentences REVERSE
+USAGE scenario templates  <-- conj <-- named entity annotations <-- dep <-- information extraction (IE) systems  <-- nmod <-- outputs <-- nsubjpass <-- used --> xcomp --> enhance --> nmod --> text browser 
+USAGE prototype system --> acl --> designed --> xcomp --> support --> nmod --> part --> nmod --> function --> compound --> industry watch
+PART_WHOLE interface <-- nmod <-- done --> xcomp --> make --> xcomp --> aware --> nmod --> potential --> nmod -->  IE-enhanced text browsers 
+USAGE Automatic Speech Recognition technology <-- nmod <-- advances <-- nsubj <-- put --> dobj --> goal --> acl --> sounding --> dobj --> dialog systems
+TOPIC system response  <-- nmod <-- issue <-- nsubjpass <-- studied --> nmod -->  natural language generation community  REVERSE
+USAGE generation <-- nmod <-- research <-- nsubjpass <-- adapted --> nmod --> dialog systems 
+USAGE knowledge-based generation systems  <-- nmod <-- cost <-- nsubjpass <-- overcome --> advcl --> employing --> dobj --> machine learning techniques REVERSE
+USAGE TAP-XL Automated Analyst's Assistant <-- nsubj <-- application --> acl --> designed --> xcomp --> help --> dobj --> English --> acl:relcl --> write --> advcl --> culling --> nmod --> inflow --> nmod --> multilingual, multimedia data  REVERSE
+MODEL-FEATURE computational problems --> acl --> associated --> nmod --> probabilistic translation models 
+MODEL-FEATURE models <-- nsubjpass <-- viewed --> nmod --> pairs --> nmod --> working --> compound -->  probabilistic context-free grammars  REVERSE
+MODEL-FEATURE hardness <-- amod <-- results --> nmod --> NP  REVERSE
+USAGE evaluation metrics --> nmod --> Machine Translation (MT) systems 
+MODEL-FEATURE English-Japanese  <-- conj <-- English-Chinese <-- nmod <-- assessment <-- nmod <-- used --> nmod --> word segmentation problem REVERSE
+USAGE BLEU <-- nmod <-- use --> nmod --> word n-grams 
+USAGE BLEU  <-- nmod <-- use --> nmod --> level --> compound --> character
+COMPARE model <-- nmod:poss <-- strengths <-- dobj <-- understand <-- conj <-- explore --> conj --> compare --> nmod --> MT systems
+USAGE visualization method  <-- dobj <-- Using <-- advcl <-- find --> nmod --> MT system 
+TOPIC  Statistical Machine Translation (SMT)  <-- nmod <-- importance --> conj --> addressed --> nmod --> SMT research community  REVERSE
+MODEL-FEATURE computational complexity  --> nmod --> some --> nmod --> problems --> nmod --> SMT
+USAGE polynomial time solution  --> nmod --> any --> nmod --> hard problems
+USAGE MT-based paraphrasing technique <-- dobj <-- adopting --> conj --> evaluating --> dobj --> performance --> compound --> QA system 
+USAGE token classification task  <-- nmod <-- model <-- acl:relcl <-- approaches <-- nsubj <-- are --> advcl --> using --> dobj --> tagging strategies REVERSE
+USAGE InfoMagnets <-- nsubj <-- aims --> advcl --> making --> xcomp --> accessible --> nsubj --> exploratory corpus analysis 
+PART_WHOLE behavioral patterns  <-- conj <-- language <-- nmod <-- relationships --> nmod --> domains --> dep --> tutorial dialogue
+USAGE educational tool  <-- nmod <-- used --> nmod --> part --> nmod --> unit --> nmod --> protocol analysis
+USAGE polarization --> nmod --> objects --> nmod -->  elementary structures 
+MODEL-FEATURE saturation --> nmod -->  structure 
+MODEL-FEATURE similarity <-- nmod <-- kind <-- nsubjpass <-- represented --> nmod --> kind --> nmod --> word vectors REVERSE
+USAGE LSA-based, cooccurrence-based and dictionary-based methods <-- appos <-- methods for constructing word vectors  <-- nsubjpass <-- compared --> nmod --> terms --> nmod --> ability --> acl --> represent --> dobj --> kinds --> nmod --> similarity
+USAGE dictionary-based word vectors  <-- nsubj <-- reflect --> dobj --> taxonomic similarity
+USAGE LSA-based and the cooccurrence-based word vectors  <-- nsubj <-- reflect --> dobj --> associative similarity
+MODEL-FEATURE events <-- nsubjpass <-- defined --> nmod --> event terms  REVERSE
+USAGE event map --> acl --> constructed --> nmod --> documents  REVERSE
+USAGE interactive question-answering (Q/A) system  --> acl --> designed --> xcomp --> address --> dobj --> challenges --> acl --> integrating --> dobj --> applications --> compound --> automatic Q/A
+USAGE Q/A  --> acl --> known --> nmod --> predictive questioning REVERSE
+PART_WHOLE abstracts --> nmod --> research articles
+PART_WHOLE sentences --> nmod --> abstract 
+PART_WHOLE abstracts  <-- nmod <-- number <-- dobj <-- gathering --> nmod --> Web
+MODEL-FEATURE language model  --> nmod --> abstract moves
+USAGE move-tagged abstracts  --> nmod --> digital learning
+PART_WHOLE general-purpose NLP components  <-- dobj <-- assembles --> nmod --> machine translation pipeline
+MODEL-FEATURE verbs <-- nsubjpass <-- represented --> nmod --> sets --> nmod --> subpredicates REVERSE
+PART_WHOLE verb <-- nsubjpass <-- used --> nmod --> sentence 
+PART_WHOLE  sentence  --> acl:relcl --> used --> nsubjpass --> verb REVERSE
+MODEL-FEATURE computational theory --> nmod --> human plausible reasoning 
+MODEL-FEATURE theory <-- nsubjpass <-- expressed --> nmod -->  content-independent formalism  REVERSE
+COMPARE logic <-- nmod <-- specifies --> nsubj --> theory
+PART_WHOLE theory <-- nsubj <-- consists --> nmod -->  dimensionalized space  REVERSE
+MODEL-FEATURE inference types --> conj -->  certainty conditions  REVERSE
+MODEL-FEATURE meta-inference types --> acl:relcl --> depends --> nsubj --> inference 
+USAGE Path-based inference rules  <-- nsubjpass <-- written --> xcomp --> using --> dobj --> binary relational calculus notation REVERSE
+USAGE Node-based inference  <-- nsubj <-- allows --> xcomp --> inferred --> nmod --> existence --> nmod --> instance --> nmod --> pattern --> nmod --> node structures REVERSE
+USAGE Node-based inference rules  <-- nsubjpass <-- constructed --> xcomp --> using --> dobj --> variant --> nmod --> predicate calculus notation  REVERSE
+COMPARE Path-based inference <-- nsubj <-- efficient --> advcl --> general --> nsubj --> node-based inference 
+MODEL-FEATURE inheritance  <-- nmod <-- explication --> nmod --> hierarchies
+USAGE rules <-- conj <-- commands --> acl:relcl --> defined --> xcomp --> facilitate --> dobj --> construction --> nmod --> format --> conj --> mathematical expressions
+USAGE Augmented Transition Network <-- dobj <-- use --> nmod --> dialog model
+TOPIC dialog schemata  --> acl --> proposed --> nmod --> conversation analysis REVERSE
+PART_WHOLE verbal interactions  --> nmod --> task-oriented dialogs
+PART_WHOLE metaphors <-- dobj <-- Interpreting <-- csubj <-- process --> nmod --> human understanding of natural language 
+USAGE method of analyzing metaphors --> nmod --> existence --> nmod --> number --> nmod --> generalized metaphor mappings REVERSE
+PART_WHOLE generalized metaphor  <-- nsubj <-- contains --> dobj --> recognition network REVERSE
+MODEL-FEATURE meaning --> nmod --> input
+USAGE decoding <-- nsubj <-- underpinning <-- advcl <-- suggests --> ccomp --> appear --> xcomp --> cooperative --> advcl --> incorporate --> dobj --> non-literal aspects of communication  REVERSE
+PART_WHOLE personal computers <-- nmod <-- technology --> nmod --> graphics displays REVERSE
+COMPARE interfaces --> nmod --> mixture --> conj --> methods --> nmod --> natural language interfaces
+USAGE bottom-up pattern-matching parser  --> acl:relcl --> designed --> xcomp --> provide --> nmod --> input --> compound -->  restricted natural language 
+USAGE left corner parsing algorithm  --> nmod --> context-free grammars
+USAGE parser  --> acl --> used --> nmod --> natural language interface
+USAGE programming language  --> acl --> based --> nmod --> logic REVERSE
+USAGE Chat-80  <-- nsubj <-- translates --> dobj --> English questions
+PART_WHOLE  Prolog  <-- compound <-- subset of logic REVERSE
+USAGE query optimisation <-- dobj <-- cf. --> nmod --> relational database 
+COMPARE conversation transcripts  <-- compound <-- etc. <-- conj <-- memos --> conj --> have --> dobj --> features --> acl:relcl --> differ --> nmod --> neat texts
+USAGE expectations <-- nmod <-- use --> nmod --> knowledge --> nmod --> surface English REVERSE
+MODEL-FEATURE unknown words --> nmod --> context  REVERSE
+MODEL-FEATURE word-senses --> nmod -->  words with multiple meanings 
+PART_WHOLE missing words  --> appos --> ellipsis
+PART_WHOLE referents  --> appos --> anaphora
+USAGE  expectations  <-- dobj <-- using --> advcl --> aid --> dobj --> understanding --> nmod --> scruffy texts
+USAGE natural language system --> acl:relcl --> deals --> nmod --> ungrammatical input 
+USAGE English-Japanese machine translation  <-- nmod <-- effective --> nsubj --> syntax directed approach REVERSE
+USAGE Japanese-English translation  <-- nmod <-- powerful --> nsubj --> semantics directed approach
+COMPARE Japanese sentence structure  --> conj --> English sentence structure
+MODEL-FEATURE surface representation  <-- conj <-- structure --> nmod --> domain entities
+USAGE multiple parsing strategies  <-- nmod <-- use <-- conj <-- fragmentary recognition <-- dobj <-- facilitates --> conj --> useful --> nmod --> recognition of extra-grammatical input 
+USAGE control structure --> nmod --> entity-oriented parser 
+USAGE parsing strategies --> acl:relcl --> use --> dobj -->  control structure  REVERSE
+PART_WHOLE  parser  --> acl --> incorporating --> dobj --> control structure REVERSE
+PART_WHOLE proposition --> nmod -->  fuzzy quantifiers  REVERSE
+PART_WHOLE fuzzy quantifier  <-- dobj <-- suppressing --> nmod --> proposition
+MODEL-FEATURE meaning --> nmod -->  proposition 
+MODEL-FEATURE meaning --> nmod --> proposition 
+USAGE reasoning with dispositions  --> acl:relcl --> based --> nmod --> concept --> nmod --> fuzzy syllogism REVERSE
+RESULT Syllogistic reasoning with dispositions  <-- nsubj <-- has --> dobj --> bearing --> nmod --> commonsense reasoning
+PART_WHOLE management of uncertainty  --> nmod --> expert systems
+RESULT typicality <-- nmod <-- definition --> dep --> concept --> acl:relcl --> plays --> nmod --> human cognition
+USAGE computer text generation system  --> acl --> designed --> xcomp --> create --> nmod --> use --> nmod --> lexical substitutions  REVERSE
+COMPARE  pronominalization  --> conj --> superordinate substitution
+MODEL-FEATURE antecedence recovery <-- nmod <-- strength --> nmod --> each --> nmod --> lexical substitutions
+MODEL-FEATURE strength of potential antecedence  <-- nmod <-- matches --> xcomp --> select --> dobj --> substitutions 
+MODEL-FEATURE meaning --> nmod --> utterance 
+MODEL-FEATURE global meaning --> nmod --> sentence
+MODEL-FEATURE determiners <-- nmod <-- problem <-- nsubj <-- ambiguity REVERSE
+MODEL-FEATURE interpretation <-- dobj <-- forcing --> advcl --> clear --> nsubj -->  meaning 
+USAGE RAREAS <-- appos <-- system --> acl:relcl --> synthesizes --> nmod --> formatted weather data
+MODEL-FEATURE natural sublanguages --> nmod --> stereotyped text structure  REVERSE
+USAGE RAREAS <-- nsubj <-- draws --> nmod --> kinds --> nmod --> linguistic and non-linguistic knowledge  REVERSE
+USAGE error correction --> nmod --> ill-formed input 
+PART_WHOLE dialogue acquisition and tracking algorithm <-- nsubjpass <-- presented --> nmod --> description --> nmod --> implementation --> nmod --> voice interactive system 
+RESULT processing <-- conj <-- purpose <-- nmod <-- role --> nmod --> discourse 
+MODEL-FEATURE utterances <-- nmod <-- sequence <-- nmod <-- structure --> dep --> called --> xcomp --> linguistic structure REVERSE
+MODEL-FEATURE  purposes  <-- nmod <-- structure --> dep --> called --> dobj --> intentional structure REVERSE
+MODEL-FEATURE focus of attention  <-- nmod <-- state --> dep --> called --> dobj --> attentional state REVERSE
+PART_WHOLE discourse --> acl:relcl --> aggregate --> nsubj --> utterances  REVERSE
+MODEL-FEATURE intentional structure <-- nsubj <-- captures --> dobj --> discourse-relevant purposes 
+MODEL-FEATURE attentional state <-- nsubj <-- abstraction --> nmod --> focus of attention 
+MODEL-FEATURE theory of attention, intention, and aggregation of utterances  <-- nsubjpass <-- illustrated --> nmod --> number --> nmod --> discourses
+PART_WHOLE utterances <-- nmod <-- processing --> nmod --> discourse
+PART_WHOLE utterances --> nmod --> aggregate --> compound --> discourse 
+PART_WHOLE  intentions  --> acl --> expressed --> nmod --> discourse
+MODEL-FEATURE human-machine interactions <-- nmod <-- enrichment --> nmod --> natural language environment  REVERSE
+COMPARE speaker --> conj --> listener
+COMPARE Tree Adjoining Grammars  --> conj --> Head Grammars
+MODEL-FEATURE equivalence  --> nmod --> formalisms
+MODEL-FEATURE linguistic expressiveness  --> nmod --> formalisms
+MODEL-FEATURE features <-- nmod <-- sets <-- dobj <-- containing <-- acl <-- structures --> acl --> describe --> dobj --> linguistic objects 
+MODEL-FEATURE feature structures <-- nmod <-- descriptions <-- nsubjpass <-- regarded --> nmod --> logical formulas 
+PART_WHOLE transition graphs  --> nmod --> type --> nmod --> deterministic finite automaton
+MODEL-FEATURE semantics  --> nmod --> feature structures
+PART_WHOLE path values <-- conj <--  disjunctions  --> amod --> embedded --> nmod -->  disjunctions 
+COMPARE  logical model  <-- dobj <-- using --> nmod --> place --> nmod --> denotational semantics
+USAGE logical model  <-- nsubj <-- yields --> dobj --> calculus --> acl:relcl --> used --> xcomp --> simplify --> dobj --> formulas 
+MODEL-FEATURE computational complexity --> nmod --> unification 
+MODEL-FEATURE consistency problem --> nmod --> formulas 
+COMPARE text  --> conj --> text-to-speech form
+MODEL-FEATURE feedback <-- conj <-- Deictic reference  --> nmod --> discourse
+PART_WHOLE pronominal anaphora resolution module --> nmod --> Lucy 
+PART_WHOLE  blackboard-like architecture  --> acl:relcl --> encoded --> nsubjpass --> partial theories REVERSE
+USAGE Unification Categorial Grammar (UCG)  <-- nmod <-- application --> nmod --> framework --> nmod -->  Machine Translation 
+MODEL-FEATURE grammars --> nmod --> Source and Target languages 
+COMPARE SL --> conj -->  TL 
+COMPARE translation relation <-- nmod <-- constraints --> nmod --> levels --> nmod --> textual representation
+PART_WHOLE demonstrative expressions  <-- nmod <-- use --> nmod --> English
+PART_WHOLE texts <-- nmod <-- range <-- dobj <-- examine --> advcl --> show --> ccomp --> genre dependent --> nsubj --> distribution --> nmod --> demonstrative forms and functions  REVERSE
+MODEL-FEATURE Boolean conditions --> nmod --> cooccurrence --> nmod --> categories 
+MODEL-FEATURE syntactic descriptions <-- nmod <-- leads --> dep --> formulated --> nmod --> restrictive statements REVERSE
+COMPARE context free languages <-- nmod <-- analysis <-- nmod <-- algorithms <-- nsubjpass <-- adapted --> nmod --> CCR formalism
+MODEL-FEATURE logical well-formedness conditions <-- nmod <-- fulfillment <-- dobj <-- checks --> nmod --> trees 
+MODEL-FEATURE presuppositional nature  --> nmod --> sentences
+USAGE computational model --> nmod --> process --> acl --> describing --> dobj --> layout --> nmod --> apartment --> appos --> discourse task
+PART_WHOLE model <-- nsubjpass <-- embodied --> nmod --> program --> appos --> APT
+PART_WHOLE fragments <-- nsubj <-- occur --> nmod --> sentence 
+RESULT paraphrasing  --> nmod --> output --> nmod:poss --> parser REVERSE
+MODEL-FEATURE paraphrasing  <-- compound <-- sentences
+COMPARE general domains  <-- nmod <-- applicable <-- amod <-- learning methodology <-- nsubj <-- lend --> nmod --> linguistic domain
+USAGE linguistic representation  --> acl --> used --> nmod --> language processing systems
+USAGE Dynamic Hierarchical Phrasal Lexicon (DHPL)  <-- appos <-- linguistic representation --> acl --> facilitate --> dobj --> language acquisition
+PART_WHOLE language learning model  <-- nsubjpass <-- implemented --> nmod --> RINA --> acl:relcl --> enhances --> dobj --> lexical hierarchy  REVERSE
+MODEL-FEATURE  linguistic concepts  <-- nsubjpass <-- acquired --> nmod --> training examples
+USAGE lexical hierarchy  <-- nsubjpass <-- used --> advcl --> predicting --> dobj --> linguistic concepts
+MODEL-FEATURE lexical unknown <-- nmod <-- presence <-- nmod <-- stall --> conj --> produced --> nsubjpass --> hypothesis  REVERSE
+USAGE natural language system <-- nsubj <-- needs --> dobj -->  computational lexicon  REVERSE
+PART_WHOLE computational lexicon --> acl --> designed --> xcomp --> repository --> nmod --> shared lexical information  REVERSE
+USAGE machine-readable dictionaries (MRD's)  <-- nmod <-- information <-- nmod <-- drawn --> xcomp --> create --> dobj --> broad coverage lexicon
+RESULT user modeling <-- nmod <-- role --> nmod --> systems 
+MODEL-FEATURE user model <-- nsubjpass <-- required --> xcomp --> keep --> nmod --> user
+PART_WHOLE user model  <-- nmod <-- knowledge <-- dobj <-- acquiring <-- csubj <-- problem --> nmod --> user modeling
+USAGE feature structure-directed generation  <-- xcomp <-- called <-- acl <-- bidirectional grammar generation system <-- nsubj <-- developed --> nmod --> dialogue translation system
+USAGE typed feature structures  <-- dobj <-- utilizes --> advcl --> control --> dobj --> top-down derivation
+USAGE generation system  <-- nsubj <-- uses --> dobj --> disjunctive feature structures REVERSE
+USAGE grammar  --> nmod --> generator
+MODEL-FEATURE dependency structure --> nmod -->  sentences 
+USAGE DoPS system <-- compound <-- extracts <-- nsubj <-- preference --> dobj --> knowledge --> nmod --> target document 
+MODEL-FEATURE dependency structures --> nmod --> Japanese patent claim sentences 
+USAGE Korean phonological knowledge base system  --> acl --> using --> dobj --> unification-based grammar formalism REVERSE
+USAGE KPSG <-- nmod <-- approach <-- nsubj <-- provides --> dobj --> model --> acl --> constructing --> dobj --> phonological system
+COMPARE syntax  <-- nmod <-- confines <-- nmod <-- application <-- nmod <-- challenge <-- dobj <-- present --> nmod --> task --> nmod --> semantic interpretation
+MODEL-FEATURE semantics --> acl --> represented --> nmod -->  logical form language  REVERSE
+MODEL-FEATURE translates --> nmod --> natural language 
+USAGE TAGs <-- dobj <-- allow --> xcomp --> used --> nmod --> role --> nmod --> syntax proper
+MODEL-FEATURE sentence analysis <-- nsubjpass <-- treated --> nmod --> defeasible reasoning 
+USAGE Japanese sentence analyses <-- nmod <-- treatment <-- dobj <-- presents --> xcomp --> using --> dobj --> argumentation system REVERSE
+MODEL-FEATURE  formalization  --> nmod --> defeasible reasoning
+MODEL-FEATURE defeat rules <-- conj <--  arguments  --> acl:relcl --> capture --> dobj --> defeasibility 
+PART_WHOLE Spelling-checkers <-- nsubj <-- become --> xcomp --> part --> nmod --> text processing software
+COMPARE dictionaries of word forms  --> conj --> words
+MODEL-FEATURE inflection --> nmod --> English
+MODEL-FEATURE highly inflective languages --> nmod -->  Czech 
+USAGE  spelling-checkers  <-- nmod <-- scale <-- nmod <-- middle <-- nmod <-- lies --> nmod --> English
+PART_WHOLE word forms <-- nmod <-- number <-- nsubj <-- exceeds --> dobj --> million --> nmod -->  Czech 
+USAGE grammar coverage problems <-- dobj <-- avoid --> parataxis --> use --> dobj --> fully-connected first-order statistical class grammar  REVERSE
+MODEL-FEATURE board  --> nmod --> Intel i860 chip REVERSE
+PART_WHOLE VME bus --> nmod -->  SUN4 
+USAGE speaker-independent (SI) training  --> acl:relcl --> uses --> dobj --> amount --> nmod --> speech  REVERSE
+COMPARE statistics  <-- dobj <-- averaging --> conj --> usual --> acl --> pooling --> nmod --> speech data
+RESULT training speakers  <-- nmod <-- achieved --> dobj -->  word error rate 
+PART_WHOLE test set <-- conj <-- grammar <-- nmod <--  word error rate  <-- dobj <-- achieved --> nmod --> DARPA Resource Management corpus
+USAGE speaker adaptation (SA)  <-- nmod <-- improvement <-- dobj <-- show --> xcomp --> using --> dobj --> SI corpus REVERSE
+MODEL-FEATURE  probabilistic spectral mapping  <-- nsubjpass <-- estimated --> nmod --> training (reference) speaker
+USAGE reference model  <-- nsubjpass <-- transformed --> conj --> combined --> nmod --> averaging REVERSE
+USAGE  utterances  <-- dobj <-- Using --> nmod --> target speaker --> nmod --> adaptation 
+USAGE editor --> nmod --> dictionary 
+USAGE editor <-- nsubj <-- was --> xcomp --> provide --> dobj --> tool --> acl --> help --> ccomp --> produce --> nsubj --> lexicologists
+USAGE dictionary  <-- dobj <-- produce --> nmod --> basis --> nmod --> linguistic theory REVERSE
+USAGE grammars <-- conj <-- lexicons  <-- dobj <-- want --> xcomp --> achieve --> dobj --> natural language processing 
+RESULT free indexation <-- nsubj <-- plays --> nmod --> determination --> nmod --> referential properties of noun phrases
+USAGE syntactic analysis  <-- nsubj <-- robust <-- xcomp <-- making <-- acl <-- techniques --> dep --> agenda-based scheduling parser REVERSE
+USAGE pragmatics processing  <-- nmod <-- describe --> ccomp --> robust --> nsubj --> method --> nmod --> abductive inference REVERSE
+USAGE chart-based phrase structure parsing --> nmod --> natural language 
+PART_WHOLE  unrestricted texts  --> acl:relcl --> unknown --> nsubj --> many --> nmod --> words REVERSE
+COMPARE edges <-- nmod <-- topmost --> nmod --> edges
+USAGE phrase boundary heuristics  <-- nmod <-- use --> nmod --> placement --> nmod --> function words REVERSE
+PART_WHOLE phrases <-- nmod <-- kinds <-- dobj <-- permit --> xcomp --> deduced --> nmod --> presence --> nmod --> unknown words REVERSE
+COMPARE semantic --> conj -->  syntactic categories 
+RESULT ambiguity <-- nmod <-- amount <-- dobj <-- reducing <-- conj <-- using --> conj --> introduced --> nsubjpass --> number --> nmod --> edges 
+MODEL-FEATURE edges --> nmod --> interpretation --> compound --> semantic  REVERSE
+USAGE discourse segmentation  --> acl --> based --> nmod --> abduction REVERSE
+MODEL-FEATURE temporal relations  <-- nmod <-- abduction --> nmod --> segments
+USAGE adaptive learning procedure  <-- conj <-- discrimination <-- nsubjpass <-- proposed --> xcomp --> deal --> nmod --> task --> nmod --> syntactic ambiguity resolution
+RESULT approximation error  <-- conj <-- insufficient training data --> acl --> introduced --> nmod --> language model REVERSE
+USAGE statistical approaches  --> acl:relcl --> resolve --> nmod --> indirectly --> dep --> using --> dobj --> maximum likelihood method  REVERSE
+RESULT accuracy rate --> nmod --> syntactic disambiguation  REVERSE
+PART_WHOLE Graph unification <-- nsubj <-- remains --> xcomp --> part --> nmod --> unification-based grammar parsing
+MODEL-FEATURE log(d) overheads --> acl --> associated --> nmod --> structure-sharing of graphs 
+COMPARE transfer phase <-- nsubjpass <-- considered --> xcomp --> complicated --> nmod --> analysis
+USAGE case-based reasoning <-- dobj <-- use --> nmod --> machine translation 
+USAGE Similarity-driven Transfer System (SimTran) <-- xcomp <-- called <-- acl <-- type --> nmod --> use --> nmod --> case-based MT (CBMT)
+USAGE parser <-- nsubj <-- skips --> dobj --> that --> dep --> portion  --> acl --> using --> dobj --> non-terminal symbol REVERSE
+MODEL-FEATURE parse record --> nmod --> utterance
+PART_WHOLE unknown words <-- nsubjpass <-- incorporated --> nmod --> dictionary
+USAGE sublanguage <-- nmod <-- concept <-- nmod <-- mechanism <-- nsubjpass <-- proposed --> advcl --> identifying --> dobj --> unknown words
+PART_WHOLE personal names  <-- appos <-- unknown words <-- dobj <-- identifying --> nmod --> Chinese newspapers
+PART_WHOLE spatial descriptions --> nmod --> Japanese 
+MODEL-FEATURE model --> nmod --> world 
+PART_WHOLE qualitative spatial constraints  <-- dobj <-- extract --> nmod --> text
+MODEL-FEATURE spatial attributes --> nmod --> entities 
+MODEL-FEATURE temporary belief --> nmod --> world 
+MODEL-FEATURE spoken language corpus --> nmod --> ATIS (Air Travel Information System) domain  REVERSE
+MODEL-FEATURE utterances --> nmod -->  spontaneous speech  REVERSE
+COMPARE speech processing <-- nmod <-- field <-- nmod <-- LIMSI <-- nmod <-- conducted <-- acl <-- research <-- nmod <-- overview <-- dobj <-- provides --> conj --> areas --> nmod --> Human-Machine Communication 
+MODEL-FEATURE domain-independent capabilities <-- nsubj <-- added --> nmod --> Paramax spoken language understanding system
+RESULT n-best speech/language integration architecture <-- dobj <-- extending --> advcl --> improving --> dobj --> accuracy
+USAGE  linguistic information  <-- nmod <-- advantage <-- dobj <-- takes --> advcl --> resolve --> dobj --> ambiguity
+USAGE HBG <-- nsubj <-- incorporates --> dobj --> lexical, syntactic, semantic, and structural information  REVERSE
+MODEL-FEATURE parse  --> nmod --> sentence
+USAGE grammar --> acl --> tailoring --> nmod -->  linguistic introspection  REVERSE
+COMPARE HBG model <-- nsubj <-- outperforms --> dobj --> P-CFG
+USAGE reestimation formulas  <-- nsubjpass <-- given --> nmod --> HMM with Gaussian mixture observation densities
+USAGE Bayesian learning <-- nsubj <-- serves --> nmod --> approach --> acl --> for --> dobj --> the --> nmod --> applications --> compound --> speech recognition
+MODEL-FEATURE sentence  --> acl:relcl --> depends --> nsubj --> meaning REVERSE
+USAGE word-sense disambiguation systems  --> appos --> one --> acl --> trained --> nmod --> bilingual material REVERSE
+PART_WHOLE sentence <-- nmod <-- polysemous word  <-- nsubj <-- appears --> dobj --> times --> nmod --> well-written discourse 
+PART_WHOLE sense  <-- dobj <-- share --> nmod --> discourse
+USAGE constraint <-- nmod <-- source --> acl --> improving --> dobj --> performance --> nmod --> word-sense disambiguation algorithm
+USAGE disambiguation algorithms --> acl:relcl --> make --> dobj --> use --> nmod --> discourse constraint REVERSE
+USAGE dependency relation paths <-- nmod <-- correlation --> acl --> rank --> dobj --> answers --> nmod --> answer extraction
+MODEL-FEATURE dependency relations <-- dobj <-- compare --> conj --> mapped --> dobj --> question phrases
+PART_WHOLE mapping score <-- dobj <-- incorporate --> nmod --> correlation measure
+PART_WHOLE cooccurrence patterns  <-- nmod <-- statistics <-- dobj <-- collecting --> nmod --> corpus
+USAGE semantic constraints  <-- dobj <-- reflect --> conj --> used --> xcomp --> disambiguate --> dobj --> anaphora references
+MODEL-FEATURE  references  --> nmod --> pronoun "it"
+PART_WHOLE sentences <-- nmod <--  references  --> acl:relcl --> selected --> nmod --> corpus
+USAGE cooccurrence statistics <-- nsubj <-- reflect <-- acl:relcl <-- cases <-- nmod <-- most --> conj --> provide --> dobj --> basis --> nmod --> disambiguation tool
+COMPARE  probabilistic context-free grammar  --> conj --> probabilistic finite automaton
+PART_WHOLE Kullback-Leibler distance <-- nmod <-- part <-- nmod <-- closed-form (analytical) solution  <-- nsubj <-- is <-- ccomp <-- show --> dep --> viz. --> dobj --> cross-entropy REVERSE
+USAGE distributional approximation  <-- nmod <-- problem <-- nmod <-- applications <-- dobj <-- discuss --> nmod --> means --> nmod --> probabilistic finite automata REVERSE
+USAGE spelling correction --> nmod -->  languages 
+USAGE spelling correction <-- nmod <-- approach --> nmod --> agglutinative languages 
+USAGE spelling correction --> nmod -->  Turkish
+USAGE continuous speech recognition (CSR) techniques  --> acl --> focussed --> nmod --> application --> nmod --> Spoken Language Systems (SLS)
+USAGE spoken language technology  <-- nmod <-- transition --> nmod --> military and civilian systems
+USAGE CSR <-- nmod <-- application --> nmod --> mobile military command and control
+USAGE large-vocabulary CSR <-- nmod <-- recognition-time adaptation techniques  <-- conj <-- focusses --> conj --> applying --> nmod --> ARPA large-vocabulary CSR corpora
+PART_WHOLE Presentor  <-- nsubj <-- offers --> dobj --> declarative languages REVERSE
+TOPIC DARPA Spoken Language Systems (SLS) program <-- nmod <-- involved --> xcomp --> agree --> nmod --> methodology --> nmod --> evaluation --> nmod --> SLS systems
+TOPIC NL evaluations --> amod --> other --> nmod --> series --> nmod --> Message Understanding Conferences REVERSE
+USAGE "black-box" methodology --> nmod --> evaluation --> nmod --> question-answering NL systems
+TOPIC psycholinguistic literature <-- nsubj <-- provides --> dobj --> evidence --> nmod --> syntactic priming
+USAGE priming <-- dobj <-- incorporating --> nmod --> incremental probabilistic parser
+PART_WHOLE parallel structures  --> acl --> found --> nmod --> human data
+MODEL-FEATURE word <-- nmod <-- Instances <-- nsubj <-- have --> dobj --> sense priors REVERSE
+MODEL-FEATURE senses  --> nmod --> word
+USAGE word sense disambiguation (WSD) systems  <-- nmod <-- accuracy --> nmod --> domains
+MODEL-FEATURE sense priors --> nmod --> words 
+USAGE well calibrated probabilities  <-- dobj <-- using --> advcl --> performing --> dobj --> estimations
+USAGE well calibrated probabilities <-- dobj <-- using <-- advcl <-- able --> xcomp --> estimate --> dobj --> sense priors 
+PART_WHOLE hierarchical relations <-- dobj <-- obtain <-- csubj <-- one --> nmod --> problems --> nmod --> thesaurus construction
+PART_WHOLE relations <-- dobj <-- extracting --> nmod --> Japanese language dictionary 
+PART_WHOLE definition sentences --> nmod --> dictionary
+USAGE natural language understanding --> acl:relcl --> take --> dobj --> machine translation
+MODEL-FEATURE ambiguity --> conj --> vagueness --> acl:relcl --> has --> nsubj -->  natural language 
+USAGE transfer approach <-- dobj <-- adopts --> nmod --> framework --> nmod --> MT
+COMPARE transfer phase <-- nmod <-- construction <-- dobj <-- describes --> conj --> gives --> dobj --> examples --> nmod --> problems --> acl:relcl --> seem --> xcomp --> difficult --> xcomp --> treat --> nmod --> interlingual approach
+USAGE SVMs <-- conj <-- maximum entropy classifiers <-- nmod <-- classifiers  <-- nsubjpass <-- applied --> nmod --> language processing tasks
+USAGE error correction mechanisms  <-- nsubjpass <-- developed --> conj --> relied --> xcomp --> improve --> dobj --> performance --> nmod --> unseen data
+MODEL-FEATURE entailment relations  <-- nmod <-- automatic acquisition <-- nmod <-- problem --> nmod --> verbs
+MODEL-FEATURE semantic equivalence --> nmod --> verbs
+TOPIC entailment acquisition  <-- nmod <-- challenge <-- appos <-- verbs <-- nmod <-- semantic equivalence <-- dobj <-- discover <-- xcomp <-- aims <-- acl:relcl <-- paraphrases acquisition  <-- nmod <-- common --> dep --> is --> xcomp --> capture --> dobj --> asymmetric, or directional, relations
+MODEL-FEATURE local structure --> nmod --> coherent text
+MODEL-FEATURE discourse relations --> nmod --> clauses 
+MODEL-FEATURE verbs --> nmod --> argument structures
+MODEL-FEATURE phrases <-- nsubjpass <-- represented --> nmod --> sets --> nmod --> trees
+COMPARE ranking algorithm  <-- nsubjpass <-- described --> advmod --> together --> nmod --> results --> acl --> showing --> dobj --> improvements --> nmod --> enumeration --> conj --> lattice-based approach
+USAGE sentences <-- dobj <-- extract --> nmod -->  summary generation 
+USAGE  categorization task <-- nmod <-- used --> nsubjpass --> positive feature vectors REVERSE
+USAGE text model <-- nsubjpass <-- used --> xcomp --> rank --> conj --> generate --> dobj --> user-directed summaries
+MODEL-FEATURE similarity  --> nmod --> vectors
+MODEL-FEATURE threading algorithm  --> acl:relcl --> runs --> nmod --> 0(n) time
+MODEL-FEATURE topics --> nmod -->  threads
+MODEL-FEATURE words --> acl:relcl --> represent --> dobj -->  information 
+MODEL-FEATURE SSTC <-- nsubj <-- describes --> dobj --> sentence
+PART_WHOLE substrings  --> nmod --> sentence
+PART_WHOLE subtrees <-- conj <-- sentence --> nmod --> representation tree
+MODEL-FEATURE subtrees <-- dobj <-- build --> nmod --> phrases 
+USAGE HMM-based chunk tagger <-- conj <-- Hidden Markov Model (HMM) --> acl:relcl --> built --> nsubjpass --> named entity (NE) recognition (NER) system 
+MODEL-FEATURE words <-- nmod <-- feature --> nmod --> capitalization  REVERSE
+RESULT system <-- nmod <-- Evaluation <-- nsubj <-- achieves --> dobj --> F-measures
+USAGE Natural Language Processing (NLP) system <-- dobj <-- Porting --> nmod --> new domain  REVERSE
+USAGE existing grammar  <-- dobj <-- attune --> nmod --> idiosyncracies --> nmod --> new sublanguage
+USAGE lexicalized grammar <-- nmod <-- process --> nmod -->  domain 
+COMPARE traditional knowledge-based techniques <-- dobj <-- combines --> nmod --> corpus-based approach
+PART_WHOLE transliteration  <-- nmod <-- caused --> nmod --> corpus
+USAGE string similarity --> acl --> based --> nmod --> edit distance REVERSE
+USAGE contextual similarity  --> nmod --> vector space model REVERSE
+PART_WHOLE temporal expressions  --> nmod --> newswire texts
+MODEL-FEATURE temporal expressions  <-- dobj <-- anchoring --> nmod --> genre REVERSE
+COMPARE Temporal Expression Anchoror (TEA) <-- dobj <-- developed --> conj --> shows --> ccomp --> performs --> advmod --> better --> nmod --> baseline
+USAGE voice input <-- nmod <-- usefulness --> nmod -->  interactive problem solving
+USAGE natural language processing <-- conj <-- speech recognition  <-- dobj <-- Combining --> advcl --> achieve --> dobj -->  speech understanding
+USAGE segment-based approach <-- dobj <-- using --> nmod --> phonetic recognition
+USAGE natural language processing <-- nmod <-- integrated --> xcomp --> achieve --> dobj -->  spoken language understanding
+PART_WHOLE knowledge  --> acl --> expressed --> nmod --> text
+USAGE computational methods --> nmod --> KDS 
+COMPARE A deterministic parser <-- nsubj <-- development --> acl:relcl --> represents --> dobj --> departure --> nmod --> traditional deterministic parsers 
+PART_WHOLE rules  --> nmod --> deterministic grammar
+COMPARE parser --> acl:relcl --> superior --> nmod --> known deterministic parser
+USAGE training techniques  <-- nsubjpass <-- demonstrated --> dobj --> that --> root --> decision-making
+PART_WHOLE connectionist component  --> nmod --> parsing process
+PART_WHOLE rules --> nmod -->  deterministic parsers
+USAGE connectionist (neural) network  <-- nsubj <-- parse --> dobj --> expected (grammatical) sentences 
+USAGE supervised learning  <-- nmod <-- integration --> acl --> deal --> nmod --> biases --> nmod --> summarization
+PART_WHOLE corpus <-- nsubjpass <-- created --> nmod --> newspaper corpus REVERSE
+USAGE statistical machine translation (MT)  <-- nmod <-- procedure --> acl --> based --> nmod --> dynamic programming (DP) REVERSE
+MODEL-FEATURE Verbmobil task  --> acl:relcl --> limited-domain spoken-language task REVERSE
+PART_WHOLE word-sense ambiguity <-- nmod <-- issue --> nmod --> extraction --> nmod --> machine-readable resources 
+COMPARE verb semantics --> conj --> syntactic behavior 
+USAGE semantic information  <-- dobj <-- deriving --> nmod --> syntactic cues REVERSE
+COMPARE  syntactic cues  <-- dobj <-- divide --> nmod --> groupings --> acl:relcl --> correlate --> nmod --> word senses
+USAGE  natural language processing (NLP) systems  <-- dobj <-- building --> nmod --> text understanding
+USAGE PAKTUS <-- nsubj <-- supports --> dep --> JINTACCS messages
+USAGE linear logic <-- nmod <-- fragment <-- nsubj <-- found --> nmod --> computational linguistics
+USAGE  "glue language"  <-- compound <-- approach --> nmod --> LFG semantics
+PART_WHOLE embodied conversational agent  --> nmod --> dialogue system
+USAGE parser  <-- conj <-- simultaneous language model --> nmod --> large-vocabulary speech recognition
+USAGE parser <-- nsubj <-- uses --> dobj --> structural and lexical dependencies  REVERSE
+USAGE structural information --> amod --> useful --> nmod --> speech understanding
+COMPARE  rank <-- conj <-- probability --> conj --> entropy
+USAGE pruning criteria  <-- nmod <-- performance --> nmod --> application --> nmod --> Chinese text input
+USAGE unification-based grammar  --> acl:relcl --> used --> nmod --> multidimensional chart parser
+USAGE multimodal parsing and understanding  <-- nsubjpass <-- achieved --> xcomp --> using --> dobj --> weighted finite-state device REVERSE
+MODEL-FEATURE convolution kernel <-- dobj <-- use --> nmod --> syntactic structure information
+PART_WHOLE syntactic structure features  --> acl --> embedded --> nmod --> parse tree
+USAGE parsing <-- nmod <-- approach --> acl:relcl --> utilizes --> dobj --> advances --> nmod --> unification-based parsing REVERSE
+COMPARE unification-based grammatical frameworks  <-- nsubjpass <-- extended <-- advcl <-- begin --> xcomp --> share --> dobj --> many --> nmod --> properties --> acl:relcl --> developed --> nmod --> KL-ONE-like knowledge representation systems
+USAGE classification-based representation techniques  <-- nmod <-- some <-- nsubjpass <-- applied --> nmod --> unification-based linguistic descriptions
+USAGE KL-ONE style representation --> nmod --> parsing 
+USAGE parsing <-- nsubjpass <-- characterized --> nmod --> process --> acl --> called --> xcomp --> incremental description refinement REVERSE
+USAGE explanation system <-- nsubj <-- able --> xcomp --> select --> dobj --> information --> nmod --> representation --> nmod --> domain knowledge REVERSE
+USAGE explanation generation  --> nmod --> semantically rich, large-scale knowledge bases REVERSE
+USAGE robust explanation system --> dep --> that --> dep --> constructs --> dep --> multisentential and multi-paragraph explanations  --> nmod --> large-scale knowledge base REVERSE
+PART_WHOLE topic signature <-- nsubj <-- set --> nmod --> words  REVERSE
+USAGE Topic signatures <-- nsubj <-- useful --> nmod --> number --> nmod --> Natural Language Processing (NLP) applications
+PART_WHOLE word senses <-- nsubjpass <-- lexicalised --> nmod -->  English 
+PART_WHOLE Chinese text  <-- nmod <-- amount --> amod --> available --> nmod --> corpora
+USAGE topic signatures  --> nmod --> WSD task
+USAGE ensemble learning approach --> acl --> resolving --> dobj --> German pronouns
+USAGE  standalone system  --> acl:relcl --> resolves --> dobj --> pronouns --> nmod --> unannotated text 
+COMPARE textual domain <-- nmod <-- performs <-- advcl <-- needed --> xcomp --> make --> xcomp --> it --> dep --> effective --> nmod --> open-domain question answering
+USAGE machine learning approach --> nmod -->  bare slice disambiguation 
+MODEL-FEATURE heuristic principles  <-- nmod <-- set <-- dobj <-- extract --> conj --> formulate --> nmod --> probabilistic Horn clauses REVERSE
+MODEL-FEATURE domain independent features <-- nmod <-- set --> acl --> annotate --> dobj --> input dataset
+COMPARE rule-based learning algorithm <-- appos <-- SLIPPER --> appos --> memory-based system
+MODEL-FEATURE features --> nmod --> terms --> acl:relcl --> formulate --> dobj --> heuristic principles
+COMPARE rules --> acl:relcl --> resemble --> ccomp --> learnt --> nsubjpass --> Horn clauses 
+USAGE meaning-entailing substitutability  <-- nsubj <-- fits --> dobj --> needs --> nmod --> semantic-oriented NLP applications
+MODEL-FEATURE semantic criterion <-- nmod <-- Motivated <-- dep <-- analyze --> dobj --> quality --> nmod --> distributional word feature vectors
+RESULT feature weighting and selection function  <-- nsubjpass <-- presented --> dep --> yields --> dobj --> feature vectors
+MODEL-FEATURE features --> nmod -->  electronic discussions 
+USAGE clustering and filtering processes  --> nmod --> electronic newsgroup discussions
+RESULT performance  <-- dobj <-- evaluated --> nmod --> means --> nmod --> experiments --> dep --> information retrieval --> compound --> coarse-level clustering REVERSE
+MODEL-FEATURE context <-- dobj <-- exploits --> nmod --> sides --> nmod --> word 
+RESULT quality <-- nsubj <-- impacts --> dobj --> accuracy
+RESULT HMM training <-- nmod <-- method --> acl:relcl --> improves --> dobj --> accuracy 
+USAGE referring expressions <-- dobj <-- generating <-- acl <-- work <-- nsubj <-- utilized --> dobj --> attributes --> nmod --> objects 
+MODEL-FEATURE binary relations <-- conj <-- objects  <-- nmod <-- attributes --> nmod --> objects
+MODEL-FEATURE objects --> conj --> n-ary relations  REVERSE
+PART_WHOLE Machine transliteration/back-transliteration <-- nsubj <-- plays --> nmod --> multilingual speech and language applications
+USAGE machine transliteration/backtransliteration  <-- nmod <-- framework --> acl:relcl --> allows --> xcomp --> carry --> dobj --> direct orthographical mapping (DOM)
+MODEL-FEATURE n-gram transliteration model (n-gram TM) <-- xcomp <-- called <-- acl <-- joint source-channel transliteration model <-- nsubjpass <-- proposed --> xcomp --> model --> dobj --> transliteration process
+USAGE transliteration/backtransliteration experiments --> nmod --> English/Chinese and English/Japanese language pairs
+USAGE corpus-based supervised word sense disambiguation (WSD) system  --> nmod --> Dutch
+COMPARE classifiers  <-- dobj <-- building <-- advcl <-- introduce --> dobj -->  lemma-based approach
+MODEL-FEATURE inflected forms  --> nmod --> ambiguous word
+USAGE training material --> amod --> available --> nmod --> algorithm
+USAGE lemma-based model  --> nmod --> Dutch Senseval-2 test data
+USAGE text mining method --> acl --> finding --> dobj -->  synonymous expressions  --> nmod --> distributional hypothesis REVERSE
+RESULT accuracy  --> nmod --> term aggregation system REVERSE
+USAGE text  <-- dobj <-- using --> nmod --> corpus
+MODEL-FEATURE expression <-- dobj <-- use --> nmod -->  meaning REVERSE
+MODEL-FEATURE words <-- nmod <-- most --> nmod --> similar context features  REVERSE
+RESULT accuracy --> nmod --> term aggregation system REVERSE
+USAGE sentence extraction --> nmod --> approach --> nmod -->  summarization 
+MODEL-FEATURE documents --> nmod --> genres REVERSE
+PART_WHOLE email communication  --> acl:relcl --> made --> nsubjpass --> utterances
+PART_WHOLE segments --> nmod -->  dialogue 
+PART_WHOLE question-answer pairs <-- nmod <-- detection <-- nmod <-- work <-- dobj <-- present --> nmod --> email conversation  REVERSE
+USAGE features  <-- nsubjpass <-- used --> xcomp --> improve --> nmod --> lexical similarity 
+MODEL-FEATURE co-occurrence distribution  --> nmod --> pairs --> nmod --> terms
+MODEL-FEATURE similarity  <-- dobj <-- compute --> nmod --> words
+USAGE lexical affinity  <-- conj <-- words <-- nmod <-- compute --> advcl --> create --> dobj --> sequential models
+MODEL-FEATURE co-occurrence patterns --> nmod --> pair --> nmod --> words 
+USAGE word sense disambiguation <-- nmod <-- method --> acl --> based --> nmod --> parallel corpora REVERSE
+USAGE word clustering <-- conj <-- word alignment  <-- nmod <-- advances --> nmod --> automatic extraction  REVERSE
+PART_WHOLE  alignment errors  <-- dobj <-- check --> nmod --> multilingually aligned wordnets
+USAGE Minimum Bayes-Risk (MBR) decoding --> nmod -->  statistical machine translation
+MODEL-FEATURE loss functions  --> dep --> translation performance
+MODEL-FEATURE loss functions  <-- nmod <-- hierarchy --> acl:relcl --> incorporate --> dobj --> levels --> nmod --> linguistic information 
+PART_WHOLE word-to-word alignments  --> nmod --> MT system REVERSE
+MODEL-FEATURE parse-trees --> nmod --> source and target language sentences
+RESULT performance --> nmod --> MBR decoders 
+USAGE MBR decoding  <-- nsubjpass <-- used --> xcomp --> tune --> dobj --> statistical MT performance
+RESULT Information extraction techniques <-- nsubj <-- create --> dobj --> structured databases
+MODEL-FEATURE confidence  --> dep --> system --> acl --> has --> nmod --> correctness --> nmod --> extracted field
+USAGE information extraction system  <-- nsubjpass <-- based --> nmod --> linear-chain conditional random field (CRF) REVERSE
+USAGE probabilistic model --> acl:relcl --> performed --> nmod --> information extraction tasks 
+MODEL-FEATURE features --> nmod --> Markov model REVERSE
+MODEL-FEATURE confidence --> nmod --> extracted fields 
+USAGE graphic interpretation system  --> acl:relcl --> takes --> dobj --> variety --> nmod --> communicative signals REVERSE
+USAGE word alignment <-- nmod <-- framework --> acl --> based --> nmod -->  log-linear models REVERSE
+USAGE knowledge sources <-- nsubjpass <-- treated --> nmod --> feature functions
+USAGE Log-linear models <-- nsubj <-- allow --> dobj --> statistical alignment models 
+USAGE bilingual dictionary coverage  <-- conj <-- IBM Model 3 alignment probabilities <-- dobj <-- use --> nmod --> features
+COMPARE  log-linear models  <-- compound <-- IBM translation models
+USAGE Combinatory Categorial Grammar (CCG) lexicon  <-- dobj <-- inducing --> nmod --> Turkish dependency treebank REVERSE
+MODEL-FEATURE Turkish  <-- nsubj <-- agglutinating free word order language REVERSE
+COMPARE treebank --> acl:relcl --> order --> nmod --> magnitude --> amod --> smaller --> nmod --> Penn WSJ
+PART_WHOLE Chinese language <-- nmod <-- have --> nsubj --> verb REVERSE
+PART_WHOLE ambiguity resolution  <-- nsubj <-- essential --> nmod -->  dependency parsing 
+PART_WHOLE sentences <-- nmod <--  dependency parsing  --> nmod --> verbs REVERSE
+MODEL-FEATURE connectivity  --> nmod --> dependency tree
+USAGE  two-phase shift-reduce dependency parser  --> acl --> based --> nmod --> SVM learning REVERSE
+USAGE shift-reduce dependency parsers  <-- dobj <-- outperforms --> nmod --> Chine language
+PART_WHOLE focus <-- nmod <-- definition --> acl:relcl --> argued --> xcomp --> nature --> conj --> explore --> ccomp --> determined --> nmod --> discourse
+USAGE focus <-- nmod <-- integration <-- nmod <-- prospect --> nmod -->  FDA  --> nmod --> discourse-level construct --> nmod --> speech synthesis systems
+USAGE grammatical formalisms <-- nsubj <-- converge --> advcl --> declarative --> conj --> utilizing --> dobj --> context-free phrase-structure grammar REVERSE
+PART_WHOLE rule-invocation strategies  --> nmod --> context-free chart parsing
+USAGE model of grammatical processing --> acl:relcl --> based --> nmod --> uniform processing REVERSE
+COMPARE parsing  --> conj --> generation
+PART_WHOLE words --> nmod --> constituent parts REVERSE
+MODEL-FEATURE analyses <-- nmod <-- generation  --> nmod --> input word
+PART_WHOLE MORphological PArser MORPA <-- nsubjpass <-- provided --> nmod --> probabilistic context-free grammar (PCFG) REVERSE
+USAGE "conventional" context-free morphological grammar  <-- dobj <-- combines --> nmod --> ungrammatical segmentations --> nmod --> probability-based scoring function  REVERSE
+USAGE parser --> acl --> developed --> nmod --> use --> nmod --> text-to-speech conversion system
+MODEL-FEATURE output <-- nsubjpass <-- customized --> xcomp --> meet --> dobj --> segmentation standards REVERSE
+RESULT system <-- nsubj <-- participated --> conj --> achieved --> dobj --> state-of-the-art performance
+USAGE morphological component --> nmod --> capability --> acl --> interpret --> dobj --> derived words
+USAGE feature-based word grammar <-- compound <-- building --> nmod --> hierarchical lexicon REVERSE
+MODEL-FEATURE Polymorphemic stems <-- nsubjpass <-- given --> dobj -->  compositional interpretation REVERSE
+USAGE full parsing --> amod --> suitable --> nmod --> Information Extraction 
+MODEL-FEATURE text <-- dobj <-- analyze --> advcl --> building --> dobj -->  unambiguous structures REVERSE
+PART_WHOLE IE module  --> nmod --> FACILE, a EU project for multilingual text classification and IE
+RESULT duration model  <-- nsubj <-- reduced --> dobj --> error rate
+USAGE recognizer  <-- nsubjpass <-- modified --> xcomp --> use --> dobj --> bigram back-off language models REVERSE
+MODEL-FEATURE language pairs --> acl --> supported --> nmod --> GLOSSER
+PART_WHOLE aligned bilingual corpus  --> nmod --> word examples REVERSE
+MODEL-FEATURE topics --> nmod --> texts 
+MODEL-FEATURE genre-specific regularities  --> nmod --> discourse structure
+MODEL-FEATURE conditional log-linear model <-- nmod <-- use --> nmod --> hidden variables  REVERSE
+MODEL-FEATURE lexical items  <-- nmod <-- assignment <-- dobj <-- representing <-- acl <-- hidden variables  --> nmod --> word clusters REVERSE
+USAGE assignments --> nmod --> discriminative training criterion REVERSE
+USAGE decoding  <-- conj <-- Training <-- nsubj <-- requires --> parataxis --> computed --> conj --> using --> dobj --> dynamic programming REVERSE
+COMPARE base parser <-- nmod <-- % <-- dep <-- ~ <-- nmod <-- F-measure improvement  <-- dobj <-- gives --> conj --> improvement --> nmod --> Collins (2000) reranker
+PART_WHOLE Taiwan Child Language Corpus <-- nsubj <-- contains --> dobj --> scripts REVERSE
+MODEL-FEATURE recordings  --> nmod --> children --> nmod --> families --> compound --> Southern Min Chinese REVERSE
+MODEL-FEATURE corpus <-- nmod <-- format <-- nsubj <-- adopts --> dobj --> Child Language Data Exchange System (CHILDES) REVERSE
+PART_WHOLE corpus  <-- nmod <-- size <-- nsubj <-- words REVERSE
+USAGE part-of-speech annotation  --> nmod --> corpus
+USAGE natural language interpretation <-- nsubj <-- requires --> dobj --> semantic domain models REVERSE
+COMPARE single-strategy parsers  <-- nsubj <-- met <-- advcl <-- shown --> nsubjpass --> multi-strategy approach
+COMPARE task-specific domain knowledge  <-- dobj <-- bring --> nmod --> addition --> nmod --> general linguistic knowledge
+USAGE parsing algorithm  <-- nsubjpass <-- presented --> ccomp --> integrates --> dobj --> parsing strategies REVERSE
+USAGE parsing strategies  <-- nmod <-- Each <-- nsubj <-- exploits --> dobj --> types of knowledge REVERSE
+COMPARE ungrammatical structures <-- conj <-- conjunctions <-- dobj <-- process --> conj --> exotic --> appos --> grammatically correct input
+PART_WHOLE specific heuristics <-- nsubjpass <-- presented --> nmod --> multi-strategy framework
+PART_WHOLE  discontinuous constituents  --> nmod --> non-configurational languages
+MODEL-FEATURE  discontinuous constituents  <-- nsubjpass <-- described --> nmod --> variant --> nmod --> definite clause grammars REVERSE
+USAGE grammars  <-- nsubjpass <-- used --> xcomp --> create --> dobj --> parser for non-configurational languages
+USAGE context-sensitive, phrase structure grammar  --> acl:relcl --> applied --> nmod --> best-path, bottom-up, deterministic parser
+USAGE CSG <-- nsubj <-- approach --> nmod --> construction --> nmod --> phrase structure grammar 
+PART_WHOLE semantically unmarked term <-- dobj <-- selecting --> nmod --> pair --> nmod --> antonymous adjectives
+MODEL-FEATURE lexical coverage --> nmod --> MT systems
+MODEL-FEATURE words <-- nmod <-- lists --> nmod --> frequency classes REVERSE
+MODEL-FEATURE abstract flat syntactic representations, LFG f-structures <-- dobj <-- interpreting <-- acl <-- method <-- dobj <-- describe --> nmod --> underspecified semantic representations, here Underspecified Discourse Representation Structures (UDRSs) REVERSE
+MODEL-FEATURE model theoretic interpretation --> conj --> inferential component  --> acl:relcl --> operates --> nmod --> underspecified representations --> nmod --> f-structures 
+MODEL-FEATURE translation images --> nmod -->  f-structures 
+USAGE dialog management system  --> nmod --> Construct Algebra REVERSE
+MODEL-FEATURE collection of relations and operations  --> nmod --> task representation
+PART_WHOLE analytical components --> acl --> building --> dobj --> abstractions --> acl --> called --> xcomp --> dialog motivators
+PART_WHOLE dialog manager --> acl --> consisting --> nmod --> collection of dialog motivators REVERSE
+USAGE language-independent system --> nmod --> automatic discovery of text 
+PART_WHOLE STRAND <-- compound <-- results <-- dobj <-- extends --> advcl --> adding --> dobj --> automatic language identification REVERSE
+PART_WHOLE automatically acquired parallel corpus --> acl --> comprising --> dobj --> English-French document pairs REVERSE
+USAGE computer-assisted acquisition and morpho-syntactic description of verb-noun collocations  --> nmod --> Polish
+USAGE corpus-based approach <-- nsubj <-- permitted --> xcomp --> triple --> dobj --> size --> dep --> verb-noun collocation dictionary for Polish
+PART_WHOLE large Czech MWE database --> acl --> containing --> nmod --> moment --> dep --> MWEs REVERSE
+PART_WHOLE databases --> nmod --> proper names  REVERSE
+PART_WHOLE collocations --> acl --> obtained --> nmod --> Czech WordNet
+COMPARE MWEs database  --> nmod --> corpus data
+MODEL-FEATURE Word Sketch Engine --> acl:relcl --> allows --> xcomp --> work --> nmod --> statistical parameters REVERSE
+MODEL-FEATURE salience --> nmod --> MWEs
+USAGE  database  <-- nmod <-- exploitation --> acl --> working --> dobj --> tagging
+PART_WHOLE MWEs  <-- dobj <-- recognize --> nmod --> corpus text
+USAGE statistical techniques <-- dobj <-- explore --> conj --> selecting --> dobj --> translations
+PART_WHOLE  graph  --> nmod --> translation hypotheses REVERSE
+USAGE hypotheses graph <-- nsubjpass <-- generated --> nmod --> shallow mapping  REVERSE
+PART_WHOLE nodes  <-- nmod <-- examples --> acl --> consisting --> nmod --> vectors representing morpho-syntactic properties REVERSE
+USAGE log-linear combination  <-- conj <-- text <-- nmod <-- types <-- nmod <-- off-line <-- xcomp <-- trained <-- csubjpass <-- used --> xcomp --> retrieve --> dobj --> translation paths
+COMPARE CMU <-- conj <-- language modelling toolkits --> conj --> SRI toolkit 
+COMPARE word-lemma based feature function models  <-- nsubj <-- produce --> dobj --> results --> nmod --> token-based models
+PART_WHOLE PoS-tag feature function  <-- dobj <-- adding --> nmod --> word-lemma model
+MODEL-FEATURE weights  --> nmod --> lexical translations
+COMPARE training material  <-- nsubj <-- similar --> nmod --> texts
+MODEL-FEATURE internal and contextual information  --> acl --> associated --> nmod --> domain specific terms
+MODEL-FEATURE features <-- nsubj <-- enough --> xcomp --> distinguish --> dobj --> terms 
+USAGE term extraction <-- nmod <-- approach --> nmod --> delimiters  REVERSE
+PART_WHOLE discourse relations <-- dobj <-- capturing --> nmod -->  Czech
+PART_WHOLE syntactically motivated relations  --> nmod --> discourse
+PART_WHOLE  syntactico-semantic (tectogrammatical) annotation  --> nmod --> Prague Dependency Treebank
+MODEL-FEATURE discourse level --> nmod --> annotation
+COMPARE Praguian dependency-based approach <-- nsubj <-- offers --> nmod --> Penn discourse annotation
+USAGE unsupervised automatic acquisition  <-- nmod <-- experiments --> nmod --> general and domain corpora REVERSE
+MODEL-FEATURE lexico-syntactic knowledge --> nmod -->  SCFs
+MODEL-FEATURE verbs  <-- compound <-- sharing --> acl:relcl --> happen --> nsubj --> SCFs distributions REVERSE
+MODEL-FEATURE verbs --> acl:relcl --> share --> dobj --> frames  REVERSE
+USAGE translation <-- nsubj <-- tests --> dobj --> limits --> nmod --> traditional MT architectural designs REVERSE
+USAGE semantic representation  <-- nsubjpass <-- proposed --> ccomp --> uses --> dobj --> virtual reality 3D scene modeling software
+PART_WHOLE interlingua --> nmod --> multi-pathway MT architecture design
+USAGE cognitively well-motivated interfaces  --> acl --> relying --> nmod --> display of graphical information REVERSE
+USAGE natural language generation  <-- nmod <-- integration <-- nmod <-- working --> xcomp --> augment --> dobj --> interaction
+PART_WHOLE  vocabularies  --> acl --> containing --> xcomp --> 20k --> dobj --> words REVERSE
+MODEL-FEATURE continuous density HMM  <-- nmod <-- use --> nmod --> Gaussian mixture REVERSE
+USAGE n-gram statistics <-- conj <-- acoustic modeling  --> acl --> estimated --> nmod -->  newspaper texts  --> nmod --> language modeling
+USAGE forward pass --> acl:relcl --> makes --> dobj --> use --> nmod --> word graph REVERSE
+USAGE Acoustic modeling  <-- nsubj <-- uses --> dobj --> cepstrum-based features REVERSE
+USAGE system  <-- nsubjpass <-- based --> nmod --> multi-component architecture REVERSE
+USAGE components --> acl:relcl --> identify --> dobj -->  names 
+USAGE component <-- nsubj <-- uses --> dobj --> decision tree architecture REVERSE
+MODEL-FEATURE evidence  <-- nmod <-- types <-- dobj <-- combine --> nmod --> unknown word
+PART_WHOLE live closed captions --> dep --> genre --> amod --> replete --> nmod --> variety --> nmod --> unknown words REVERSE
+USAGE Recognition of proper nouns --> nmod --> Japanese text
+PART_WHOLE morphological analysis  --> nmod --> Japanese text processing
+USAGE morphological analysis problem --> nmod --> Japanese
+USAGE morphological analyzer <-- nsubj <-- done --> dobj --> work --> nmod --> recognition and classification of proper names, numerical and temporal expressions, i.e. Named Entity (NE) items 
+USAGE dictionaries  <-- nmod <-- kinds <-- dobj <-- uses --> nmod --> segment --> conj --> Japanese character strings
+USAGE rules  <-- nmod <-- set <-- nsubjpass <-- applied --> nmod --> segmented strings
+USAGE practically unsupervised learning method --> acl --> produce --> dobj --> single-snippet answers 
+USAGE on-line encyclopedias and dictionaries  <-- dobj <-- exploits --> xcomp --> generate --> dobj --> number --> nmod --> positive and negative definition examples
+PART_WHOLE terms --> acl --> extracted --> nmod --> corpora
+PART_WHOLE terms <-- nmod <-- set --> dep --> obtained --> conj --> extracted --> nmod --> corpus
+MODEL-FEATURE hierarchical (or other types of) relations  --> nmod --> terms
+USAGE terminology structuring  --> nmod --> lexical methods REVERSE
+PART_WHOLE terms  <-- dobj <-- match --> nmod --> basis --> nmod --> content words REVERSE
+PART_WHOLE terms --> acl --> obtained --> nmod --> hierarchically-structured terminology
+COMPARE lexically-induced relations <-- dobj <-- compare --> nmod --> MeSH relations
+PART_WHOLE relations --> amod --> present --> nmod --> MeSH
+MODEL-FEATURE naming conventions <-- conj <-- choices --> acl --> made --> nmod --> designers --> compound --> MeSH 
+PART_WHOLE translations <-- dobj <-- extracting --> nmod -->  small, domain-specific corpus 
+MODEL-FEATURE frequency profiles --> nmod --> parallel concordances
+USAGE conventional statistical methods  --> acl:relcl --> require --> dobj --> large corpora REVERSE
+USAGE lexical approaches  --> acl:relcl --> depend --> nmod --> bilingual dictionaries REVERSE
+PART_WHOLE parallel corpus  --> nmod --> Chinese words REVERSE
+PART_WHOLE translation lexicon --> nmod --> legal terminology  REVERSE
+USAGE Coedition --> nmod --> natural language text
+MODEL-FEATURE text  <-- nmod <-- interact --> nmod --> language (L0) REVERSE
+MODEL-FEATURE tree <-- dobj <-- align --> nmod --> crossing liaisons REVERSE
+USAGE Expectation-Maximization (EM) algorithm  --> acl --> proposed --> nmod --> text classification problems
+MODEL-FEATURE EM algorithm <-- dobj <-- stops --> nmod --> optimum iteration number REVERSE
+PART_WHOLE noun WSD problems  <-- dobj <-- solved --> nmod --> Japanese Dictionary Task in SENSEVAL2
+PART_WHOLE user knowledge modeling architecture --> nmod --> ICICLE system
+USAGE language tutoring application  --> nmod --> learners --> nmod --> written English
+USAGE  model design  <-- dobj <-- motivate --> advcl --> citing --> dobj --> research --> nmod --> second language and cognitive skill acquisition REVERSE
+USAGE Japanese parsers --> acl:relcl --> uses --> dobj --> decision trees REVERSE
+MODEL-FEATURE decision tree  <-- dobj <-- construct --> advcl --> estimate --> dobj --> modification probabilities
+USAGE decision trees <-- nsubjpass <-- constructed --> conj --> combined --> nmod --> probability estimation
+USAGE word significance <-- nmod <-- Automatic estimation --> acl --> oriented --> nmod --> speech-based Information Retrieval (IR) 
+MODEL-FEATURE significance --> nmod -->  words 
+COMPARE weight <-- dobj <-- gives <-- acl:relcl <-- weighted word error rate (WWER) <-- advcl <-- evaluated --> nmod --> word error rate (WER)
+USAGE decoding strategy --> acl:relcl --> minimizes --> dobj --> WWER  --> nmod --> Minimum Bayes-Risk framework REVERSE
+COMPARE ASR --> conj --> IR
+USAGE automatic estimation method --> nmod --> word significance (weights) 
+USAGE method to automatically acquire paraphrases  --> acl --> using --> dobj --> bilingual corpora REVERSE
+USAGE  bilingual dependency relations  --> acl --> obtained --> advcl --> projecting --> dobj --> monolingual dependency parse --> acl --> based --> nmod --> statistical alignment techniques REVERSE
+MODEL-FEATURE sense --> nmod --> phrase 
+MODEL-FEATURE paraphrases  <-- dobj <-- obtain --> nmod --> context REVERSE
+USAGE generalized translation knowledge <-- dobj <-- acquire --> xcomp --> using --> dobj --> paraphrases REVERSE
+MODEL-FEATURE  generalized translation knowledge  --> nmod --> Korean-English translation
+PART_WHOLE parallel corpora  --> nmod --> Korean and English language pairs REVERSE
+RESULT paraphrasing method  <-- nsubj <-- extracts --> nmod -->  precision
+PART_WHOLE translation knowledge --> acl --> extracted --> nmod --> bilingual corpora
+MODEL-FEATURE paraphrases  <-- dobj <-- using --> nmod --> compression ratio REVERSE
+MODEL-FEATURE computational model --> nmod --> word segmentation 
+USAGE statistical learning mechanisms  --> acl:relcl --> gained --> dobj --> prominence --> nmod --> cognitive psychology 
+PART_WHOLE Dictionary construction --> appos --> one --> nmod --> tasks --> acl --> developing --> dobj --> machine translation system
+USAGE dictionary <-- dobj <-- build --> xcomp --> using --> dobj --> linguistic resources REVERSE
+USAGE algorithm <-- nsubjpass <-- applied --> nmod --> language pairs
+USAGE Korean-to-Japanese dictionary  --> acl --> using --> nmod --> pivot REVERSE
+MODEL-FEATURE directionality --> nmod --> dictionaries
+USAGE "one-time look up" method <-- dobj <-- introduce --> xcomp --> using --> dobj --> Korean-to-English and a Japanese-to-English dictionary REVERSE
+USAGE discourse structure <-- nmod <-- level --> acl:relcl --> based --> nmod --> discourse connectives  REVERSE
+PART_WHOLE gene and protein interactions  --> nmod --> biomedical text
+PART_WHOLE complex sentences  --> nmod --> simple clausal structures REVERSE
+MODEL-FEATURE biological entities <-- dobj <-- tagging --> nmod --> help --> nmod --> biomedical and linguistic ontologies REVERSE
+USAGE extraction system <-- nsubj <-- handles --> dobj --> multiple and nested interactions --> compound --> complex sentences 
+PART_WHOLE multiple and nested interactions --> acl --> specified --> nmod --> sentence
+RESULT IntEx system <-- nsubj <-- achieves --> dobj --> performance 
+MODEL-FEATURE distance --> nmod --> concepts 
+PART_WHOLE categories  <-- dobj <-- use --> nmod --> thesaurus
+PART_WHOLE coarse-grained concepts <-- nmod <-- use --> advcl --> allowing --> xcomp --> stored --> nmod --> concept-concept matrix 
+COMPARE concept-distance measures  <-- compound <-- traditional distributional word-distance measures
+MODEL-FEATURE word pairs <-- nmod <-- tasks <-- nmod <-- traditional distributional word-distance measures --> nmod --> order --> nmod -->  semantic distance REVERSE
+COMPARE WordNet-based measures <-- nmod <-- outperforms --> dobj --> distributional concept-distance measures
+MODEL-FEATURE labeled directed graph <-- nmod <-- use --> acl --> represent --> dobj --> types --> nmod --> linguistic structures
+MODEL-FEATURE NLP tasks <-- dobj <-- view --> nmod --> graph transformations REVERSE
+MODEL-FEATURE identification of non-local depenencies  --> dep --> using --> dobj --> Penn Treebank data
+MODEL-FEATURE semantic role labeling  --> dep --> using --> dobj --> Proposition Bank data
+MODEL-FEATURE blog posts <-- nmod <-- task --> nmod --> respect --> nmod --> relevance  REVERSE
+USAGE topical blog post retrieval  <-- dobj <-- improve --> parataxis --> incorporate --> dobj --> textual credibility indicators REVERSE
+USAGE indicators <-- dobj <-- estimate --> conj --> integrate --> nmod --> retrieval approach
+RESULT credibility indicators <-- nmod <-- groups <-- nsubj <-- improve --> dobj --> retrieval effectiveness
+PART_WHOLE words --> nmod --> song lyrics 
+MODEL-FEATURE sentiment vector space model (s-VSM) <-- nsubjpass <-- proposed --> xcomp --> represent --> dobj --> song lyric document
+COMPARE s-VSM model <-- nsubj <-- outperforms --> dobj --> VSM model 
+MODEL-FEATURE source language  --> nmod --> EUROPARL corpus
+MODEL-FEATURE frequency counts  --> nmod --> word n-grams
+RESULT accuracy  <-- dep <-- % --> acl --> depending --> nmod --> classification method REVERSE
+PART_WHOLE Words --> nmod --> Chinese text
+USAGE MT <-- nmod <-- is --> xcomp --> apply --> dobj --> Chinese word segmenter  REVERSE
+USAGE Bayesian semi-supervised Chinese word segmentation model  --> acl:relcl --> uses --> dobj --> monolingual and bilingual information REVERSE
+USAGE segmentation  --> amod --> suitable --> nmod --> MT
+USAGE automatic evaluations  <-- compound <-- high-quality data REVERSE
+USAGE  different-quality references  <-- dobj <-- using --> nmod --> evaluation
+USAGE automatic metrics  --> acl --> used --> nmod --> MT
+MODEL-FEATURE queries <-- dobj <-- supports --> nmod --> number --> nmod --> wildcards REVERSE
+USAGE unsupervised learning --> acl:relcl --> uses --> dobj --> morphological and syntactic information REVERSE
+USAGE unsupervised learning  <-- nmod <-- employed <-- acl:relcl <-- those <-- nmod <-- complex --> ccomp --> use --> dobj -->  syntactic information REVERSE
+PART_WHOLE languages <-- nmod <-- variety <-- nsubj <-- requires --> ccomp --> consider --> dobj --> morphology REVERSE
+COMPARE morphology <-- nsubj <-- provides --> nmod --> category --> nmod --> word order
+USAGE computational model  --> nmod --> POS learning
+MODEL-FEATURE Bulgarian --> appos --> Slavic language --> nmod --> free word order 
+USAGE CoNLL 2008 shared task --> acl:relcl --> uses --> dobj --> generative history-based latent variable model REVERSE
+MODEL-FEATURE derivation --> nmod --> synchronous dependency parser  --> nmod --> syntactic and semantic dependencies
+RESULT model  <-- compound <-- yields --> dep --> macro-average F1 performance
+RESULT model  <-- nsubj <-- achieves --> dobj --> macro-average F1
+USAGE architectural modules <-- nsubjpass <-- added --> xcomp --> support --> dobj --> language functionalities
+PART_WHOLE modules  <-- nmod <-- placement <-- nmod <-- discussions --> nmod --> architecture
+PART_WHOLE pipelined NLG architecture <-- nmod <-- is --> xcomp --> tie --> nmod --> revision component REVERSE
+RESULT accuracy <-- nmod <-- performance <-- nmod <-- considered --> nsubjpass --> part of speech (pos) tagging REVERSE
+USAGE parser <-- dobj <-- allowing --> xcomp --> resolve --> dobj --> pos tag ambiguity 
+USAGE grammar formalisms --> acl:relcl --> use --> dobj --> fine-grained grammatical categories REVERSE
+USAGE  multi-tagging approach  --> acl:relcl --> maintains --> dobj --> level --> nmod --> ccg parsing
+RESULT pos tag ambiguity <-- dobj <-- maintaining <-- csubj <-- results --> nmod --> ccg supertagging
+USAGE punctuation <-- conj <-- rhetorical structure <-- nsubj <-- helpful --> nmod --> discourse processing
+MODEL-FEATURE discursive usage --> nmod --> Chinese punctuation marks
+COMPARE rhetorical patterns  <-- nsubjpass <-- compared --> nmod --> patterns
+COMPARE Chinese punctuation marks <-- nsubj <-- easy --> dep --> fewer --> nmod --> cue phrases
+USAGE algorithms --> acl:relcl --> alleviate --> dobj --> consequences --> nmod --> intractability
+MODEL-FEATURE classifier word  --> nmod --> noun
+MODEL-FEATURE classifier <-- nmod <-- choice <-- nmod <-- is --> nmod --> concrete noun
+MODEL-FEATURE classifier  --> nmod --> noun
+MODEL-FEATURE classifier  <-- nmod <-- Registration --> nmod --> noun
+USAGE corpus-based method  --> acl:relcl --> generates --> advcl --> overcome --> dobj --> problems --> nmod --> classifier assignment
+USAGE unsupervised learning method --> nmod --> associative relationships between verb phrases
+USAGE unsupervised learning method --> acl:relcl --> obtain --> dobj --> associative relationship
+USAGE expectation-maximization (EM) based word-clustering algorithm <-- dobj <-- uses <-- nmod <-- working <-- acl:relcl <-- method --> conj --> evaluated --> xcomp --> using --> dobj --> Japanese verb phrases
+COMPARE models <-- nsubj <-- provide --> dobj --> ways --> acl --> including --> dobj --> conditioning variables --> amod --> other --> nmod --> preceding words
+USAGE entirely data-driven model selection procedure --> nmod --> genetic search REVERSE
+USAGE knowledge-based and random selection procedures  --> nmod --> language modeling tasks
+MODEL-FEATURE analytical inverses <-- nmod <-- advocacy --> nmod --> compositional syntax rules 
+USAGE Definite Clause Grammar techniques <-- nmod <-- application --> nmod --> construction --> nmod --> Montague analysis trees --> compound --> parser
+USAGE parser MDCC <-- nsubjpass <-- presented --> ccomp --> implements --> dobj --> augmented Friedman - Warren algorithm  REVERSE
+MODEL-FEATURE derivational history --> nmod --> reduced IL formulae
+USAGE machine translation <-- nmod <-- area <-- nmod <-- research <-- nsubj <-- involves --> dobj --> search --> nmod --> formalism REVERSE
+MODEL-FEATURE compositionality --> nmod --> translation 
+PART_WHOLE anaphoric component  --> nmod --> Mimo formalism
+USAGE Mimo <-- nmod <-- compositional --> nsubj -->  translation 
+USAGE anaphoric component  <-- nsubjpass <-- used --> xcomp --> define --> dobj --> linguistic phenomena
+USAGE domain independent model <-- nsubjpass <-- proposed --> nmod -->  automated interpretation 
+PART_WHOLE nominal compounds <-- nmod <--  automated interpretation  --> nmod --> English
+MODEL-FEATURE morpho-syntactic and semantic characteristics  --> nmod --> nominal constituents
+MODEL-FEATURE predicative information --> acl --> associated --> nmod --> nominals
+COMPARE generalizable semantic principles  --> conj --> domain-specific semantic information
+MODEL-FEATURE interpretation  --> nmod --> compounds
+MODEL-FEATURE entity-based representation --> nmod -->  discourse 
+MODEL-FEATURE coherence assessment  <-- dobj <-- view --> nmod --> ranking learning problem REVERSE
+COMPARE induced model <-- nsubj <-- achieves --> dobj --> accuracy --> nmod --> state-of-the-art coherence model
+USAGE Sentence boundary detection <-- nsubj <-- important --> advcl --> enriching --> dobj --> output --> compound --> speech recognition 
+USAGE hidden Markov model (HMM) and maximum entropy (Maxent) classifiers  --> acl:relcl --> integrate --> dobj --> knowledge sources REVERSE
+COMPARE human transcriptions --> conj --> output --> compound --> speech recognition 
+COMPARE CRF <-- compound <-- model <-- nsubj <-- yields --> dobj --> rate --> nmod --> HMM and Max-ent models 
+MODEL-FEATURE training and test data <-- nmod <-- match <-- nsubj <-- is --> nmod --> respect --> nmod --> topic REVERSE
+MODEL-FEATURE training data  --> acl --> labeled --> nmod --> emoticons REVERSE
+USAGE natural language processing <-- dobj <-- Using <-- advcl <-- carried --> dobj --> survey --> nmod --> Japanese natural language processing studies 
+MODEL-FEATURE co-occurrence similarities --> nmod --> terms 
+USAGE query terms --> acl:relcl --> useful --> nmod --> retrieval 
+COMPARE useful terms  <-- nsubj <-- tend --> xcomp --> similar --> nmod --> query terms
+MODEL-FEATURE Term similarities <-- nsubjpass <-- used --> advcl --> determining --> ccomp --> useful --> nsubj --> query terms
+MODEL-FEATURE weights  --> nmod --> query terms
+MODEL-FEATURE structure of communicative context  <-- dobj <-- formalizing --> nmod --> dialogue interaction
+USAGE Memo-functions  <-- nsubj <-- facilitate --> dobj --> way --> acl --> construct --> dobj --> representation --> nmod --> parse forest
+PART_WHOLE grammars  --> nmod --> regular expressions REVERSE
+USAGE LR-parser <-- nmod <-- modification --> nmod --> CF grammars
+MODEL-FEATURE generative probabilistic model --> nmod --> parse trees
+USAGE CFG rules  <-- nsubjpass <-- induced --> nmod --> parsed corpus REVERSE
+USAGE training  --> dep --> PCFG-LA model --> acl --> using --> dobj -->  EM-algorithm REVERSE
+USAGE parsing --> nmod --> PCFG-LA  REVERSE
+RESULT model <-- nsubj <-- gave --> dobj --> performance 
+PART_WHOLE sentences <-- compound <--  words REVERSE
+USAGE unlexicalized PCFG parser  --> acl --> created --> xcomp --> using --> dobj --> manual feature selection REVERSE
+USAGE feature-based relation extraction <-- nmod <-- incorporation --> acl --> using --> dobj -->  SVM REVERSE
+RESULT phrase chunking <-- compound <-- information <-- nsubj <-- effective --> conj --> contributes --> nmod --> most --> nmod --> performance improvement 
+RESULT semantic information  <-- nsubjpass <-- used --> xcomp --> improve --> dobj --> performance
+COMPARE system  <-- nsubj <-- outperform --> dobj --> systems
+USAGE system --> nmod --> acquiring adjectival subcategorization frames 
+MODEL-FEATURE English  <-- compound <-- corpus data
+PART_WHOLE system <-- nsubj <-- incorporates --> dobj --> decision-tree classifier  REVERSE
+PART_WHOLE grammatical relations  <-- nmod <-- presence --> nmod --> output
+MODEL-FEATURE grs <-- dobj <-- classify --> nmod --> frames REVERSE
+RESULT system <-- nsubj <-- able --> xcomp --> detect --> nmod --> 70% precision
+USAGE tool --> nmod --> linguistic annotation 
+PART_WHOLE scfs <-- nmod <-- linguistic annotation  <-- nmod <-- tool --> nmod --> corpus data
+USAGE training and test data  <-- dobj <-- obtaining --> nmod --> subcategorization acquisition
+MODEL-FEATURE raw text <-- nmod <-- takes --> nmod --> French REVERSE
+MODEL-FEATURE pronoun il  <-- nmod <-- occurrence <-- nsubjpass <-- tagged --> nmod --> [ANA] REVERSE
+MODEL-FEATURE expletive occurrences --> nmod --> pronoun
+RESULT precision rate  --> nmod --> ILIMP REVERSE
+USAGE tasks --> acl --> using --> dobj -->  method  REVERSE
+USAGE ILIMP  <-- nmod <-- use --> nmod --> syntactic analysis system
+USAGE Systemic grammar <-- nsubjpass <-- used --> nmod --> work --> compound --> AI text generation
+USAGE AI problem solving techniques <-- nsubjpass <-- applied --> nmod --> systemic grammar
+USAGE text generation --> acl --> based --> nmod --> linguistic theory REVERSE
+TOPIC critical discussion --> nmod --> approaches  --> acl:relcl --> used --> nmod --> evaluation of Natural Language systems
+USAGE task --> acl --> requiring --> dobj --> data retrieval REVERSE
+USAGE laboratory study  --> acl --> using --> dobj --> Wizard of Oz technique REVERSE
+MODEL-FEATURE structure --> nmod -->  information source
+TOPIC Semantic theories --> nmod --> meanings --> compound --> natural language
+MODEL-FEATURE meanings <-- nmod <-- Semantic theories --> nmod --> utterances 
+MODEL-FEATURE meanings <-- dobj <-- providing --> nmod --> lexical items 
+MODEL-FEATURE meaning  --> nmod --> units
+USAGE  constituent structure trees  <-- nsubjpass <-- used --> xcomp --> guide --> dobj --> semantic composition
+PART_WHOLE functional structure  --> nmod --> LFG
+USAGE  syntactic information  --> amod --> necessary --> advcl --> constraining --> dobj --> derivations
+COMPARE compositional approaches <-- nmod <-- contrast <-- nmod <-- present --> dobj --> deductive approach 
+PART_WHOLE  information  <-- nmod <-- nature --> nmod --> functional structure
+MODEL-FEATURE LFG  <-- compound <-- requirements --> nmod --> completeness REVERSE
+PART_WHOLE sentences  <-- nmod <-- temporal anaphora --> acl:relcl --> contain --> dobj --> quantification over events REVERSE
+PART_WHOLE quantified sentences <-- nmod <-- Partee --> acl --> introduced --> nmod --> temporal connective REVERSE
+PART_WHOLE temporal connective  --> nmod --> subordinate clause
+TOPIC  proportion problem  <-- nmod <-- instance <-- nmod <-- Swart --> conj --> solution --> nmod --> Generalized Quantifier approach REVERSE
+USAGE  problem <-- nmod <-- solution <-- dobj <-- propose --> nmod --> framework --> nmod --> DRT REVERSE
+USAGE solution <-- nmod <-- applications --> nmod --> temporal anaphora phenomena 
+USAGE domain-independent means of evaluating Spoken Language Systems (SLS)  --> acl:relcl --> combines --> dobj --> software REVERSE
+MODEL-FEATURE specifications <-- nmod <-- set --> nmod --> answer expressions 
+MODEL-FEATURE syntax --> nmod --> answer expressions
+PART_WHOLE data --> acl --> included --> dep --> in --> nmod --> test corpora
+USAGE procedures --> acl --> used --> nmod -->  Comparator
+MODEL-FEATURE CAS <-- nmod <-- details <-- nsubj <-- particular --> nmod --> domains REVERSE
+MODEL-FEATURE Comparator software  <-- nsubj <-- domain-independent REVERSE
+TOPIC speech and text image processing <-- compound <-- work --> nmod --> Xerox PARC  REVERSE
+PART_WHOLE recognition technology  <-- nmod <-- role --> nmod --> document-oriented applications
+COMPARE text processors <-- nmod <-- that <-- nmod <-- similar <-- amod <-- functionality <-- dobj <-- provide --> conj --> operate --> nmod --> audio and scanned image data
+USAGE speech and text-image recognition <-- nmod <-- use --> acl --> retrieve --> nmod --> documents with signal content
+MODEL-FEATURE statistical profile --> nmod --> Named Entity task
+MODEL-FEATURE corpora --> nmod --> languages  REVERSE
+RESULT results --> nmod -->  statistical analysis REVERSE
+USAGE algorithm --> nmod --> lower bound estimation 
+TOPIC cross-lingual comparisons  --> acl --> provided --> nmod --> analysis REVERSE
+USAGE question-focused sentence retrieval <-- nmod <-- problem <-- dobj <-- consider --> nmod --> news articles 
+PART_WHOLE story  --> nmod --> corpus
+PART_WHOLE sentences  --> acl --> providing --> dobj --> answer REVERSE
+USAGE sentence retrieval problem <-- dobj <-- address <-- advcl <-- apply --> dobj --> stochastic, graph-based method  REVERSE
+COMPARE method <-- nmod <-- version <-- dobj <-- present --> conj --> hypothesize --> ccomp --> outperform --> dobj --> baseline
+MODEL-FEATURE similarity  --> nmod --> sentence
+RESULT method  <-- nsubj <-- achieves --> dobj --> TRDR score
+MODEL-FEATURE model <-- nsubjpass <-- presented --> xcomp --> characterize --> dobj --> class of languages 
+PART_WHOLE reduplication <-- dobj <-- adding --> nmod -->  context-free languages
+USAGE  pushdown automaton  --> acl --> augmented --> nmod --> ability --> acl --> check --> advcl --> using --> dobj --> stack  REVERSE
+PART_WHOLE reduplications <-- nmod <-- sort --> acl:relcl --> observed --> xcomp --> occur --> nmod --> natural languages
+PART_WHOLE quantifying noun groups  <-- nmod <-- problem --> nmod --> German
+MODEL-FEATURE grammar sensu stricto  <-- nmod <-- other <-- amod <-- information <-- nmod <-- kind <-- dobj <-- integrating --> nmod --> treebank REVERSE
+PART_WHOLE annotation --> nmod --> tree-bank
+USAGE treebank <-- nsubj <-- valuable --> nmod --> source of data  --> nmod --> theoretical linguistic investigations
+USAGE extraction tool  <-- conj <-- SILVA <-- nmod <-- framework --> nmod --> German text corpora
+PART_WHOLE Metagrammatical formalisms --> acl:relcl --> combine --> dobj --> context-free phrase structure rules REVERSE
+PART_WHOLE syntax  --> nmod --> natural languages
+MODEL-FEATURE formalization <-- dobj <-- present --> nmod --> attentional structure in discourse
+USAGE algorithm --> acl --> track --> dobj --> discourse context 
+USAGE HPSG natural language system --> acl:relcl --> serves --> nmod --> interface --> nmod --> database query application
+PART_WHOLE HPSG <-- nsubj <-- has --> dobj --> principle-based theory REVERSE
+USAGE TAG <-- nsubj <-- provides --> dobj --> means --> acl --> represent --> dobj --> lexicalized structures 
+PART_WHOLE projection of structures  --> nmod --> lexicon
+USAGE Boolean matrix multiplication (BMM) <-- nsubjpass <-- used --> nmod --> CFG parsing
+MODEL-FEATURE CFG parsers  --> acl --> running --> nmod --> time O(|G||w|3-e) REVERSE
+MODEL-FEATURE formal definition  --> nmod --> parsing
+RESULT CFG parser <-- nsubj <-- yield --> dep --> a --> dep --> fast --> punct --> , --> root --> BMM algorithm
+MODEL-FEATURE primitive Optimality Theory (OTP) --> appos --> formalization --> nmod --> OT
+USAGE theories --> acl --> using --> dobj --> Generalized Alignment REVERSE
+USAGE surface forms  <-- nsubjpass <-- generated --> nmod --> finite-state methods REVERSE
+MODEL-FEATURE methods <-- nsubj <-- take --> dobj --> time exponential on the size of the grammar REVERSE
+MODEL-FEATURE generation problem  <-- nsubjpass <-- shown --> dobj --> NP-complete REVERSE
+MODEL-FEATURE regular languages  <-- nsubjpass <-- represented --> nmod --> formal intersections of FSAs REVERSE
+PART_WHOLE Wall Street Journal articles  <-- nmod <-- collection --> nmod --> Penn Treebank Corpus
+USAGE hardware designs <-- dobj <-- verify --> nmod --> model checking REVERSE
+MODEL-FEATURE circuit specifications <-- nsubjpass <-- expressed --> nmod --> temporal logic CTL REVERSE
+PART_WHOLE restricted subset  --> nmod --> English
+MODEL-FEATURE semantic expressibility  --> nmod --> CTL
+TOPIC computational semantic analyses --> nmod -->  English 
+PART_WHOLE sentences  --> nmod --> subset
+USAGE unlexicalized parser --> nmod --> German 
+RESULT suffix analysis  <-- conj <-- smoothing <-- dobj <-- employs --> advcl --> achieve --> dobj --> labelled bracket F-score
+USAGE smoothing <-- nmod <-- use --> nmod -->  unlexicalized parser 
+USAGE alignment adaptation approach --> acl --> improve --> dobj --> domain-specific (in-domain) word alignment
+USAGE out-of-domain corpus <-- dobj <-- use --> advcl --> improve --> dobj --> results --> compound -->  in-domain word alignment 
+COMPARE out-of-domain corpus --> conj --> in-domain corpus 
+RESULT domain-specific word alignment  <-- dobj <-- improves --> xcomp --> achieving --> dobj --> relative error rate reduction
+PART_WHOLE modular architecture --> nmod --> processes --> nmod --> understanding REVERSE
+MODEL-FEATURE interpretation --> nmod -->  conceptual operations 
+PART_WHOLE functions --> nmod --> formal language
+MODEL-FEATURE conceptual system --> nmod --> NL
+MODEL-FEATURE  KL-ONE  <-- nmod <-- version --> acl:relcl --> represents --> dobj --> epistemological level
+MODEL-FEATURE KL-Conc <-- appos <-- language <-- nsubj <-- represents --> dobj -->  conceptual level
+MODEL-FEATURE verb forms <-- nsubjpass <-- claimed --> xcomp --> convey --> dobj --> kinds --> nmod --> information  REVERSE
+PART_WHOLE event --> acl --> described --> nmod -->  sentence 
+PART_WHOLE  event  --> acl --> described --> nmod --> sentence
+MODEL-FEATURE verb form meanings <-- nmod <-- analysis <-- nmod <-- add <-- xcomp <-- has --> advcl --> express --> dobj --> habituality REVERSE
+MODEL-FEATURE relations <-- dobj <-- expressing --> nmod --> representations 
+USAGE declarative formalism <-- nsubjpass <-- presented --> ccomp --> permits --> dobj --> mappings
+MODEL-FEATURE ellipsis resolution <-- nmod <-- analysis <-- dobj <-- give --> nmod --> terms --> nmod --> discourse copying algorithm  REVERSE
+COMPARE full NPs  --> conj --> referential elements
+MODEL-FEATURE predictions --> nmod --> examples --> nmod --> ellipsis
+PART_WHOLE sentences --> nmod --> chunks of words REVERSE
+USAGE data representation --> nmod --> chunking 
+MODEL-FEATURE data representations <-- dobj <-- examine --> nmod --> problem --> acl --> recognizing --> dobj --> noun phrase chunks
+RESULT data representation choice  <-- nsubj <-- has --> dobj --> influence --> nmod --> chunking performance
+RESULT  memory-based learning chunker  <-- nsubj <-- able --> xcomp --> improve --> dobj --> chunking results
+USAGE part-of-speech tagging --> appos --> statistical and constraint-based disambiguation REVERSE
+USAGE  French  <-- dobj <-- using --> nmod --> test language
+COMPARE constraint system <-- nmod <-- design <-- nmod <-- spent <-- acl <-- time <-- nmod <-- amount <-- nsubj <-- same --> nmod --> time --> acl:relcl --> used --> xcomp --> train --> dobj --> statistical model
+COMPARE statistical method <-- nmod <-- accuracy  <-- nsubj <-- good --> xcomp --> comparable --> nmod --> taggers 
+USAGE automatic abstracting systems <-- dobj <-- build <-- advcl <-- is --> nsubj --> need --> nmod --> training resources REVERSE
+USAGE annotation scheme --> nmod --> articles --> acl:relcl --> used --> xcomp --> build --> dobj --> resource
+MODEL-FEATURE subcategorization frames --> acl:relcl --> occurs --> nsubj --> verb 
+PART_WHOLE verb <-- nmod <-- occurrences  --> nmod --> training corpus
+MODEL-FEATURE lexical conceptual structure (LCS) representations  <-- nmod <-- repositories --> nmod --> verbs
+USAGE thematic grid tagging <-- conj <-- verb classification <-- nmod <-- work <-- nmod <-- result <-- dobj <-- takes --> conj --> LCS representations 
+USAGE  representations  <-- nsubjpass <-- ported --> nmod --> English, Arabic and Spanish lexicons
+USAGE lexicons  <-- dobj <-- using --> nmod --> operational foreign language tutoring
+USAGE algorithm for translation lexicon acquisition (SABLE) --> acl --> used --> xcomp --> acquire --> dobj --> translation lexicons
+USAGE algorithm <-- nsubjpass <-- applied --> xcomp --> produce --> dobj --> candidates --> nmod --> domain-specific translation lexicons
+MODEL-FEATURE coordinations --> nmod --> type --> acl:relcl --> involve --> dobj --> strictly syntactic cross-serial agreement
+MODEL-FEATURE number --> nmod --> nouns 
+PART_WHOLE grammatical number --> nmod -->  English
+PART_WHOLE grammatical gender --> nmod -->  languages  --> nmod --> French
+PART_WHOLE English <-- nsubjpass <-- presumed --> xcomp --> contain --> dobj --> grammatical sentences  REVERSE
+PART_WHOLE coordinate phrases <-- nmod <-- pair <-- nmod <-- operates <-- acl:relcl <-- grammatical sentences  <-- dobj <-- contain <-- xcomp <-- presumed <-- acl <-- valid <-- advcl <-- constructed --> dep --> has --> dobj --> conjuncts REVERSE
+PART_WHOLE constructions --> nmod --> numbers --> nmod --> conjuncts  REVERSE
+USAGE class-oriented framework --> acl --> collecting --> dobj -->  paraphrase examples
+PART_WHOLE sentential paraphrases <-- nsubjpass <-- collected --> nmod --> paraphrase class
+PART_WHOLE flexible parser <-- nsubj <-- deal --> nmod --> input --> acl:relcl --> deviates --> nmod --> grammar REVERSE
+USAGE construction-specific approach  --> nmod --> flexible parsing
+USAGE specialized parsing techniques  --> nmod --> type --> nmod --> construction
+MODEL-FEATURE ambiguity representations  --> nmod --> type --> nmod --> ambiguity
+USAGE construction-specific approach <-- nsubj <-- aids --> nmod --> task-specific language development 
+USAGE Plume's approach to parsing  <-- nsubjpass <-- based --> nmod --> semantic caseframe instantiation REVERSE
+RESULT  Plume  <-- nsubjpass <-- adapted <-- advcl <-- handles --> nmod --> manner --> acl --> leading --> nmod --> syntactic coverage
+PART_WHOLE Languages <-- nsubj <-- differ --> nmod --> concepts --> acl:relcl --> have --> dobj --> words REVERSE
+MODEL-FEATURE meaning --> nmod --> source language text 
+USAGE translation framework --> acl --> based --> nmod -->  Situation Theory REVERSE
+MODEL-FEATURE representation scheme --> nmod -->  utterances 
+MODEL-FEATURE mismatch resolution scheme  --> acl --> defined --> nmod --> terms --> nmod --> information flow REVERSE
+USAGE translation <-- nmod <-- examples <-- nmod <-- approach --> nmod --> English
+USAGE Large-scale natural language generation <-- nsubj <-- requires --> dobj --> integration --> nmod --> amounts --> nmod --> knowledge REVERSE
+USAGE robust generator <-- nsubj <-- able --> xcomp --> operate --> advcl --> missing --> nsubj --> pieces --> nmod --> knowledge REVERSE
+USAGE hybrid generator --> acl:relcl --> filled --> nmod --> statistical methods REVERSE
+MODEL-FEATURE generators <-- dobj <-- simplify --> conj --> enhance --> dobj --> portability REVERSE
+MODEL-FEATURE languages --> nmod --> alphabets 
+COMPARE English  <-- nmod <-- computer <-- nsubj <-- comes --> xcomp --> = --> nmod --> Japanese
+USAGE backwards transliterations <-- dobj <-- performing --> nmod --> machine REVERSE
+USAGE generative model <-- dobj <-- uses --> advcl --> incorporating --> dobj --> stages --> nmod --> transliteration process
+USAGE speech processing  --> acl:relcl --> finite-state models REVERSE
+USAGE finite-state approximation --> acl:relcl --> used --> nmod --> filter --> acl --> guide --> dobj --> speech recognition
+MODEL-FEATURE statistical model --> nmod --> Japanese unknown words 
+PART_WHOLE character types  --> acl:relcl --> constitute --> dobj --> word
+PART_WHOLE Japanese script <-- nsubj <-- has --> dobj -->  ideograms  REVERSE
+USAGE decision-tree approach --> nmod --> problem --> acl --> assigning --> dobj --> probabilities 
+PART_WHOLE words <-- nmod <-- assigning --> nmod --> text
+MODEL-FEATURE full scale two-level morphological description  --> nmod --> Turkish word structures
+PART_WHOLE root word lexicon --> nmod --> roots words REVERSE
+MODEL-FEATURE Turkish <-- nsubj <--  agglutinative language 
+MODEL-FEATURE surface realizations  --> nmod --> morphological constructions
+USAGE text applications  <-- nmod <-- variety <-- dobj <-- enable --> advcl --> use --> dobj --> set --> nmod --> common text processing modules REVERSE
+TOPIC user interface styles or conventions <-- nsubjpass <-- described --> nmod --> TIPSTER Architecture specification REVERSE
+USAGE TIPSTER applications --> acl:relcl --> use --> dobj --> set --> nmod --> Graphical User Interface (GUI) functions REVERSE
+USAGE GUIs  <-- nsubjpass <-- constructed --> xcomp --> using --> dobj --> CRL's TIPSTER User Interface Toolkit (TUIT) REVERSE
+USAGE software library --> acl:relcl --> used --> xcomp --> construct --> dobj --> multilingual TIPSTER user interfaces 
+USAGE deep processing <-- nsubj <-- benefit --> nmod --> shallow techniques  REVERSE
+PART_WHOLE NLP system --> acl:relcl --> integrates --> dobj --> linguistic PoS tagger and chunker  REVERSE
+MODEL-FEATURE robustness  <-- dobj <-- provides --> nmod --> linguistic processing
+RESULT precision --> nmod --> grammar REVERSE
+USAGE statistical parser  <-- nmod <-- performance <-- dobj <-- compare --> advcl --> parsing --> dobj --> written and spoken language
+RESULT Bikel's parser <-- nsubj <-- achieves --> dobj --> accuracy 
+USAGE  extracting subcategorization frames  --> acl --> designed --> nmod --> written texts
+USAGE punctuation  <-- nmod <-- utility <-- dobj <-- explore --> advcl --> helping --> dobj --> parsing
+PART_WHOLE subcategorization cues  <-- dobj <-- extracting --> nmod --> spoken language
+PART_WHOLE punctuation  <-- dobj <-- add --> advcl --> transcribing --> dobj --> spoken corpora
+COMPARE characters-based Chinese collocation system <-- dobj <-- describes --> conj --> discusses --> nmod --> word-based system
+PART_WHOLE wordbreaks  <-- nsubjpass <-- marked --> nmod --> Chinese text corpora
+USAGE word-based collocational properties  <-- nsubjpass <-- obtained --> nmod --> module --> nmod --> automatic segmentation REVERSE
+USAGE bit-vector-based CKY-style parser --> nmod -->  context-free parsing 
+MODEL-FEATURE  parse forest representation  --> nmod --> set --> nmod --> analyses for large treebank grammars
+USAGE parser <-- nsubj <-- uses --> dobj --> bit-vector operations  REVERSE
+USAGE language model --> nmod --> answers
+USAGE transformation model --> nmod --> answer/question terms
+PART_WHOLE corpus --> nmod -->  question/answer pairs  REVERSE
+USAGE information extraction techniques <-- nmod <-- applicability <-- nsubjpass <-- limited --> nmod --> need --> nmod --> supervised training data REVERSE
+USAGE field structured extraction tasks <-- nmod <-- used --> nsubjpass --> amounts --> nmod --> prior knowledge  REVERSE
+MODEL-FEATURE generative model --> nmod --> field structured text
+RESULT unsupervised methods <-- nsubj <-- attain --> dobj --> accuracies 
+USAGE  semi-supervised methods  <-- nsubj <-- make --> dobj --> use --> nmod --> amounts --> nmod --> labeled data REVERSE
+USAGE semantic role labeling <-- nmod <-- progress <-- nmod <-- used --> dobj --> independent classifiers REVERSE
+MODEL-FEATURE dependencies --> nmod --> arguments
+MODEL-FEATURE joint model --> nmod --> argument frames
+PART_WHOLE features --> acl:relcl --> model --> nmod --> discriminative log-linear models
+PART_WHOLE gold-standard parse trees --> nmod -->  PropBank
+PART_WHOLE texts --> nmod --> target corpus
+USAGE vocabulary <-- dobj <-- used --> nmod --> target vocabulary
+USAGE English Wikipedia <-- conj <-- target vocabulary --> nmod -->  target corpus
+USAGE syntactic analyzer --> nmod --> Procedural Systemic Grammar REVERSE
+USAGE semantic analyzer --> acl --> relying --> nmod --> Conceptual Dependency Theory REVERSE
+MODEL-FEATURE French tenses <-- nmod <-- deal --> nmod --> framework --> nmod --> Discourse Representation Theory  REVERSE
+MODEL-FEATURE meaning --> nmod --> tenses
+MODEL-FEATURE  meaning  --> nmod --> text
+PART_WHOLE events  --> nmod --> sentence
+MODEL-FEATURE event structure  --> nmod --> text
+PART_WHOLE  temporal adverbials  --> nmod --> sentence
+MODEL-FEATURE meaning --> nmod -->  tenses 
+COMPARE resolution component --> conj --> process --> nmod --> syntactic analysis
+MODEL-FEATURE languages <-- dobj <-- introducing <-- acl <-- motivation <-- nsubj <-- is --> xcomp --> provide --> advcl --> formalising --> dobj --> grammatical frameworks
+COMPARE GPSG <-- nmod <-- ideas <-- nsubjpass <-- captured --> nmod --> LT (LF)
+MODEL-FEATURE Tree Adjoining Grammars <-- nmod <-- benefits <-- nmod <-- One <-- nsubj <-- is --> ccomp --> have --> dobj --> extended domain of locality (EDOL)
+USAGE feature structure unification <-- nmod <-- need --> nmod --> parsing
+COMPARE LEXSYS --> conj -->  XTAG
+USAGE grammars <-- nsubj <-- exploit --> dobj --> EDOL  REVERSE
+MODEL-FEATURE sentence-level and text-level anaphora <-- nmod <-- account <-- dobj <-- provide --> nmod --> framework --> nmod --> dependency-based grammar model REVERSE
+MODEL-FEATURE text-level anaphora  <-- nmod <-- those <-- nsubj <-- incorporate --> dobj --> version --> nmod --> Grosz-Sidner-style focus model REVERSE
+USAGE heuristic rules --> acl:relcl --> requires --> dobj --> knowledge engineering REVERSE
+USAGE decision strategies <-- conj <-- features  <-- nsubjpass <-- discovered --> xcomp --> using --> dobj --> body --> nmod --> speech data REVERSE
+USAGE sense resolution <-- nmod <-- method <-- nsubjpass <-- proposed --> ccomp --> based --> nmod --> WordNet REVERSE
+PART_WHOLE lexical database --> acl:relcl --> incorporates --> dobj --> semantic relations REVERSE
+PART_WHOLE WordNet <-- nmod <-- easy --> xcomp --> retrieve --> dobj --> sets --> nmod --> semantically related words REVERSE
+PART_WHOLE sense resolution <-- nmod <-- used --> nmod --> text processing
+MODEL-FEATURE word --> nmod --> senses  REVERSE
+PART_WHOLE textual corpus  <-- nsubjpass <-- searched --> nmod --> derived strings REVERSE
+PART_WHOLE derived string --> acl:relcl --> found --> nmod --> corpus
+MODEL-FEATURE context  --> nmod --> polysemous word
+MODEL-FEATURE words --> acl --> found --> xcomp --> occur --> nmod --> context REVERSE
+USAGE WordNet <-- nsubjpass <-- used --> xcomp --> estimate --> dobj --> semantic distance
+MODEL-FEATURE words --> acl --> occurring --> nmod -->  context  REVERSE
+PART_WHOLE morphological component --> nmod --> NLP-system for Dutch (Dutch Medical Language Processor - DMLP)
+PART_WHOLE language independent modules  --> nmod --> LSP-MLP system (Linguistic String Project - Medical Language Processor) 
+PART_WHOLE idiosyncrasies <-- nmod <-- focusing --> nmod --> Dutch
+USAGE  subcategorization dictionary  <-- dobj <-- constructing --> nmod --> textual corpora REVERSE
+MODEL-FEATURE relative frequency of occurrence --> nmod --> set --> nmod --> subcategorization classes
+MODEL-FEATURE verbs --> acl:relcl --> exhibit --> dobj --> multiple complementation patterns REVERSE
+RESULT subcategorization dictionary  <-- nsubj <-- improves --> dobj --> accuracy
+USAGE dictionary word sense definitions <-- nsubjpass <-- analysed --> advcl --> applying --> dobj --> hierarchy --> nmod --> phrasal patterns REVERSE
+PART_WHOLE definitions --> nmod --> Longman Dictionary of Contemporary English
+USAGE  restricted vocabulary  <-- dobj <-- uses --> nmod --> word sense definitions
+MODEL-FEATURE word senses  <-- nmod <-- classification <-- nmod <-- used --> nmod --> terms --> nmod --> senses REVERSE
+PART_WHOLE words <-- nmod <-- senses --> nmod --> restricted vocabulary
+TOPIC definitions  <-- nmod <-- analyses <-- nsubjpass <-- produced --> xcomp --> resulting --> nmod --> analysis mechanism REVERSE
+MODEL-FEATURE robustness problems  --> acl --> faced --> nmod --> natural language processing systems
+USAGE evaluation method --> acl --> employing --> dobj --> latent variable model  REVERSE
+MODEL-FEATURE paraphrases --> nmod --> contexts REVERSE
+MODEL-FEATURE context --> nmod --> sentence
+PART_WHOLE latent variable --> nmod --> model 
+MODEL-FEATURE likelihood --> nmod --> variable
+MODEL-FEATURE sentences <-- nsubjpass <-- used --> nmod --> context
+RESULT accuracy  <-- nmod <-- bound --> advcl --> using --> dobj -->  topic information REVERSE
+PART_WHOLE non-terminals  <-- dobj <-- allowing --> xcomp --> consist --> nmod --> sequences --> nmod --> category labels REVERSE
+USAGE grammar  --> nmod --> crossed serial dependencies
+USAGE parsing method --> nmod --> GPSG
